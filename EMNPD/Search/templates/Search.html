@@ -1,0 +1,924 @@
+{% extends 'Search_Base.html' %}
+
+{% block content %}
+    <style>
+        .add-btn {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 14px;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            margin-left: 10px;
+            background-color: #f2f2f2;
+        }
+
+        .add-btn:hover {
+            background: #eee;
+        }
+
+        .add-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            min-width: 160px;
+            padding: 5px 0;
+            margin: 2px 0 0;
+            list-style: none;
+            font-size: 14px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transform: translate(0, -5%);
+            transition: all 0.3s;
+            visibility: hidden;
+        }
+
+        .add-btn:hover .add-dropdown {
+            display: block;
+        }
+
+        .add-dropdown button {
+            width: 100%;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: 400;
+            line-height: 1.42857143;
+            color: #333;
+            white-space: nowrap;
+            display: block;
+            margin: 5px 0;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        .add-dropdown button:hover {
+            background: #eee;
+        }
+
+        .add-btn:hover .add-dropdown {
+            visibility: visible;
+            transform: translate(0, 0);
+        }
+    </style>
+    <script type="text/javascript">
+        function generateSmiles() {
+            let ketcherFrame = document.getElementById("Ketcher");
+            let ketcher = null;
+            if ("contentDocument" in ketcherFrame) {
+                ketcher = ketcherFrame.contentWindow.ketcher;
+            } else {
+                ketcher = document.frames["Ketcher"].window.ketcher;
+            }
+            //--------获取SMILES字符串--------
+            ketcher.getSmiles().then(
+                (res) => {
+                    // 设置显示的 input 的值
+                    document.getElementById("smiles-input").value = res;
+                    console.log(document.getElementById("smiles-input").value);
+                }
+            ).catch((e) => {
+                console.log(e);
+            });
+        }
+
+        function search_NP_Smiles() {
+            // 提交表单
+            document.forms[1].submit();
+        }
+    </script>
+    <script type="text/javascript">
+        function generateSmiles_2() {
+            let ketcherFrame = document.getElementById("Ketcher_2");
+            let ketcher = null;
+            if ("contentDocument" in ketcherFrame) {
+                ketcher = ketcherFrame.contentWindow.ketcher;
+            } else {
+                ketcher = document.frames["Ketcher"].window.ketcher;
+            }
+            //--------获取SMILES字符串--------
+            ketcher.getSmiles().then(
+                (res) => {
+                    // 设置显示的 input 的值
+                    document.getElementById("smiles-input_2").value = res;
+                    console.log(document.getElementById("smiles-input_2").value);
+                }
+            ).catch((e) => {
+                console.log(e);
+            });
+        }
+
+        function search_NP_Smiles_2() {
+            // 提交表单
+            document.forms[2].submit();
+        }
+    </script>
+    <style>
+        .page-header {
+            display: flex;
+            justify-content: center;
+        }
+
+        #myTab {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #myTab li {
+            flex-basis: 0;
+            flex-grow: 1;
+            text-align: center;
+        }
+    </style>
+    <style>
+        .separator {
+            width: 100%;
+            text-align: center;
+            margin-top: -10px;
+        }
+
+        .separator hr {
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+            height: 1px;
+            background-color: black;
+        }
+    </style>
+    <style>
+    /* Style for the horizontal slider */
+    .slider-horizontal {
+        width: 100%; /* Full width for better user experience */
+        height: 25px;
+        margin-top: 10px;
+    }
+    .slider-input {
+        margin-top: 10px;
+        width: 50px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px; /* Rounded corners */
+        background: #f7f7f7; /* Light grey background */
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        transition: all 0.3s ease; /* Smooth transition for hover effects */
+    }
+    
+    .slider-input:focus {
+        outline: none;
+        border-color: #5DC8CD; /* Change border color on focus */
+        box-shadow: 0 0 5px rgba(93, 200, 205, 0.5); /* Add a subtle shadow on focus */
+    }
+    </style>    
+    
+    <!-- 页头 -->
+    <div class="page-header">
+        <div class="wrapper">
+            <ul id="myTab" class="nav nav-pills">
+                <li class=""><a href="#Property" data-toggle="tab" title="Button push blue/green"
+                                class="button btnPush btnBlueGreen"><i>Search by NP</i></a></li>
+                <li class=""><a href="#Structure" data-toggle="tab" title="Button push blue/green"
+                                class="button btnPush btnBlueGreen"><i>Search by Structure</i></a></li>
+                <li class=""><a href="#Source-Organism" data-toggle="tab" title="Button push blue/green"
+                                class="button btnPush btnBlueGreen"><i>Search by Endophyte</i></a></li>
+                <li class=""><a href="#Target" data-toggle="tab" title="Button push blue/green"
+                                class="button btnPush btnBlueGreen"><i>Search by Target</i></a></li>
+                <li class=""><a href="#Bioactivity" data-toggle="tab" title="Button push blue/green"
+                                class="button btnPush btnBlueGreen"><i>Search by Bioactivity</i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="Property">
+                <div style="display: flex; align-items: center; margin-top: -40px; margin-left: -30px">
+                    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Search by
+                        NP</h2>
+                    <a href="/emnpd/help/#NPs-name" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>                
+                
+                <div class="row" style="margin-top: -25px">
+                <form class="form-horizontal" method="POST" target="_self" enctype="multipart/form-data">
+                    
+                    <input type="text" style="visibility: hidden;" name="formid" value="0"/>
+
+                    <div class="form-group">
+                        <label for="Natural Product Name" class="col-sm-2 control-label" style="margin-left: -10px">Natural Product Name: </label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="NP_Name" name="NP_Name">
+                            <h5>e.g., <a href="http://127.0.0.1:8000/emnpd/naturalproducts/ENC000623/" target="_blank">Paclitaxel</a>, 
+                            <a href="http://127.0.0.1:8000/emnpd/naturalproducts/ENC001652/" target="_blank">Alternariol</a>, 
+                            <a href="http://127.0.0.1:8000/emnpd/naturalproducts/ENC000566/" target="_blank">ENC000566</a></h5>
+                        </div>
+                        <div class="col-sm-1 advancedSearchForm" style="display: none;">
+                            <div class="add-btn">
+                                Add
+                                <div class="add-dropdown">
+                                    <button onclick="addText('AND','NP_Name',1)">Add AND</button>
+                                    <button onclick="addText('OR','NP_Name',1)">Add OR</button>
+                                    <button onclick="addText('NOT','NP_Name',1)">Add NOT</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-info col-sm-2" type="button" id="advancedSearchBtn" onclick="toggleAdvancedSearch()">
+                            Advanced Search
+                        </button>
+                    </div>
+
+                    <div class="form-group advancedSearchForm" style="display: none;">
+                        <div class="form-group">
+                            <label for="Molecular Formula" class="col-sm-2 control-label">Molecular Formula: </label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control " id="Molecular_Formula"
+                                       name="Molecular_Formula">
+                                <h5>e.g., C10H16, C4H8O2</h5>
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','Molecular_Formula',1)">Add AND</button>
+                                        <button onclick="addText('OR','Molecular_Formula',1)">Add OR</button>
+                                        <button onclick="addText('NOT','Molecular_Formula',1)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="SMILES" class="col-sm-2 control-label">SMILES: </label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="SMILES" name="SMILES">
+                                <h5>e.g., C1=CC=C(C=C1)CCO</h5>
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','SMILES',1)">Add AND</button>
+                                        <button onclick="addText('OR','SMILES',1)">Add OR</button>
+                                        <button onclick="addText('NOT','SMILES',1)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Molecular Weight" class="col-sm-2 control-label">Molecular Weight: </label>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="Molecular_Weight_min"
+                                       placeholder="Start"
+                                       name="Molecular_Weight_min" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="Molecular_Weight_max"
+                                       placeholder="End"
+                                       name="Molecular_Weight_max" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','Molecular_Weight',2)">Add AND</button>
+                                        <button onclick="addText('OR','Molecular_Weight',2)">Add OR</button>
+                                        <button onclick="addText('NOT','Molecular_Weight',2)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <label for="ALogP" class="col-sm-2 control-label">ALogP: </label>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="ALogP_min" placeholder="Start"
+                                       name="ALogP_min" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="ALogP_max" placeholder="End"
+                                       name="ALogP_max" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','ALogP',2)">Add AND</button>
+                                        <button onclick="addText('OR','ALogP',2)">Add OR</button>
+                                        <button onclick="addText('NOT','ALogP',2)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="HBD" class="col-sm-2 control-label">H-bond Donor: </label>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="HBD_min" placeholder="Start"
+                                       name="HBD_min" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="HBD_max" placeholder="End"
+                                       name="HBD_max" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','HBD',2)">Add AND</button>
+                                        <button onclick="addText('OR','HBD',2)">Add OR</button>
+                                        <button onclick="addText('NOT','HBD',2)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <label for="HBA" class="col-sm-2 control-label">H-bond Acceptor: </label>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="HBA_min" placeholder="Start"
+                                       name="HBA_min" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="HBA_max" placeholder="End"
+                                       name="HBA_max" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','HBA',2)">Add AND</button>
+                                        <button onclick="addText('OR','HBA',2)">Add OR</button>
+                                        <button onclick="addText('NOT','HBA',2)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Rotatable bond" class="col-sm-2 control-label">Rotatable bond: </label>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="Rotatable_bond_min"
+                                       placeholder="Start"
+                                       name="Rotatable_bond_min" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="Rotatable_bond_max"
+                                       placeholder="End"
+                                       name="Rotatable_bond_max" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','Rotatable_bond',2)">Add AND</button>
+                                        <button onclick="addText('OR','Rotatable_bond',2)">Add OR</button>
+                                        <button onclick="addText('NOT','Rotatable_bond',2)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <label for="TPSA" class="col-sm-2 control-label">TPSA: </label>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="TPSA_min" placeholder="Start"
+                                       name="TPSA_min" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="number" class="form-control range-input" id="TPSA_max" placeholder="End"
+                                       name="TPSA_max" min="0" max="100">
+                            </div>
+                            <div class="col-sm-1">
+                                <div class="add-btn">
+                                    Add
+                                    <div class="add-dropdown">
+                                        <button onclick="addText('AND','TPSA',2)">Add AND</button>
+                                        <button onclick="addText('OR','TPSA',2)">Add OR</button>
+                                        <button onclick="addText('NOT','TPSA',2)">Add NOT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-8">
+                                <textarea id="text" rows="3" name="text" class="form-control" readonly></textarea>
+                            </div>
+                            <div class="col-lg-2"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <p class="col-lg-2"></p>
+                            <button type="reset" class="btn btn-default col-lg-2" onclick="resetForm()"
+                                    style="margin-left: 15px">Reset
+                            </button>
+                            <p class="col-lg-4"></p>
+                            <button type="submit" class="btn btn-primary col-lg-2" id="np_physic_search"
+                                    onclick="search_NP_Property()" style="margin-left: -30px">Search
+                            </button>
+                            <div class="col-lg-2"></div>
+                            <div class="loader" id="loader_np_physic" style="display: none;">
+                                <div class="justify-content-center jimu-primary-loading"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" id="contentToHide" style="margin-top: -10px">
+                            <p class="col-lg-2"></p>
+                            <button type="reset" class="btn btn-default col-lg-2" onclick="resetForm()"
+                                    style="margin-left: 5px">Reset
+                            </button>
+                            <p class="col-lg-3"></p>
+                            <button type="submit" class="btn btn-primary col-lg-2" id="np_physic_search_2"
+                                    onclick="search_NP_Property_2" style="margin-left: -30px">Search
+                            </button>
+                            <div class="col-lg-2"></div>
+                            <div class="loader" id="loader_np_physic_2" style="display: none;">
+                                <div class="justify-content-center jimu-primary-loading"></div>
+                            </div>
+                        </div>
+                </form>
+                
+                <script>
+                    function toggleAdvancedSearch() {
+                        var advancedSearchForms = document.querySelectorAll(".advancedSearchForm");
+                        var advancedSearchBtn = document.getElementById("advancedSearchBtn");
+                        var contentToHide = document.getElementById("contentToHide");
+
+                        for (var i = 0; i < advancedSearchForms.length; i++) {
+                            var form = advancedSearchForms[i];
+                            if (form.style.display === "none") {
+                                form.style.display = "block";
+                            } else {
+                                form.style.display = "none";
+                            }
+                        }
+
+                        if (contentToHide.style.display === "none") {
+                            contentToHide.style.display = "block";
+                            advancedSearchBtn.textContent = "Advanced Search";
+                        } else {
+                            contentToHide.style.display = "none";
+                            advancedSearchBtn.textContent = "Hide Advanced Search";
+                        }
+                    }
+                </script>
+                </div>
+                <div class="separator" style="margin-top: -20px">
+                    <hr style="width: 100%;">
+                </div>
+                <h4 style="margin-left: 2.5%;font-weight: bold;font-size: 15px;margin-top: -10px">Search Structure:</h4>       
+                <div class="row" style="margin-top: 35px">
+                    <form class="form-horizontal" method="POST" target="_self" enctype="multipart/form-data">
+ 
+                        <div class="col-lg-1"></div>
+                        <iframe id="Ketcher_2" src="/static/plugins/standalone/index.html" width="100%" height="400px"
+                                style="margin-top: -30px"
+                                class="col-lg-10"></iframe>
+                        <div class="form-group">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-8 d-flex justify-content-center" style="margin-top: 10px">
+                                <input id="smiles-input_2" name="smiles" type="text" class="form-control text-center"
+                                       readonly
+                                       style="text-align: left;">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-lg-2"><strong>Tanimoto Similarity Threshold:</strong></div>
+                            <div class="col-lg-8" style="margin-top: -10px">
+                                <!-- Horizontal Slider -->
+                                <input type="range" min="0" max="100" value="85" class="slider-horizontal" id="tanimotoSlider_2" name="tanimotoSlider">
+                            </div>
+                            <div class="col-lg-2 d-flex justify-content-center" style="margin-top: -15px">
+                                <!-- Input for slider value -->
+                                <input type="number" min="0" max="100" value="85" class="slider-input" id="sliderInput_2">
+                                <span><strong>%</strong></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group d-flex justify-content-center" style="margin-top: -10px">
+                            <div class="col-lg-2"><input type="text" style="visibility: hidden;" name="formid" value="1"/></div>
+                            <div class="col-lg-2 d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary btn-block" onclick="generateSmiles_2()">
+                                    Generate
+                                    SMILES
+                                </button>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-2 d-flex justify-content-center">
+                                <button type="reset" class="btn btn-default btn-block">Reset</button>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-2 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary btn-block" id="search_NP_Smiles_2"
+                                        onclick="search_NP_Smiles_2()">Search
+                                </button>
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="loader" id="loader_search_NP_Smiles_2" style="display: none; margin-top: 350px">
+                                <div class="justify-content-center jimu-primary-loading"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>                
+            </div>
+
+            <div class="tab-pane fade" id="Structure">
+                <div style="display: flex; align-items: center; margin-top: -40px; margin-left: -30px">
+                    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Search by NP
+                        Structure</h2>
+                    <a href="/emnpd/help/#NPs-structure" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+                <form class="form-horizontal" method="POST" target="_self" enctype="multipart/form-data"
+                      style="margin-top: 40px">
+
+                    <div class="col-lg-1"></div>
+                    <iframe id="Ketcher" src="/static/plugins/standalone/index.html" width="100%" height="560px"
+                            style="margin-top: -30px"
+                            class="col-lg-10"></iframe>
+                    <div class="form-group">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8 d-flex justify-content-center" style="margin-top: 10px">
+                            <input id="smiles-input" name="smiles" type="text" class="form-control text-center" readonly
+                                   style="text-align: left;">
+                        </div>
+                    </div>
+                    
+                        <div class="form-group">
+                            <div class="col-lg-2" style="margin-top: -10px"><strong>Tanimoto Similarity Threshold:</strong></div>
+                            <div class="col-lg-8" style="margin-top: -20px">
+                                <!-- Horizontal Slider -->
+                                <input type="range" min="0" max="100" value="85" class="slider-horizontal" id="tanimotoSlider" name="tanimotoSlider">
+                            </div>
+                            <div class="col-lg-2 d-flex justify-content-center" style="margin-top: -25px">
+                                <!-- Input for slider value -->
+                                <input type="number" min="0" max="100" value="85" class="slider-input" id="sliderInput">
+                                <span><strong>%</strong></span>
+                            </div>
+                        </div>
+                    
+                    <div class="form-group d-flex justify-content-center" style="margin-top: -10px">
+                        <div class="col-lg-2"><input type="text" style="visibility: hidden;" name="formid" value="6" /></div>
+                        <div class="col-lg-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-primary btn-block" onclick="generateSmiles()">Generate
+                                SMILES
+                            </button>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-2 d-flex justify-content-center">
+                            <button type="reset" class="btn btn-default btn-block">Reset</button>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-2 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary btn-block" id="search_NP_Smiles" onclick="search_NP_Smiles()">Search</button>
+                        </div>
+                        <div class="col-lg-2"></div>
+                        <div class="loader" id="loader_search_NP_Smiles" style="display: none;">
+                            <div class="justify-content-center jimu-primary-loading"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="tab-pane fade" id="Source-Organism">
+                <div style="display: flex; align-items: center; margin-top: -40px; margin-left: -30px">
+                    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Search by
+                        Endophyte</h2>
+                    <a href="/emnpd/help/#Endophyte" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+
+                <form class="form-horizontal" method="POST" target="_self" enctype="multipart/form-data"
+                      style="margin-top: 50px">
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label for="Endophyte Name" class="col-sm-2 control-label">Endophyte Name: </label>
+                        <div class="col-sm-7" style="margin-left: -20px">
+                            <input type="text" class="form-control" id="endophyte" name="endophyte">
+                            <h5>e.g., <a href="http://127.0.0.1:8000/emnpd/species/ENS00004/" target="_blank">Acremonium citrinum SS-g13</a>, 
+                            <a href="http://127.0.0.1:8000/emnpd/species/ENS00003/" target="_blank">ENS00003</a></h5>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2"><input type="text" style="visibility: hidden;" name="formid" value="2" /></p>
+                        <button type="reset" class="btn btn-default col-sm-2">Reset</button>
+                        <p class="col-sm-1"></p>
+                        <div class="col-sm-2"></div>
+                        <p class="col-sm-1"></p>
+                        <button type="submit" class="btn btn-primary col-sm-2" id="endophyte_search" onclick="search_target()">Search</button>
+                        <div class="loader" id="loader_endophyte_search" style="display: none;">
+                            <div class="justify-content-center jimu-primary-loading"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="tab-pane fade" id="Target">
+                <div style="display: flex; align-items: center; margin-top: -40px; margin-left: -30px">
+                    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Search by
+                        Target</h2>
+                    <a href="/emnpd/help/#Target" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+
+                <form class="form-horizontal" method="POST" target="_self" enctype="multipart/form-data"
+                      style="margin-top: 50px">
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label for="Target Name" class="col-sm-2 control-label">Target Name: </label>
+                        <div class="col-sm-7" style="margin-left: -20px">
+                            <input type="text" class="form-control" id="target" name="target">
+                            <h5>e.g., <a href="http://127.0.0.1:8000/emnpd/target/cell_line/ENTC00090/" target="_blank">HeLa</a>, 
+                            <a href="http://127.0.0.1:8000/emnpd/target/species/ENTO00735/" target="_blank">Staphylococcus aureus</a>, 
+                            <a href="http://127.0.0.1:8000/emnpd/target/protein/ENTP00063/" target="_blank">ENTP00063</a></h5>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2"><input type="text" style="visibility: hidden;" name="formid" value="3" /></p>
+                        <button type="reset" class="btn btn-default col-sm-2">Reset</button>
+                        <p class="col-sm-1"></p>
+                        <div class="col-sm-2"></div>
+                        <p class="col-sm-1"></p>
+                        <button type="submit" class="btn btn-primary col-sm-2 search_loader" id="target_search" onclick="search_endophyte()">Search</button>
+                        <div class="loader" id="loader_target_search" style="display: none;">
+                            <div class="justify-content-center jimu-primary-loading"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="tab-pane fade" id="Bioactivity">
+                <div style="display: flex; align-items: center; margin-top: -40px; margin-left: -30px">
+                    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Search by
+                        Bioactivity</h2>
+                    <a href="/emnpd/help/#Bioactivity" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+                <div class="container" style="margin-top: 50px">
+                    <form class="form-horizontal" method="POST" target="_self" enctype="multipart/form-data">
+
+                        <div class="form-group">
+                            <label for="select1">Select a Potency of Bioactivity</label>
+                            <select class="form-control" id="select1" name="select1">
+                                <option value="Stronge">Stronge</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Weak">Weak</option>
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="select2">Select a Bioactivity</label>
+                            <select class="form-control" id="select2" name="select2">
+                                <option value="11-β hydroxysteroid dehydrogenase-1 inhibitory activity">11-β hydroxysteroid dehydrogenase-1 inhibitory activity</option>
+                                <option value="Acetylcholinesterase inhibitory activity">Acetylcholinesterase inhibitory activity</option>
+                                <option value="Adenosine deaminase inhibitory activity">Adenosine deaminase inhibitory activity</option>
+                                <option value="Aldose reductase inhibitory activity">Aldose reductase inhibitory activity</option>
+                                <option value="Allelopathic activity">Allelopathic activity</option>
+                                <option value="Angiotensin converting enzyme inhibitory activity">Angiotensin converting enzyme inhibitory activity</option>
+                                <option value="Anti-aging activity">Anti-aging activity</option>
+                                <option value="Anti-algal activity">Anti-algal activity</option>
+                                <option value="Anti-allergic activity">Anti-allergic activity</option>
+                                <option value="Anti-angiogenic activity">Anti-angiogenic activity</option>
+                                <option value="Anti-atherosclerosis activity">Anti-atherosclerosis activity</option>
+                                <option value="Anti-bacterial activity">Anti-bacterial activity</option>
+                                <option value="Anti-bacterial photodynamic activity">Anti-bacterial photodynamic activity</option>
+                                <option value="Anti-biofilm activity">Anti-biofilm activity</option>
+                                <option value="Anti-coagulant activity">Anti-coagulant activity</option>
+                                <option value="Anti-diabetic activity">Anti-diabetic activity</option>
+                                <option value="Anti-feedant activity">Anti-feedant activity</option>
+                                <option value="Anti-fouling activity">Anti-fouling activity</option>
+                                <option value="Anti-fungal activity">Anti-fungal activity</option>
+                                <option value="Anti-fungal photodynamic activity">Anti-fungal photodynamic activity</option>
+                                <option value="Anti-hyperlipidemic activity">Anti-hyperlipidemic activity</option>
+                                <option value="Anti-inflammatory activity">Anti-inflammatory activity</option>
+                                <option value="Anti-leishmanial activity">Anti-leishmanial activity</option>
+                                <option value="Anti-lipid peroxidation activity">Anti-lipid peroxidation activity</option>
+                                <option value="Anti-malarial activity">Anti-malarial activity</option>
+                                <option value="Anti-melanogenic activity">Anti-melanogenic activity</option>
+                                <option value="Anti-microbial activity">Anti-microbial activity</option>
+                                <option value="Anti-neuroinflammatory activity">Anti-neuroinflammatory activity</option>
+                                <option value="Anti-oxidant activity">Anti-oxidant activity</option>
+                                <option value="Anti-parasitic activity">Anti-parasitic activity</option>
+                                <option value="Anti-platelet activity">Anti-platelet activity</option>
+                                <option value="Anti-proliferative activity">Anti-proliferative activity</option>
+                                <option value="Anti-protozoal activity">Anti-protozoal activity</option>
+                                <option value="Anti-quorum sensing activity">Anti-quorum sensing activity</option>
+                                <option value="Anti-tobacco mosaic virus activity">Anti-tobacco mosaic virus activity</option>
+                                <option value="Anti-trypsin activity">Anti-trypsin activity</option>
+                                <option value="Anti-tuberculosis activity">Anti-tuberculosis activity</option>
+                                <option value="Anti-viral activity">Anti-viral activity</option>
+                                <option value="Biochemical induction activity">Biochemical induction activity</option>
+                                <option value="Butyrylcholinesterase inhibitory activity">Butyrylcholinesterase inhibitory activity</option>
+                                <option value="Calcineurin inhibitory activity">Calcineurin inhibitory activity</option>
+                                <option value="Carboxylesterases inhibitory activity">Carboxylesterases inhibitory activity</option>
+                                <option value="Cardioprotective activity">Cardioprotective activity</option>
+                                <option value="Cholesterol efflux enhancing activity">Cholesterol efflux enhancing activity</option>
+                                <option value="COX-2 inhibitory activity">COX-2 inhibitory activity</option>
+                                <option value="Cyclin dependent kinase inhibitory activity">Cyclin dependent kinase inhibitory activity</option>
+                                <option value="Cystic fibrosis transmembrane conductance regulator inhibitory activity">Cystic fibrosis transmembrane conductance regulator inhibitory activity</option>
+                                <option value="Cytotoxic activity">Cytotoxic activity</option>
+                                <option value="Glucose uptake activity">Glucose uptake activity</option>
+                                <option value="Hemolytic activity">Hemolytic activity</option>
+                                <option value="Hypoglycemic activity">Hypoglycemic activity</option>
+                                <option value="Immunosuppressive activity">Immunosuppressive activity</option>
+                                <option value="Indoleamine-2, 3-dioxygenase inhibitory activity">Indoleamine-2, 3-dioxygenase inhibitory activity</option>
+                                <option value="Insecticidal activity">Insecticidal activity</option>
+                                <option value="Isocitrate dehydrogenase 1 inhibitory activity">Isocitrate dehydrogenase 1 inhibitory activity</option>
+                                <option value="Lipoprotein oxidation inhibitory activity">Lipoprotein oxidation inhibitory activity</option>
+                                <option value="Monoamine oxidase inhibitory activity">Monoamine oxidase inhibitory activity</option>
+                                <option value="Nematicidal activity">Nematicidal activity</option>
+                                <option value="Neuraminidase inhibitory activity">Neuraminidase inhibitory activity</option>
+                                <option value="Neuroprotective activity">Neuroprotective activity</option>
+                                <option value="NF-κB inhibitory activity">NF-κB inhibitory activity</option>
+                                <option value="NO inhibitory activity">NO inhibitory activity</option>
+                                <option value="Osteoblastic proliferation activity">Osteoblastic proliferation activity</option>
+                                <option value="Pancreatic lipase inhibitory activity">Pancreatic lipase inhibitory activity</option>
+                                <option value="Peroxisome proliferator-activated receptor inhibitory activity">Peroxisome proliferator-activated receptor inhibitory activity</option>
+                                <option value="Phosphatidylinositol 3-Kinase inhibitory activity">Phosphatidylinositol 3-Kinase inhibitory activity</option>
+                                <option value="Phosphodiesterase inhibitory activity">Phosphodiesterase inhibitory activity</option>
+                                <option value="Photo-oxidative hemolysis inhibitory activity">Photo-oxidative hemolysis inhibitory activity</option>
+                                <option value="Photosynthetic inhibition activity">Photosynthetic inhibition activity</option>
+                                <option value="Phytotoxic activity">Phytotoxic activity</option>
+                                <option value="Plant growth-promoting activity">Plant growth-promoting activity</option>
+                                <option value="Protease inhibitory activity">Protease inhibitory activity</option>
+                                <option value="Proteasome inhibitory activity">Proteasome inhibitory activity</option>
+                                <option value="Protein Kinase inhibitory activity">Protein Kinase inhibitory activity</option>
+                                <option value="Protein Tyrosine Phosphatase 1B inhibitory activity">Protein Tyrosine Phosphatase 1B inhibitory activity</option>
+                                <option value="Psychoactive receptor inhibitory activity">Psychoactive receptor inhibitory activity</option>
+                                <option value="Pyruvate dehydrogenase kinase inhibitory activity">Pyruvate dehydrogenase kinase inhibitory activity</option>
+                                <option value="Schistosomicidal activity">Schistosomicidal activity</option>
+                                <option value="Toll Like Receptor agonist activity">Toll Like Receptor agonist activity</option>
+                                <option value="Topoisomerase inhibitory activity">Topoisomerase inhibitory activity</option>
+                                <option value="Tremorgenic activity">Tremorgenic activity</option>
+                                <option value="Trypanocidal activity">Trypanocidal activity</option>
+                                <option value="Tumor Necrosis Factor-α inhibitory activity">Tumor Necrosis Factor-α inhibitory activity</option>
+                                <option value="Tyrosine kinase inhibitory activity">Tyrosine kinase inhibitory activity</option>
+                                <option value="Urease inhibitory activity">Urease inhibitory activity</option>
+                                <option value="Xanthine oxidase inhibitory activity">Xanthine oxidase inhibitory activity</option>
+                                <option value="α-amylase inhibitory activity">α-amylase inhibitory activity</option>
+                                <option value="α-glucosidase inhibitory activity">α-glucosidase inhibitory activity</option>
+                                <option value="β-glucuronidase inhibitory activity">β-glucuronidase inhibitory activity</option>
+
+                            </select>
+                        </div>
+
+                        <div class="col-lg-2"><input type="text" style="visibility: hidden;" name="formid" value="4"/></div>
+                        <div class="col-lg-2"></div>
+                        <button type="submit" class="btn btn-primary col-sm-3" id="activity_search" onclick="search_activity()">Search</button>
+                        <div class="col-lg-2"></div>
+                        <div class="loader" id="loader_activity_search" style="display: none;">
+                            <div class="justify-content-center jimu-primary-loading"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // 定义一个空数组用于存储用户输入的筛选条件
+        var inputs = [];
+
+        // 定义一个函数，用于返回符合给定CSS选择器的第一个元素
+        const q = function (s) {
+            return document.querySelector(s);
+        }
+
+        // 添加筛选条件的函数，根据传入的symbol，s和type参数来生成条件
+        function addText(symbol, s, type) {
+            event.preventDefault(); // 防止表单提交时页面刷新
+
+            let val, min, max, clearEls = [];
+            if (type == 1) {
+                clearEls.push(q('#' + s));
+                val = q('#' + s).value;
+            } else if (type == 2) {
+                min = q(`#${s}_min`).value;
+                max = q(`#${s}_max`).value;
+                clearEls.push(q(`#${s}_min`), q(`#${s}_max`));
+            }
+
+            // 检查用户是否已经完善了输入的信息
+            if (type == 1 && !val || type == 2 && (!min || !max)) return alert('Please complete the information!');
+
+            // 将用户输入的条件加入到inputs数组中
+            inputs.length && inputs.push({type: 'symbol', symbol})
+            inputs.push({
+                name: s,
+                type: 'condition',
+                isRange: type == 2,
+                val,
+                max,
+                min
+            });
+            console.log(inputs);
+
+            // 清空用户输入框中的内容
+            clearEls.forEach(el => el.value = '');
+
+            // 渲染用户添加的条件
+            render();
+        }
+
+        // 渲染用户添加的条件
+        function render() {
+            // 获取显示条件的文本框
+            q('#text').value = inputs.map(function (v) {
+                if (v.type === 'symbol') return `${v.symbol}`;
+                if (v.type === 'condition') return `[${v.isRange ?`${v.name}: ${v.min}=>${v.max}` : `${v.name}: ${v.val}`}]`;
+            }).join('')
+
+        }
+
+        // 搜索函数，用于将渲染好的条件文本提交到后端进行搜索
+        function search_NP_Property() {
+            var text = document.getElementById("text");
+            console.log(text.value); // 添加的代码
+            var textarea = document.getElementsByName("textarea")[0];
+            textarea.value = text.value;
+            var form = document.getElementsByTagName("form")[0];
+            form.submit();
+        }
+
+        function search_NP_Property_2() {
+            var text = document.getElementById("NP_Name");
+            console.log(text.value); // 添加的代码
+            document.forms[0].submit();
+        }
+    </script>
+
+    <script type="text/javascript">
+        function search_endophyte() {
+            var text = document.getElementById("endophyte");
+            console.log(text.value); // 添加的代码
+            document.forms[3].submit();
+        }
+    </script>
+
+    <script type="text/javascript">
+        function search_target() {
+            var text = document.getElementById("target");
+            console.log(text.value); // 添加的代码
+            document.forms[4].submit();
+        }
+    </script>
+
+    <script type="text/javascript">
+        function search_activity() {
+            const select1 = document.getElementById('select1').value;
+            const select2 = document.getElementById('select2').value;
+            console.log(select1, select2);
+            document.forms[5].submit();
+        }
+    </script>
+
+    <script>
+        function resetForm() {
+            // 清空输入条件数组
+            inputs = [];
+
+            // 清空文本框内容
+            q('#text').value = '';
+        }
+    </script>
+    
+    <script>
+        // 第一个进度条
+        var slider1 = document.getElementById("tanimotoSlider");
+        var input1 = document.getElementById("sliderInput");
+        slider1.oninput = function() {
+            input1.value = this.value;
+        }
+        input1.oninput = function() {
+            slider1.value = this.value;
+        }
+        
+        // 第二个进度条
+        var slider2 = document.getElementById("tanimotoSlider_2");
+        var input2 = document.getElementById("sliderInput_2");
+        slider2.oninput = function() {
+            input2.value = this.value;
+        }
+        input2.oninput = function() {
+            slider2.value = this.value;
+        }
+    </script>        
+{% endblock %}

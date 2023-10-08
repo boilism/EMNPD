@@ -1,0 +1,911 @@
+﻿ENTO_ID,Name,Target_Type,Tax_ID,Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus
+ENTO00001,Acetobacter sp. 6912,ORGANISM,440,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Alphaproteobacteria,Rhodospirillales,Acetobacteraceae,Acetobacter
+ENTO00002,Acidovorax cattleyae,ORGANISM,80868,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Comamonadaceae,Acidovorax
+ENTO00003,Acidovorax citrulli,ORGANISM,80869,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Comamonadaceae,Acidovorax
+ENTO00004,Acinetobacter baumannii,ORGANISM,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00005,Acinetobacter baumannii ATCC 19606,ORGANISM,575584,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00006,Acinetobacter baumannii BAA 1605,ORGANISM,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00007,Acinetobacter baylyi BD4,ORGANISM,1198992,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00008,Acinetobacter calcoaceticus,ORGANISM,471,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00009,Acinetobacter calcoaceticus ATCC 23055,ORGANISM,471,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00010,Acinetobacter sp.,ORGANISM,469,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,No Rank at Level Genus
+ENTO00011,Acyrthosiphon pisum,ORGANISM,7029,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Aphididae,Acyrthosiphon
+ENTO00012,Aedes aegypti,ORGANISM,7159,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Aedes
+ENTO00013,Aedes albopictus,ORGANISM,7160,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Aedes
+ENTO00014,Aeromonas hydrophila,ORGANISM,644,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Aeromonas
+ENTO00015,Aeromonas hydrophila QDIO-1,ORGANISM,644,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Aeromonas
+ENTO00016,Aeromonas hydrophila QDIONA1,ORGANISM,644,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Aeromonas
+ENTO00017,Agaricus bisporus,ORGANISM,5341,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Agaricaceae,Agaricus
+ENTO00018,Agrobacterium konjaci,ORGANISM,357,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Alphaproteobacteria,Hyphomicrobiales,Rhizobiaceae,Agrobacterium
+ENTO00019,Agrobacterium tumefaciens,ORGANISM,358,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Alphaproteobacteria,Hyphomicrobiales,Rhizobiaceae,Agrobacterium
+ENTO00020,Agrobacterium tumefaciens A136,ORGANISM,358,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Alphaproteobacteria,Hyphomicrobiales,Rhizobiaceae,Agrobacterium
+ENTO00021,Agrobacterium tumefaciens ATCC 11158,ORGANISM,358,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Alphaproteobacteria,Hyphomicrobiales,Rhizobiaceae,Agrobacterium
+ENTO00022,Agrostis stolonifera,ORGANISM,63632,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Agrostis
+ENTO00023,Alcaligenes faecalis MTCC 126,ORGANISM,511,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Alcaligenes
+ENTO00024,Alternaria alternata,ORGANISM,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00025,Alternaria alternata (Fries) Keissler,ORGANISM,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00026,Alternaria alternata BNCC 341716,ORGANISM,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00027,Alternaria alternata f. sp. mali,ORGANISM,1970213,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00028,Alternaria alternata YM 3073,ORGANISM,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00029,Alternaria brassicae,ORGANISM,29911,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00030,Alternaria brassicae QDAU-1,ORGANISM,29911,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00031,Alternaria brassicae QDIONA11,ORGANISM,29911,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00032,Alternaria brassicicola,ORGANISM,29001,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00033,Alternaria geophila,ORGANISM,1579461,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00034,Alternaria longipes,ORGANISM,160389,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00035,Alternaria longipes CGMCC 2875,ORGANISM,160389,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00036,Alternaria mali,ORGANISM,167741,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00037,Alternaria mali NBRC 8984,ORGANISM,167741,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00038,Alternaria panax,ORGANISM,48097,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00039,Alternaria solani,ORGANISM,48100,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00040,Alternaria solani QDAU-14,ORGANISM,48100,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00041,Alternaria sp. 'fragaria',ORGANISM,291290,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria
+ENTO00042,Alteromonas macleodii MCC 2815,ORGANISM,28108,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Alteromonas
+ENTO00043,Amaranthus hypochondriacus,ORGANISM,28502,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Amaranthaceae,Amaranthus
+ENTO00044,Amaranthus retroflexus,ORGANISM,124763,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Amaranthaceae,Amaranthus
+ENTO00045,Amphibalanus reticulatus,ORGANISM,1232802,Eukaryota,Metazoa,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Amphibalanus
+ENTO00046,Anopheles gambiae,ORGANISM,7165,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Anopheles
+ENTO00047,Aphanomyces cochlioides,ORGANISM,112091,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Saprolegniales,Saprolegniaceae,Aphanomyces
+ENTO00048,Aphis gossypii,ORGANISM,80765,Eukaryota,Metazoa,Arthropoda,Insecta,Hemiptera,Aphididae,Aphis
+ENTO00049,Arabidopsis thaliana,ORGANISM,3702,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Arabidopsis
+ENTO00050,Armillaria rolfsii,ORGANISM,47424,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,No Rank at Level Genus
+ENTO00051,Artemia salina,ORGANISM,85549,Eukaryota,Metazoa,Arthropoda,Branchiopoda,Anostraca,Artemiidae,Artemia
+ENTO00052,Ascochyta gossypii Syd,ORGANISM,5453,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporineae,Didymellaceae
+ENTO00053,Aspergillus alternata MLBM09,ORGANISM,5052,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00054,Aspergillus clavatus F 318a,ORGANISM,5057,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00055,Aspergillus faecalis,ORGANISM,5052,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00056,Aspergillus flavus,ORGANISM,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00057,Aspergillus fumigatus,ORGANISM,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00058,Aspergillus fumigatus ATCC 10894,ORGANISM,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00059,Aspergillus fumigatus ATCC 46645,ORGANISM,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00060,Aspergillus fumigatus ATCC 90906,ORGANISM,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00061,Aspergillus fumigatus DSM 819,ORGANISM,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00062,Aspergillus niger,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00063,Aspergillus niger 16888,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00064,Aspergillus niger ACCC 30005,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00065,Aspergillus niger ATCC 16404,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00066,Aspergillus niger ATCC 6275,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00067,Aspergillus niger CBS 110271,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00068,Aspergillus niger YM 3029,ORGANISM,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00069,Aspergillus ochraceus,ORGANISM,40380,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00070,Aspergillus pseudoglaucus,ORGANISM,1405805,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00071,Aspergillus tamarii,ORGANISM,41984,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00072,Aspergillus terreus,ORGANISM,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00073,Aspergillus tubingensis,ORGANISM,5068,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus
+ENTO00074,Athelia rolfsii,ORGANISM,39291,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Atheliales,Atheliaceae,Athelia
+ENTO00075,Athelia rolfsii Sacc.,ORGANISM,39291,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Atheliales,Atheliaceae,Athelia
+ENTO00076,Bacillus anthracis,ORGANISM,1392,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00077,Bacillus anthracis 14578,ORGANISM,1392,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00078,Bacillus anthracis 28,ORGANISM,1392,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00079,Bacillus anthracis 40/BA 100,ORGANISM,1392,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00080,Bacillus anthracis 62-8,ORGANISM,1392,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00081,Bacillus cereus,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00082,Bacillus cereus ATCC 11778,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00083,Bacillus cereus ATCC 14579,ORGANISM,226900,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00084,Bacillus cereus ATCC 6633,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00085,Bacillus cereus AUMC-B-5,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00086,Bacillus cereus Flankland,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00087,Bacillus cereus IIIM 25,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00088,Bacillus cereus MTCC 1272,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00089,Bacillus cereus NBRC 15305,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00090,Bacillus cereus NCIM No. 2106,ORGANISM,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00091,Bacillus licheniformis,ORGANISM,1402,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00092,Bacillus megaterium,ORGANISM,1404,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Priestia
+ENTO00093,Bacillus megaterium ATCC 18,ORGANISM,1404,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Priestia
+ENTO00094,Bacillus paratyphosus B,ORGANISM,1386,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00095,Bacillus pumilus ATCC 7061,ORGANISM,536229,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00096,Bacillus pumilus CMCC 63202,ORGANISM,1408,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00097,Bacillus sp.,ORGANISM,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00098,Bacillus subtilis,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00099,Bacillus subtilis 1047,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00100,Bacillus subtilis 168 trpC2,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00101,Bacillus subtilis ATCC 11060,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00102,Bacillus subtilis ATCC 11562,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00103,Bacillus subtilis ATCC 169,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00104,Bacillus subtilis ATCC 6051,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00105,Bacillus subtilis ATCC 6633,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00106,Bacillus subtilis ATCC 7508,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00107,Bacillus subtilis ATCC 9372,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00108,Bacillus subtilis BGGS1A1,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00109,Bacillus subtilis CMCC(B) 63501,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00110,Bacillus subtilis DSM 10,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00111,Bacillus subtilis DSM 1088,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00112,Bacillus subtilis DSMZ 704,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00113,Bacillus subtilis H344,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00114,Bacillus subtilis MTCC 121,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00115,Bacillus subtilis MTCC 2763,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00116,Bacillus subtilis MTCC 441,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00117,Bacillus subtilis PCI219,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00118,Bacillus subtilis UBC 344,ORGANISM,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00119,Bacillus thuringiensis,ORGANISM,1428,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus
+ENTO00120,Bacterium paratyphosum B,ORGANISM,NA,Bacteria,No Rank at Level Kingdom,No Rank at Level Phylum,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus
+ENTO00121,Bacteroides fragilis ATCC 23745,ORGANISM,817,Bacteria,No Rank at Level Kingdom,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides
+ENTO00122,Beauveria bassiana,ORGANISM,176275,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Beauveria
+ENTO00123,Berkeleyomyces basicola,ORGANISM,124036,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Microascales,Ceratocystidaceae,Berkeleyomyces
+ENTO00124,Bipolaris maydis,ORGANISM,5016,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00125,Bipolaris maydis QDAU-18,ORGANISM,5016,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00126,Bipolaris maydis YM 3076,ORGANISM,5016,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00127,Bipolaris oryzae,ORGANISM,101162,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00128,Bipolaris sorokiniana,ORGANISM,45130,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00129,Bipolaris sorokiniana QDAU-7,ORGANISM,45130,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00130,Bipolaris zeicola Wilson,ORGANISM,5017,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris
+ENTO00131,Bombyx mori,ORGANISM,7091,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Bombycidae,Bombyx
+ENTO00132,Bos taurus,ORGANISM,9913,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Bovidae,Bos
+ENTO00133,Botryosphaeria berengeriana,ORGANISM,509207,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria
+ENTO00134,Botryosphaeria berengeriana Nose,ORGANISM,509207,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria
+ENTO00135,Botryosphaeria berengeriana Nose. QDAUNA15,ORGANISM,509207,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria
+ENTO00136,Botryosphaeria berengeriana QDAU-6,ORGANISM,509207,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria
+ENTO00137,Botryosphaeria dothidea,ORGANISM,55169,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria
+ENTO00138,Botrytis cinerea,ORGANISM,40559,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis
+ENTO00139,Botrytis cinerea BNCC 338228,ORGANISM,40559,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis
+ENTO00140,Botrytis cinerea Pers,ORGANISM,40559,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis
+ENTO00141,Botrytis cinerea YM 3061,ORGANISM,40559,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis
+ENTO00142,Botrytis cinerea YM 3093,ORGANISM,40559,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis
+ENTO00143,Botrytis fabiopsis,ORGANISM,1463997,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Botrytis
+ENTO00144,Bouteloua dactyloides,ORGANISM,160577,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Bouteloua
+ENTO00145,Brassica rapa,ORGANISM,3711,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Brassica
+ENTO00146,Brassica rapa subsp. oleifera,ORGANISM,145471,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Brassica
+ENTO00147,Brugia malayi,ORGANISM,6279,Eukaryota,Metazoa,Nematoda,Chromadorea,Rhabditida,Onchocercidae,Brugia
+ENTO00148,Burkholderia glumae,ORGANISM,337,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia
+ENTO00149,Burkholderia thailandensis,ORGANISM,57975,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia
+ENTO00150,Bursaphelenchus xylophilus,ORGANISM,6326,Eukaryota,Metazoa,Nematoda,Chromadorea,Rhabditida,Aphelenchoididae,Bursaphelenchus
+ENTO00151,Caenorhabditis elegans,ORGANISM,6239,Eukaryota,Metazoa,Nematoda,Chromadorea,Rhabditida,Rhabditidae,Caenorhabditis
+ENTO00152,Calonectria ilicicola,ORGANISM,182845,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Calonectria
+ENTO00153,Canavalia ensiformis,ORGANISM,3823,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Canavalia
+ENTO00154,Candida albicans,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00155,Candida albicans #54,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00156,Candida albicans As 2.538,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00157,Candida albicans ATCC 10231,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00158,Candida albicans ATCC 2019,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00159,Candida albicans ATCC 24433,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00160,Candida albicans ATCC 2538,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00161,Candida albicans ATCC 60193,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00162,Candida albicans ATCC 90028,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00163,Candida albicans AUMC-418,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00164,Candida albicans CGMCC 2.2086,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00165,Candida albicans CMCC 98001,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00166,Candida albicans DSM 1665,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00167,Candida albicans FIM 709,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00168,Candida albicans GIM 2.169,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00169,Candida albicans ID00148,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00170,Candida albicans IFO 1594,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00171,Candida albicans KF1,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00172,Candida albicans MTCC 227,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00173,Candida albicans MTCC 3017,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00174,Candida albicans MTCC 3018,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00175,Candida albicans MTCC 4748,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00176,Candida albicans NCIM No. 3471,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00177,Candida albicans OUT 6266,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00178,Candida albicans SC5314,ORGANISM,237561,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00179,Candida albicans strains 109,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00180,Candida albicans strains wisconsin,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00181,Candida albicans YM 2005,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00182,Candida glabrata,ORGANISM,5478,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Nakaseomyces
+ENTO00183,Candida glabrata ATCC 90030,ORGANISM,5478,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Nakaseomyces
+ENTO00184,Candida glabrata MTCC 3019,ORGANISM,5478,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Nakaseomyces
+ENTO00185,Carbapenems-resistant Acinetobacter baumannii,ORGANISM,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00186,Carbapenems-resistant Acinetobacter baumannii 1,ORGANISM,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00187,Carbapenems-resistant Escherichia coli,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00188,Carbapenems-resistant Klebsiella pneumoniae,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00189,Carbapenems-resistant Pseudomonas aeruginosa,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00190,Carbapenems-resistant Pseudomonas aeruginosa 38,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00191,Ceratobasidium cornigerum,ORGANISM,5252,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Ceratobasidium
+ENTO00192,Ceratobasidium cornigerum QDAU-8,ORGANISM,5252,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Ceratobasidium
+ENTO00193,Ceratobasidium cornigerum QDAUNA6,ORGANISM,5252,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Ceratobasidium
+ENTO00194,Chlorella fusca,ORGANISM,3073,Eukaryota,Viridiplantae,Chlorophyta,Chlorophyceae,Sphaeropleales,Scenedesmaceae,Scenedesmus
+ENTO00195,Chlorocebus pygerythrus,ORGANISM,60710,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Chlorocebus
+ENTO00196,Chlorocebus sabaeus,ORGANISM,60711,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Chlorocebus
+ENTO00197,Chloroquine-resistant (Dd2) Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00198,Chloroquine-resistant (W2)-Strain of Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00199,Chloroquine-resistant Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00200,Chloroquine-sensitive (3D7) Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00201,Chloroquine-sensitive (D6)-Strain of Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00202,Chloroquine-sensitive Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00203,Chromobacterium violaceum CV026,ORGANISM,536,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Neisseriales,Chromobacteriaceae,Chromobacterium
+ENTO00204,Chromobacterium violaceum DSM 30191,ORGANISM,536,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Neisseriales,Chromobacteriaceae,Chromobacterium
+ENTO00205,Citrobacter freundii,ORGANISM,546,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter
+ENTO00206,Cladosporium cladosporioides,ORGANISM,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium
+ENTO00207,Cladosporium cladosporioides FERMS-9,ORGANISM,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium
+ENTO00208,Cladosporium cucumerinum NBRC 6370,ORGANISM,166633,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium
+ENTO00209,Cladosporium oxysporum,ORGANISM,29919,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium
+ENTO00210,Cladosporium sphaerospermum,ORGANISM,92950,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium
+ENTO00211,Clarireedia homoeocarpa,ORGANISM,1436886,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Rutstroemiaceae,Clarireedia
+ENTO00212,Clavibacter michiganensis,ORGANISM,28447,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Microbacteriaceae,Clavibacter
+ENTO00213,Clavibacter michiganensis subsp. michiganensis,ORGANISM,28447,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Microbacteriaceae,Clavibacter
+ENTO00214,Clavibacter michiganensis subsp. Sepedonicus,ORGANISM,28447,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Microbacteriaceae,Clavibacter
+ENTO00215,"Clinical drug-resistant Mycobacterium tuberculosis strain (K0903557, resistant to INH)",ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00216,Clinical drug-sensitive Mycobacterium tuberculosis strain (0907762),ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00217,"Clinical extensively drug-resistant (XDR) Mycobacterium avium-intracellulare strain (K0803182, resistant to SM, INH, RFP, levofloxacin [LVFX], protionamide and isoniazid aminosalicylate)",ORGANISM,1764,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00218,"Clinical MDR Mycobacterium tuberculosis strain (0907961, resistant to SM and EMB)",ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00219,"Clinical MDR Mycobacterium tuberculosis strain (K2903531, resistant to SM, INH, RFP and EMB)",ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00220,Clostridium pasteurianum MTCC 116,ORGANISM,1501,Bacteria,No Rank at Level Kingdom,Bacillota,Clostridia,Eubacteriales,Clostridiaceae,Clostridium
+ENTO00221,Clostridium perfringens,ORGANISM,1502,Bacteria,No Rank at Level Kingdom,Bacillota,Clostridia,Eubacteriales,Clostridiaceae,Clostridium
+ENTO00222,Clostridium perfringens ATCC 13048,ORGANISM,1502,Bacteria,No Rank at Level Kingdom,Bacillota,Clostridia,Eubacteriales,Clostridiaceae,Clostridium
+ENTO00223,Clostridium perfringens ATCC 13124,ORGANISM,195103,Bacteria,No Rank at Level Kingdom,Bacillota,Clostridia,Eubacteriales,Clostridiaceae,Clostridium
+ENTO00224,Colletotrichum abscissum,ORGANISM,1671311,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00225,Colletotrichum acutatum,ORGANISM,27357,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00226,Colletotrichum acutatum HNMRC 178,ORGANISM,27357,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00227,Colletotrichum acutatum Simmonds,ORGANISM,27357,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00228,Colletotrichum ampelinum,ORGANISM,509211,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00229,Colletotrichum asianum,ORGANISM,702518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00230,Colletotrichum asianum HNM 408,ORGANISM,702518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00231,Colletotrichum coccodes,ORGANISM,27358,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00232,Colletotrichum coccodes ACCC 36067,ORGANISM,27358,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00233,Colletotrichum fragariae,ORGANISM,27359,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00234,Colletotrichum gloeosporioides,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00235,Colletotrichum gloeosporioides Penz QDAU-9,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00236,Colletotrichum gloeosporioides Penz QDIONA22,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00237,Colletotrichum gloeosporioides Penz Sacc,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00238,Colletotrichum gloeosporioides QDAU-2,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00239,Colletotrichum gloeosporioides QDAU-31,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00240,Colletotrichum gloeosporioides UBC 9312,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00241,Colletotrichum gloeosporioides YM 3012,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00242,Colletotrichum graminicola,ORGANISM,31870,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00243,Colletotrichum lagenarium,ORGANISM,5462,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00244,Colletotrichum lindemuthianum,ORGANISM,290576,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00245,Colletotrichum musae,ORGANISM,5464,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00246,Colletotrichum musae (Berk. and M. A. Curtis) Arx.,ORGANISM,5464,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00247,Colletotrichum musae ACCC 31244,ORGANISM,5464,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00248,Colletotrichum musae BNCC 226680,ORGANISM,5464,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00249,Colletotrichum orbiculare,ORGANISM,5465,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00250,Colletotrichum truncatum,ORGANISM,5467,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00251,Coniothyrium diplodiella,ORGANISM,332405,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Schizoparmaceae,Coniella
+ENTO00252,Cordyceps militaris,ORGANISM,73501,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Cordyceps
+ENTO00253,Corynespora cassiicola,ORGANISM,59586,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Corynesporascaceae,Corynespora
+ENTO00254,Corynespora cassiicola Simmonds,ORGANISM,59586,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Corynesporascaceae,Corynespora
+ENTO00255,Corynespora torulosa,ORGANISM,1414617,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Corynesporascaceae,Corynespora
+ENTO00256,Coxsackievirus A16,ORGANISM,31704,Viruses,Orthornavirae,Pisuviricota,Pisoniviricetes,Picornavirales,Picornaviridae,Enterovirus
+ENTO00257,Cricetulus griseus,ORGANISM,10029,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Cricetidae,Cricetulus
+ENTO00258,Cryphonectria parasitica,ORGANISM,5116,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Cryphonectriaceae,Cryphonectria
+ENTO00259,Cryptococcus gattii VGI,ORGANISM,37769,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus
+ENTO00260,Cryptococcus neoformans,ORGANISM,5207,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus
+ENTO00261,Cryptococcus neoformans ATCC 208821,ORGANISM,5207,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus
+ENTO00262,Cryptococcus neoformans ATCC 90113,ORGANISM,5207,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus
+ENTO00263,Cryptococcus neoformans var. grubii,ORGANISM,5207,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus
+ENTO00264,Cryptococcus neoformans var. grubii H99,ORGANISM,5207,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,Cryptococcus
+ENTO00265,Cucumis sativus,ORGANISM,3659,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Cucumis
+ENTO00266,Culex pipiens,ORGANISM,7175,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Culex
+ENTO00267,Culex quinquefasciatus,ORGANISM,7176,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Culex
+ENTO00268,Culex quinquefasciatus (fourth instar),ORGANISM,7176,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Culex
+ENTO00269,Culex quinquefasciatus (third instar),ORGANISM,7176,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Culicidae,Culex
+ENTO00270,Curvularia australiensis,ORGANISM,91365,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia
+ENTO00271,Curvularia lunata,ORGANISM,5503,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia
+ENTO00272,Curvularia lunata YM3034,ORGANISM,5503,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia
+ENTO00273,Curvularia spicifera,ORGANISM,145392,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia
+ENTO00274,Curvularia spicifera QDAUNA29,ORGANISM,145392,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia
+ENTO00275,Cutibacterium acnes ATCC6919,ORGANISM,1747,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Propionibacteriales,Propionibacteriaceae,Cutibacterium
+ENTO00276,Cylindrotheca closterium,ORGANISM,2856,Eukaryota,No Rank at Level Kingdom,Bacillariophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Cylindrotheca
+ENTO00277,Cytospora mandshurica Miura,ORGANISM,117544,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,No Rank at Level Genus
+ENTO00278,Danio rerio,ORGANISM,7955,Eukaryota,Metazoa,Chordata,Actinopteri,Cypriniformes,Danionidae,Danio
+ENTO00279,Daucus carota,ORGANISM,4039,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Apiales,Apiaceae,Daucus
+ENTO00280,Dengue virus type 3,ORGANISM,11069,Viruses,Orthornavirae,Kitrinoviricota,Flasuviricetes,Amarillovirales,Flaviviridae,Flavivirus
+ENTO00281,Diaporthe ampelina,ORGANISM,1214573,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe
+ENTO00282,Diaporthe rudis,ORGANISM,1469661,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe
+ENTO00283,Digitaria ciliaris,ORGANISM,66018,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Digitaria
+ENTO00284,Drug-resistant Acinetobacter baumannii ATCC BAA-1605,ORGANISM,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter
+ENTO00285,Dryadomyces quercus-mongolicae,ORGANISM,1423150,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Dryadomyces
+ENTO00286,Echinochloa crus-galli,ORGANISM,90397,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Echinochloa
+ENTO00287,Eclipta prostrata,ORGANISM,53719,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Eclipta
+ENTO00288,Edwardsiella ictaluri,ORGANISM,67780,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Hafniaceae,Edwardsiella
+ENTO00289,Edwardsiella megi QDIO-10,ORGANISM,NA,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Hafniaceae,Edwardsiella
+ENTO00290,Edwardsiella tarda,ORGANISM,636,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Hafniaceae,Edwardsiella
+ENTO00291,Edwardsiella tarda QDIO-2,ORGANISM,636,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Hafniaceae,Edwardsiella
+ENTO00292,Entamoeba moshkovskii ATCC 30041,ORGANISM,41668,Eukaryota,No Rank at Level Kingdom,Evosea,No Rank at Level Class,Mastigamoebida,Entamoebidae,Entamoeba
+ENTO00293,Enterobacter cloacae,ORGANISM,550,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter
+ENTO00294,Enterobacter cloacae ATCC 13047,ORGANISM,550,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter
+ENTO00295,Enterococcus faecalis,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00296,Enterococcus faecalis ATCC 29212,ORGANISM,1201292,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00297,Enterococcus faecalis ATCC 35667,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00298,Enterococcus faecalis ATCC 51299,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00299,Enterococcus faecalis ATCC 700221,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00300,Enterococcus faecalis NBRC 100480,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00301,Enterococcus faecalis PAG102,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00302,Enterococcus faecalis UW 2689,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00303,Enterococcus faecium,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00304,Enterococcus faecium ATCC 35667,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00305,Enterococcus faecium ATCC 49624,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00306,Enterococcus faecium ATCC 700221,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00307,Enterococcus faecium VanA,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00308,Enterovirus A71,ORGANISM,39054,Viruses,Orthornavirae,Pisuviricota,Pisoniviricetes,Picornavirales,Picornaviridae,Enterovirus
+ENTO00309,Epicoccum nigrum,ORGANISM,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum
+ENTO00310,Epidermophyton floccosum,ORGANISM,34391,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Epidermophyton
+ENTO00311,Eruca vesicaria subsp. sativa,ORGANISM,29727,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Eruca
+ENTO00312,Erwinia amylovora,ORGANISM,552,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Erwinia
+ENTO00313,Erwinia sp.,ORGANISM,558,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Erwinia
+ENTO00314,ESBL-producing Escherichia coli ATCC 35218,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00315,Escherichia coli,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00316,Escherichia coli 443,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00317,Escherichia coli ATCC 0111,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00318,Escherichia coli ATCC 11775,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00319,Escherichia coli ATCC 2469,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00320,Escherichia coli ATCC 25922,ORGANISM,1322345,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00321,Escherichia coli ATCC 25928,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00322,Escherichia coli ATCC 28739,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00323,Escherichia coli ATCC 29213,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00324,Escherichia coli ATCC 29425,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00325,Escherichia coli ATCC 35218,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00326,Escherichia coli ATCC 8739,ORGANISM,481805,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00327,Escherichia coli AUMCB-53,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00328,Escherichia coli BAS849,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00329,Escherichia coli CGMCC 1.2340,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00330,Escherichia coli CMCC(B) 44102,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00331,Escherichia coli DSM 1116,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00332,Escherichia coli DSM 498,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00333,Escherichia coli DSM 682,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00334,Escherichia coli DSMZ 1058,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00335,Escherichia coli EMBLC-1,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00336,Escherichia coli EMBLCNA1,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00337,Escherichia coli ESBL,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00338,Escherichia coli GIM 1.201,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00339,Escherichia coli K12,ORGANISM,83333,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00340,Escherichia coli MCC 2412,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00341,Escherichia coli MTCC 40,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00342,Escherichia coli MTCC 443,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00343,Escherichia coli MTCC 723,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00344,Escherichia coli MTCC 730,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00345,Escherichia coli MTCC 739,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00346,Escherichia coli NCIM No. 2256,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00347,Escherichia coli NIHJ,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00348,Escherichia coli NIHJ (KB213),ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00349,Escherichia coli NIHJ JC-2 (IFO12734),ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00350,Escherichia coli NIH-JC2,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00351,Escherichia coli NRRL B-3708,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00352,Escherichia coli O157:H7 ATCC 35150,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00353,Escherichia coli SA/2 (extended- spectrum beta-lactamases),ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00354,Escherichia coli strain DH5alpha,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00355,Escherichia coli UBC 8161,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00356,Escherichia coli with O78 serotype,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00357,Exserohilum turcicum,ORGANISM,93612,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Exserohilum
+ENTO00358,Extended spectrum beta-lactamase-producing Escherichia coli 46,ORGANISM,562,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia
+ENTO00359,Feline calicivirus strain F9,ORGANISM,11981,Viruses,Orthornavirae,Pisuviricota,Pisoniviricetes,Picornavirales,Caliciviridae,Vesivirus
+ENTO00360,Fluconazole-resistant Candida albicans,ORGANISM,5476,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida
+ENTO00361,Fonsecaea compacta,ORGANISM,86057,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea
+ENTO00362,Fonsecaea compacta YM 3077,ORGANISM,86057,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Fonsecaea
+ENTO00363,Fusarium avenaceum,ORGANISM,40199,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00364,Fusarium avenaceum YM 3065,ORGANISM,40199,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00365,Fusarium coeruleum YM 3060,ORGANISM,57164,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00366,Fusarium equiseti,ORGANISM,61235,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00367,Fusarium flocciferum,ORGANISM,56642,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00368,Fusarium fujikuroi,ORGANISM,5127,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00369,Fusarium graminearum,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00370,Fusarium graminearum (Schweinitz) Petch,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00371,Fusarium graminearum BNCC 116158,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00372,Fusarium graminearum BNCC 337560,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00373,Fusarium graminearum CBS 112.30,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00374,Fusarium graminearum CGMCC 3.2873,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00375,Fusarium graminearum QDAU-10,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00376,Fusarium graminearum QDAUNA25,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00377,Fusarium graminearum QDAUNA4,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00378,Fusarium graminearum Schw.,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00379,Fusarium graminearum YM 3042,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00380,Fusarium graminearum YM 3157,ORGANISM,5518,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00381,Fusarium lateritium,ORGANISM,5523,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00382,Fusarium mangiferae,ORGANISM,192010,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00383,Fusarium odoratissimum,ORGANISM,2502994,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00384,Fusarium oxysporum,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00385,Fusarium oxysporum CGMCC 3.2830,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00386,Fusarium oxysporum Dahl-1,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00387,Fusarium oxysporum f. sp. Cubense,ORGANISM,61366,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00388,Fusarium oxysporum f. sp. Cucumerinum,ORGANISM,5508,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00389,Fusarium oxysporum f. sp. lycopersici,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00390,Fusarium oxysporum f. sp. momordicae,ORGANISM,179144,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00391,Fusarium oxysporum f. sp. nicotianae,ORGANISM,2012860,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00392,Fusarium oxysporum f. sp. niveum,ORGANISM,120297,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00393,Fusarium oxysporum f. sp. radicis lycopersici,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00394,Fusarium oxysporum f. sp. radicis lycopersici QDAUNA10,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00395,Fusarium oxysporum f. sp. Tracheiphilum,ORGANISM,380146,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00396,Fusarium oxysporum f. sp. Vasinfectum,ORGANISM,61374,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00397,Fusarium oxysporum HNM 1003,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00398,Fusarium oxysporum PH-1,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00399,Fusarium oxysporum QDAU-5,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00400,Fusarium oxysporum Schlecht,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00401,Fusarium oxysporum subsp. Cucumerinum NBRC 31224,ORGANISM,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00402,Fusarium proliferatum QDAUNA30,ORGANISM,948311,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00403,Fusarium solani,ORGANISM,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00404,Fusarium solani Dahl-3,ORGANISM,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00405,Fusarium solani MLBM227,ORGANISM,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00406,Fusarium solani QDAU-15,ORGANISM,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00407,Fusarium solanum,ORGANISM,NA,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00408,Fusarium sp. Dahl-2,ORGANISM,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00409,Fusarium sulphureum,ORGANISM,185651,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00410,Fusarium tricinctum,ORGANISM,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00411,Fusarium udum,ORGANISM,42665,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00412,Fusarium verticillioides,ORGANISM,117187,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00413,Fusarium verticillioides Sheld,ORGANISM,117187,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00414,Fusarium verticillioides YM 3067,ORGANISM,117187,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium
+ENTO00415,Gaeumannomyces graminis,ORGANISM,29850,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthaceae,Gaeumannomyces
+ENTO00416,Gaeumannomyces graminis QDAU-3,ORGANISM,29850,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthaceae,Gaeumannomyces
+ENTO00417,Gaeumannomyces graminis var. graminis,ORGANISM,29850,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthaceae,Gaeumannomyces
+ENTO00418,Geobacillus stearothermophilus,ORGANISM,1422,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Geobacillus
+ENTO00419,Geotrichum candidum,ORGANISM,1173061,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum
+ENTO00420,Geotrichum candidum AS2.498,ORGANISM,1173061,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum
+ENTO00421,Geotrichum candidum IFO 4598,ORGANISM,1173061,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum
+ENTO00422,Geotrichum citri-aurantii,ORGANISM,58640,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum
+ENTO00423,Globisporangium ultimum,ORGANISM,2052682,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Pythiales,Pythiaceae,Globisporangium
+ENTO00424,Glomerella cingulate QDAU-2,ORGANISM,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum
+ENTO00425,H1N1,ORGANISM,114727,Viruses,Orthornavirae,Negarnaviricota,Insthoviricetes,Articulavirales,Orthomyxoviridae,Alphainfluenzavirus
+ENTO00426,H1N1 influenza A virus,ORGANISM,114727,Viruses,Orthornavirae,Negarnaviricota,Insthoviricetes,Articulavirales,Orthomyxoviridae,Alphainfluenzavirus
+ENTO00427,H3N2,ORGANISM,119210,Viruses,Orthornavirae,Negarnaviricota,Insthoviricetes,Articulavirales,Orthomyxoviridae,Alphainfluenzavirus
+ENTO00428,Helicoverpa armigera,ORGANISM,29058,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Helicoverpa
+ENTO00429,Hepacivirus C,ORGANISM,11103,Viruses,Orthornavirae,Kitrinoviricota,Flasuviricetes,Amarillovirales,Flaviviridae,Hepacivirus
+ENTO00430,Homo sapiens,ORGANISM,9606,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Homo
+ENTO00431,Human coronavirus 229E,ORGANISM,11137,Viruses,Orthornavirae,Pisuviricota,Pisoniviricetes,Nidovirales,Coronaviridae,Alphacoronavirus
+ENTO00432,Human immunodeficiency virus 1,ORGANISM,11676,Viruses,Pararnavirae,Artverviricota,Revtraviricetes,Ortervirales,Retroviridae,Lentivirus
+ENTO00433,Influenza viral strain of A/Puerto Rico/8/34 (H1N1),ORGANISM,114727,Viruses,Orthornavirae,Negarnaviricota,Insthoviricetes,Articulavirales,Orthomyxoviridae,Alphainfluenzavirus
+ENTO00434,Irpex lacteus,ORGANISM,5319,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Irpicaceae,Irpex
+ENTO00435,Klebsiella aerogenes,ORGANISM,548,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00436,Klebsiella aerogenes MCC 3092,ORGANISM,548,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00437,Klebsiella pneumoniae,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00438,Klebsiella pneumoniae ATCC 10031,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00439,Klebsiella pneumoniae ATCC 13883,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00440,Klebsiella pneumoniae ATCC 700603,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00441,Klebsiella pneumoniae ATCC 75388,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00442,Klebsiella pneumoniae CMCC(B) 46117,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00443,Klebsiella pneumoniae IFO 13541,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00444,Klebsiella pneumoniae MCC 2451,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00445,Klebsiella pneumoniae MTCC 109,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00446,Klebsiella pneumoniae MTCC 530,ORGANISM,575,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Raoultella
+ENTO00447,Klebsiella pneumoniae WNX-1,ORGANISM,573,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella
+ENTO00448,Kocuria rhizophila ATCC 9341,ORGANISM,72000,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Kocuria
+ENTO00449,Kocuria rhizophila DC2201,ORGANISM,378753,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Kocuria
+ENTO00450,Lactococcus lactis,ORGANISM,1358,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus
+ENTO00451,Lactococcus lactis BNCC 336474,ORGANISM,1358,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus
+ENTO00452,Lactuca sativa,ORGANISM,4236,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Lactuca
+ENTO00453,"Lactuca sativa cv. L., iceberg",ORGANISM,4236,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Lactuca
+ENTO00454,Legionella pneumophila Corby,ORGANISM,446,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Legionellales,Legionellaceae,Legionella
+ENTO00455,Leishmania amazonensis,ORGANISM,5659,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Leishmania
+ENTO00456,Leishmania braziliensis,ORGANISM,5660,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Leishmania
+ENTO00457,Leishmania donovani,ORGANISM,5661,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Leishmania
+ENTO00458,Leishmania infantum,ORGANISM,5671,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Leishmania
+ENTO00459,Lepidium sativum,ORGANISM,33125,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Lepidium
+ENTO00460,Leucostoma kunzei,ORGANISM,242520,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Leucostoma
+ENTO00461,Listeria monocytogenes,ORGANISM,1639,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Listeriaceae,Listeria
+ENTO00462,Listeria monocytogenes ATCC 15313,ORGANISM,1639,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Listeriaceae,Listeria
+ENTO00463,Listeria monocytogenes ATCC 19114,ORGANISM,1639,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Listeriaceae,Listeria
+ENTO00464,Listeria monocytogenes ATCC 19115,ORGANISM,1639,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Listeriaceae,Listeria
+ENTO00465,Medicago sativa,ORGANISM,3879,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Medicago
+ENTO00466,Methicillin-resistant Staphylococcus aureus,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00467,Methicillin-resistant Staphylococcus aureus #310,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00468,Methicillin-resistant Staphylococcus aureus 340702,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00469,Methicillin-resistant Staphylococcus aureus 43000,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00470,Methicillin-resistant Staphylococcus aureus 66/1,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00471,Methicillin-resistant Staphylococcus aureus 67,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00472,Methicillin-resistant Staphylococcus aureus A7983,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00473,Methicillin-resistant Staphylococcus aureus ATCC 29591,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00474,Methicillin-resistant Staphylococcus aureus ATCC 33591,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00475,Methicillin-resistant Staphylococcus aureus ATCC 33592,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00476,Methicillin-resistant Staphylococcus aureus ATCC 43300,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00477,Methicillin-resistant Staphylococcus aureus ATCC 700699,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00478,Methicillin-resistant Staphylococcus aureus Clinical strain of Chaoyang Hospital,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00479,Methicillin-resistant Staphylococcus aureus CMCC(B) 63303,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00480,Methicillin-resistant Staphylococcus aureus EMBLCNA4,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00481,Methicillin-resistant Staphylococcus aureus GIM 1.771,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00482,Methicillin-resistant Staphylococcus aureus JCSC 3063,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00483,Methicillin-resistant Staphylococcus aureus Mu50,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00484,Methicillin-resistant Staphylococcus aureus NewmanWT,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00485,Methicillin-resistant Staphylococcus aureus PAGU 841,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00486,Methicillin-resistant Staphylococcus aureus RN4220,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00487,Methicillin-resistant Staphylococcus aureus strain JCSC 4788,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00488,Methicillin-resistant Staphylococcus aureus USA300 LAC strain AH1263,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00489,Methicillin-resistant Staphylococcus aureus YM 3106,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00490,Methicillin-resistant Staphylococcus epidermidis 16-5,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00491,Methicillin-resistant Staphylococcus epidermidis ATCC 35984,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00492,Methicillin-susceptible Staphylococcus aureus,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00493,Methicillin-susceptible Staphylococcus aureus ATCC 29213,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00494,Methicillin-susceptible Staphylococcus epidermidis ATCC 12228,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00495,Microbotryum violaceum,ORGANISM,5272,Eukaryota,Fungi,Basidiomycota,Microbotryomycetes,Microbotryales,Microbotryaceae,Microbotryum
+ENTO00496,Micrococcus luteus,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00497,Micrococcus luteus ATCC 10240,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00498,Micrococcus luteus ATCC 9343,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00499,Micrococcus luteus DSM 1790,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00500,Micrococcus luteus DSMZ 1605,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00501,Micrococcus luteus IFO 12708,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00502,Micrococcus luteus MTCC 1541,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00503,Micrococcus luteus MTCC 2470,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00504,Micrococcus luteus QDIO-3,ORGANISM,1270,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus
+ENTO00505,Micrococcus tetragenus,ORGANISM,NA,Bacteria,No Rank at Level Kingdom,Actinobacteria,Actinobacteria,Actinomycetales,Micrococcaceae,Micrococcus
+ENTO00506,Micrococcus tetragenus ATCC 13623,ORGANISM,NA,Bacteria,No Rank at Level Kingdom,Actinobacteria,Actinobacteria,Actinomycetales,Micrococcaceae,Micrococcus
+ENTO00507,Micrococcus tetragenus ATCC 35098,ORGANISM,NA,Bacteria,No Rank at Level Kingdom,Actinobacteria,Actinobacteria,Actinomycetales,Micrococcaceae,Micrococcus
+ENTO00508,Morganella morganii ATCC 25830,ORGANISM,582,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Morganella
+ENTO00509,Morganella morganii KL-225,ORGANISM,582,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Morganella
+ENTO00510,Mucor hiemalis,ORGANISM,64493,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor
+ENTO00511,Mucor hiemalis DSM 2656,ORGANISM,64493,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor
+ENTO00512,Mucor plumbeus MUCL 49355,ORGANISM,97098,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor
+ENTO00513,Mucor racemosus IFO 4581,ORGANISM,4841,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor
+ENTO00514,Multi-drug resistant Enterococcus faecalis,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00515,Multi-drug resistant Enterococcus faecium,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00516,Multi-drug resistant Staphylococcus epidermidis,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00517,Mus musculus,ORGANISM,10090,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,Mus
+ENTO00518,Mycobacterium avium reference strain ATCC 25291,ORGANISM,1764,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00519,Mycobacterium intracellulare ATCC 23068,ORGANISM,1767,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00520,Mycobacterium intracellulare reference strain ATCC 13950,ORGANISM,1767,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00521,Mycobacterium marinum ATCCBAA-535,ORGANISM,1781,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00522,Mycobacterium phlei AS 4.1180,ORGANISM,1771,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00523,Mycobacterium smegmatis,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00524,Mycobacterium smegmatis ATCC 607,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00525,Mycobacterium smegmatis ATCC 700084,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00526,Mycobacterium smegmatis CMCC 93321,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00527,Mycobacterium smegmatis mc2155 ATCC 70084,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00528,Mycobacterium smegmatis MTCC 6,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00529,Mycobacterium smegmetis,ORGANISM,1772,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycolicibacterium
+ENTO00530,Mycobacterium tuberculosis,ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00531,Mycobacterium tuberculosis H37Ra,ORGANISM,419947,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00532,Mycobacterium tuberculosis H37Ra ATCC 25177,ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00533,Mycobacterium tuberculosis H37Rv,ORGANISM,83332,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00534,Mycobacterium tuberculosis H37Rv ATCC 25177,ORGANISM,83332,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00535,Mycobacterium tuberculosis H37Rv reference strain ATCC 27294,ORGANISM,83332,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00536,Mycobacterium tuberculosis RCMB 010094-9,ORGANISM,1773,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00537,Mycobacterium tuberculosis variant bovis BCG,ORGANISM,33892,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00538,Mycobacterium tuberculosis variant bovis BCG strain Pasteur 1173P2,ORGANISM,410289,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00539,Mycobacterium tuberculosis variant bovis strain Pasteur ATCC 35734,ORGANISM,1765,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Mycobacteriales,Mycobacteriaceae,Mycobacterium
+ENTO00540,Mycosphaerella arachidis,ORGANISM,143450,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Mycosphaerella
+ENTO00541,Mycosphaerella arachidis Hori,ORGANISM,143450,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Mycosphaerella
+ENTO00542,Mycotypha microspora,ORGANISM,64633,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mycotyphaceae,Mycotypha
+ENTO00543,Mythimna separata,ORGANISM,271217,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Mythimna
+ENTO00544,Nakaseomyces glabratus ATCC 2001,ORGANISM,5478,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Nakaseomyces
+ENTO00545,Nannizzia gypsea,ORGANISM,63402,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Nannizzia
+ENTO00546,Nannizzia gypsea SH-MU-4,ORGANISM,63402,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Nannizzia
+ENTO00547,Nectria sp.,ORGANISM,1755444,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Nectria
+ENTO00548,Nigrospora oryzae,ORGANISM,335854,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora
+ENTO00549,Nothopassalora personata,ORGANISM,2060155,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Nothopassalora
+ENTO00550,Ophiostoma minus YM3429,ORGANISM,150568,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Ophiostoma
+ENTO00551,Ophiostoma ulmi,ORGANISM,5174,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Ophiostomatales,Ophiostomataceae,Ophiostoma
+ENTO00552,Oryctolagus cuniculus,ORGANISM,9986,Eukaryota,Metazoa,Chordata,Mammalia,Lagomorpha,Leporidae,Oryctolagus
+ENTO00553,Oryza sativa,ORGANISM,4530,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Oryza
+ENTO00554,Ovis aries,ORGANISM,9940,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Bovidae,Ovis
+ENTO00555,Paecilomyces lilacinus,ORGANISM,33203,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Purpureocillium
+ENTO00556,Panagrellus redivivus,ORGANISM,6233,Eukaryota,Metazoa,Nematoda,Chromadorea,Rhabditida,Panagrolaimidae,Panagrellus
+ENTO00557,Panicum miliaceum,ORGANISM,4540,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Panicum
+ENTO00558,Pantoea agglomerans,ORGANISM,549,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea
+ENTO00559,Paracoccidioides brasiliensis,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00560,Paracoccidioides brasiliensis ED01,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00561,Paracoccidioides brasiliensis Pb 01,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00562,Paracoccidioides brasiliensis Pb 11,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00563,Paracoccidioides brasiliensis Pb 14,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00564,Paracoccidioides brasiliensis Pb 1578,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00565,Paracoccidioides brasiliensis Pb 18,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00566,Paracoccidioides brasiliensis Pb 2,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00567,Paracoccidioides brasiliensis Pb 3,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00568,Paracoccidioides brasiliensis Pb 4,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00569,Paracoccidioides brasiliensis Pb 8,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00570,Paracoccidioides brasiliensis Pb B339,ORGANISM,121759,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,No Rank at Level Family,Paracoccidioides
+ENTO00571,Pectobacterium carotovorum,ORGANISM,554,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Pectobacteriaceae,Pectobacterium
+ENTO00572,Pectobacterium carotovorum subsp. Carotovorum,ORGANISM,555,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Pectobacteriaceae,Pectobacterium
+ENTO00573,Pectobacterium chrysanthemi,ORGANISM,556,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Pectobacteriaceae,Dickeya
+ENTO00574,Penicillium chrysogenum,ORGANISM,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00575,Penicillium citrinum,ORGANISM,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00576,Penicillium citrinum Thom,ORGANISM,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00577,Penicillium decumbens,ORGANISM,69771,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00578,Penicillium digitatum,ORGANISM,36651,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00579,Penicillium digitatum QDAU-11,ORGANISM,36651,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00580,Penicillium digitatum QDAUNA14,ORGANISM,36651,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00581,Penicillium expansum,ORGANISM,27334,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00582,Penicillium italicum,ORGANISM,40296,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00583,Penicillium italicum BNCC 118157,ORGANISM,40296,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00584,Penicillium italicum Wehme,ORGANISM,40296,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium
+ENTO00585,Penicillium piricola Nose QDAU-12,ORGANISM,NA,Eukaryota,Fungi,No Rank at Level Phylum,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus
+ENTO00586,Peony anthracnose,ORGANISM,NA,Eukaryota,Fungi,No Rank at Level Phylum,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus
+ENTO00587,Pestalotia diospyri,ORGANISM,2075254,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Amphisphaeriaceae,Pestalotia
+ENTO00588,Pestalotiopsis sp.,ORGANISM,36460,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis
+ENTO00589,Phoma herbarum,ORGANISM,73001,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma
+ENTO00590,Phomopsis obscurans,ORGANISM,291056,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis
+ENTO00591,Phyllosticta citricarpa,ORGANISM,55181,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Phyllosticta
+ENTO00592,Phyllosticta zingiberi,ORGANISM,NA,Eukaryota,Fungi,No Rank at Level Phylum,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus
+ENTO00593,Physalospora obtusa,ORGANISM,398385,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hyponectriaceae,Physalospora
+ENTO00594,Phytophthora cactorum,ORGANISM,29920,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00595,Phytophthora cambivora,ORGANISM,53983,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00596,Phytophthora capsici,ORGANISM,4784,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00597,Phytophthora capsici BNCC 339721,ORGANISM,4784,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00598,Phytophthora capsici Leonian,ORGANISM,4784,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00599,Phytophthora cinnamomi,ORGANISM,4785,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00600,Phytophthora citrophthora,ORGANISM,4793,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00601,Phytophthora infestans,ORGANISM,4787,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00602,Phytophthora nicotianae,ORGANISM,4790,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00603,Phytophthora parasitica,ORGANISM,4792,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00604,Phytophthora parasitica Dastur,ORGANISM,4792,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00605,Phytophthora parasitica var. nicotianae,ORGANISM,1368100,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00606,Phytophthora sojae race 1,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00607,Phytophthora sojae race 13,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00608,Phytophthora sojae race 3,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00609,Phytophthora sojae race 4,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00610,Phytophthora sojae race 44,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00611,Phytophthora sojae race 5,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00612,Phytophthora sojae race 54,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00613,Phytophthora sojae race 9,ORGANISM,67593,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00614,Phytophthora sp.,ORGANISM,89336,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Phytophthora
+ENTO00615,Phytopythium helicoides,ORGANISM,126844,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Pythiales,Pythiaceae,Phytopythium
+ENTO00616,Pichia kudriavzevii,ORGANISM,4909,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Pichiaceae,Pichia
+ENTO00617,Pichia kudriavzevii ATCC 6258,ORGANISM,4909,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Pichiaceae,Pichia
+ENTO00618,Plasmodium falciparum,ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00619,"Plasmodium falciparum (K1, multidrug-resistant strain)",ORGANISM,5839,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00620,Plasmodium falciparum 3D7,ORGANISM,36329,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00621,Plasmodium falciparum Dd2,ORGANISM,57267,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00622,Plasmodium falciparum INDO (PfINDO),ORGANISM,5833,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Aconoidasida,Haemosporida,Plasmodiidae,Plasmodium
+ENTO00623,Plasmopara viticola,ORGANISM,143451,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Peronosporales,Peronosporaceae,Plasmopara
+ENTO00624,Plectosphaerella cucumerina,ORGANISM,40658,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Plectosphaerella
+ENTO00625,Portulaca oleracea,ORGANISM,46147,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Portulacaceae,Portulaca
+ENTO00626,Proteus vulgaris,ORGANISM,585,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus
+ENTO00627,Proteus vulgaris ATCC 3851,ORGANISM,585,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus
+ENTO00628,Proteus vulgaris MTCC 1771,ORGANISM,585,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus
+ENTO00629,Proteus vulgaris NBRC 3167,ORGANISM,585,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus
+ENTO00630,Pseudocercospora circumscissa,ORGANISM,858774,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Pseudocercospora
+ENTO00631,Pseudocercospora fijiensis,ORGANISM,1873960,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Pseudocercospora
+ENTO00632,Pseudomonas aeruginosa,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00633,Pseudomonas aeruginosa 14,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00634,Pseudomonas aeruginosa 1688,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00635,Pseudomonas aeruginosa 2A,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00636,Pseudomonas aeruginosa ATCC 10145,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00637,Pseudomonas aeruginosa ATCC 15442,ORGANISM,1424337,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00638,Pseudomonas aeruginosa ATCC 15542,ORGANISM,1424337,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00639,Pseudomonas aeruginosa ATCC 27079,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00640,Pseudomonas aeruginosa ATCC 27833,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00641,Pseudomonas aeruginosa ATCC 27853,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00642,Pseudomonas aeruginosa ATCC 87110,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00643,Pseudomonas aeruginosa ATCC 9027,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00644,Pseudomonas aeruginosa AUMC-B-73,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00645,Pseudomonas aeruginosa B 63230,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00646,Pseudomonas aeruginosa CMCC(B) 10104,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00647,Pseudomonas aeruginosa GIM 1.200,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00648,Pseudomonas aeruginosa IFO 3080,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00649,Pseudomonas aeruginosa LN11,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00650,Pseudomonas aeruginosa MTCC 2453,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00651,Pseudomonas aeruginosa MTCC 424,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00652,Pseudomonas aeruginosa NBRC 12582,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00653,Pseudomonas aeruginosa NCIM No. 2200,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00654,Pseudomonas aeruginosa PA 14,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00655,Pseudomonas aeruginosa PAO1,ORGANISM,208964,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00656,Pseudomonas aeruginosa QDIO-4,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00657,Pseudomonas aeruginosa QDIONA4,ORGANISM,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00658,Pseudomonas agarici DSMZ 11810,ORGANISM,46677,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00659,Pseudomonas amygdali pv. lachrymans ATCC 11921,ORGANISM,53707,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00660,Pseudomonas fluorescens,ORGANISM,294,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00661,Pseudomonas fluorescens MTCC 103,ORGANISM,294,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00662,Pseudomonas syringae,ORGANISM,317,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00663,Pseudomonas syringae pv. actinidiae,ORGANISM,103796,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00664,Pseudomonas syringae pv. lachrymans,ORGANISM,53707,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00665,Pseudomonas syringae pv. lachrymans ATCC 11921,ORGANISM,317,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas
+ENTO00666,Pseudopestalotiopsis theae,ORGANISM,218556,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pseudopestalotiopsis
+ENTO00667,Pyricularia oryzae,ORGANISM,318829,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia
+ENTO00668,Pyricularia oryzae Guy 11,ORGANISM,318829,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia
+ENTO00669,Pyricularia oryzae HNM 1003,ORGANISM,318829,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia
+ENTO00670,Pyricularia oryzae KF180,ORGANISM,318829,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia
+ENTO00671,Pyricularia oryzae P131,ORGANISM,1143193,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia
+ENTO00672,Pyricularia oryzae YM 3051,ORGANISM,318829,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Pyriculariaceae,Pyricularia
+ENTO00673,Pythium graminicola,ORGANISM,82937,Eukaryota,No Rank at Level Kingdom,Oomycota,No Rank at Level Class,Pythiales,Pythiaceae,Pythium
+ENTO00674,Ralstonia solanacearum,ORGANISM,305,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia
+ENTO00675,Ralstonia solanacearum ATCC 11696,ORGANISM,305,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia
+ENTO00676,Ralstonia solanacearum K60,ORGANISM,1091042,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia
+ENTO00677,Raphanus sativus,ORGANISM,3726,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Raphanus
+ENTO00678,Rattus norvegicus,ORGANISM,10116,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,Rattus
+ENTO00679,Respiratory syncytial virus,ORGANISM,12814,Viruses,Orthornavirae,Negarnaviricota,Monjiviricetes,Mononegavirales,Pneumoviridae,Orthopneumovirus
+ENTO00680,Rhizoctonia cerealis,ORGANISM,76351,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Ceratobasidium
+ENTO00681,Rhizoctonia solani,ORGANISM,456999,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Rhizoctonia
+ENTO00682,Rhizoctonia solani Kuhn,ORGANISM,456999,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Cantharellales,Ceratobasidiaceae,Rhizoctonia
+ENTO00683,Rhizomucor miehei,ORGANISM,4839,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Lichtheimiaceae,Rhizomucor
+ENTO00684,Rhizopus arrhizus ATCC 10404,ORGANISM,64495,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus
+ENTO00685,Rhizopus stolonifer,ORGANISM,4846,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus
+ENTO00686,Rhodotorula glutinis DSM 10134,ORGANISM,5535,Eukaryota,Fungi,Basidiomycota,Microbotryomycetes,Sporidiobolales,Sporidiobolaceae,Rhodotorula
+ENTO00687,Saccharomyces cerevisiae,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00688,Saccharomyces cerevisiae ATCC 18824,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00689,Saccharomyces cerevisiae ATCC 204508,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00690,Saccharomyces cerevisiae ATCC 9080,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00691,Saccharomyces cerevisiae ATCC 9763,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00692,Saccharomyces cerevisiae ATCC 9804,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00693,Saccharomyces cerevisiae BY4742,ORGANISM,4932,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Saccharomyces
+ENTO00694,Salmonella enterica,ORGANISM,28901,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00695,Salmonella enterica ATCC 14028,ORGANISM,28901,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00696,Salmonella enterica strains S1,ORGANISM,28901,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00697,Salmonella enterica strains S2,ORGANISM,28901,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00698,Salmonella enterica subsp. enterica ATCC14028,ORGANISM,28901,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00699,Salmonella enterica subsp. enterica serovar Enteritidis,ORGANISM,149539,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00700,Salmonella enterica subsp. enterica serovar Enteritidis ATCC 13076,ORGANISM,149539,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00701,Salmonella enterica subsp. enterica serovar Enteritidis ATCC 14028,ORGANISM,149539,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00702,Salmonella enterica subsp. enterica serovar Enteritidis ATCC 25923,ORGANISM,149539,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00703,Salmonella enterica subsp. enterica serovar Paratyphi B,ORGANISM,57045,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00704,Salmonella enterica subsp. enterica serovar Typhi,ORGANISM,90370,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00705,Salmonella enterica subsp. enterica serovar Typhi MTCC 733,ORGANISM,90370,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00706,Salmonella enterica subsp. enterica serovar Typhimurium,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00707,Salmonella enterica subsp. enterica serovar Typhimurium ATCC 13311,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00708,Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00709,Salmonella enterica subsp. enterica serovar Typhimurium ATCC 6539,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00710,Salmonella enterica subsp. enterica serovar Typhimurium MTCC 98,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00711,Salmonella enterica subsp. enterica serovar Typhimurium NCIM No. 2501,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00712,Salmonella enterica subsp. enterica serovar Typhimurium YM 3115,ORGANISM,90371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00713,Salmonella sp.,ORGANISM,599,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella
+ENTO00714,Schistosoma mansoni,ORGANISM,6183,Eukaryota,Metazoa,Platyhelminthes,Trematoda,Strigeidida,Schistosomatidae,Schistosoma
+ENTO00715,Schizosaccharomyces pombe,ORGANISM,4896,Eukaryota,Fungi,Ascomycota,Schizosaccharomycetes,Schizosaccharomycetales,Schizosaccharomycetaceae,Schizosaccharomyces
+ENTO00716,Schizosaccharomyces pombe DSM 70572,ORGANISM,4896,Eukaryota,Fungi,Ascomycota,Schizosaccharomycetes,Schizosaccharomycetales,Schizosaccharomycetaceae,Schizosaccharomyces
+ENTO00717,Sclerotinia miyabeana,ORGANISM,NA,Eukaryota,Fungi,No Rank at Level Phylum,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus
+ENTO00718,Sclerotinia sclerotiorum,ORGANISM,5180,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Sclerotinia
+ENTO00719,Sclerotinia sclerotiorum BNCC 122299,ORGANISM,5180,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Sclerotinia
+ENTO00720,Sclerotinia sclerotiorum DSM 1946,ORGANISM,5180,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,Sclerotinia
+ENTO00721,Scrophularia ningpoensis,ORGANISM,291326,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Scrophulariaceae,Scrophularia
+ENTO00722,Setaria italica,ORGANISM,4555,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Setaria
+ENTO00723,Setaria viridis,ORGANISM,4556,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Setaria
+ENTO00724,Severe acute respiratory syndrome coronavirus,ORGANISM,2901879,Viruses,Orthornavirae,Pisuviricota,Pisoniviricetes,Nidovirales,Coronaviridae,Betacoronavirus
+ENTO00725,Shewanella putrefaciens,ORGANISM,24,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella
+ENTO00726,Shigella dysenteriae,ORGANISM,622,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella
+ENTO00727,Shigella dysenteriae ATCC 11835,ORGANISM,622,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella
+ENTO00728,Shigella flexneri ATCC 12022,ORGANISM,623,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella
+ENTO00729,Shigella flexneri SDINT,ORGANISM,623,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella
+ENTO00730,Shigella sp.,ORGANISM,625,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella
+ENTO00731,Solanum lycopersicum,ORGANISM,4081,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Solanales,Solanaceae,Solanum
+ENTO00732,Spinacia oleracea,ORGANISM,3562,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Caryophyllales,Chenopodiaceae,Spinacia
+ENTO00733,Spodoptera litura,ORGANISM,69820,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Noctuidae,Spodoptera
+ENTO00734,Stagonosporopsis cucurbitacearum,ORGANISM,749889,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Stagonosporopsis
+ENTO00735,Staphylococcus aureus,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00736,Staphylococcus aureus 209P,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00737,Staphylococcus aureus 25697,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00738,Staphylococcus aureus 3160,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00739,Staphylococcus aureus ATCC 12228,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00740,Staphylococcus aureus ATCC 12600,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00741,Staphylococcus aureus ATCC 25923,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00742,Staphylococcus aureus ATCC 27154,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00743,Staphylococcus aureus ATCC 27734,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00744,Staphylococcus aureus ATCC 2921,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00745,Staphylococcus aureus ATCC 29213,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00746,Staphylococcus aureus ATCC 29923,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00747,Staphylococcus aureus ATCC 29978,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00748,Staphylococcus aureus ATCC 43300,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00749,Staphylococcus aureus ATCC 51650,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00750,Staphylococcus aureus ATCC 6538,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00751,Staphylococcus aureus ATCC 6538P,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00752,Staphylococcus aureus ATCC 700699,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00753,Staphylococcus aureus ATCC 8799,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00754,Staphylococcus aureus AUMC-B-54,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00755,Staphylococcus aureus CGMCC 1.2465,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00756,Staphylococcus aureus clinical isolate,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00757,Staphylococcus aureus clinical isolate # 1,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00758,Staphylococcus aureus CMCC(B) 26001,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00759,Staphylococcus aureus CMCC(B) 26003,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00760,Staphylococcus aureus col CGMCC 1.2465,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00761,Staphylococcus aureus CPCC 140594,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00762,Staphylococcus aureus DSM 346,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00763,Staphylococcus aureus DSM 799,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00764,Staphylococcus aureus EMBLC-2,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00765,Staphylococcus aureus EMRSA-15,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00766,Staphylococcus aureus EMRSA-17,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00767,"Staphylococcus aureus GISA, ATCC 700787",ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00768,Staphylococcus aureus IFO 12732,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00769,Staphylococcus aureus MTCC 7443,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00770,Staphylococcus aureus MTCC 96,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00771,Staphylococcus aureus N50,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00772,Staphylococcus aureus NBRC 13276,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00773,Staphylococcus aureus NCIM No. 2079,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00774,Staphylococcus aureus NCTC 6571,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00775,Staphylococcus aureus NRS 17,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00776,Staphylococcus aureus P1571,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00777,Staphylococcus aureus PAGU 273,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00778,Staphylococcus aureus SA1199,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00779,Staphylococcus aureus SA1199B,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00780,Staphylococcus aureus subsp.,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00781,Staphylococcus aureus subsp. aureus (DSM 799),ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00782,Staphylococcus aureus subsp. aureus ATCC 29213,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00783,Staphylococcus aureus VRS 1,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00784,Staphylococcus aureus VRS 4,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00785,Staphylococcus aureus XU212,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00786,Staphylococcus aureus YM 3105,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00787,Staphylococcus aureus YMF 3.17,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00788,Staphylococcus epidermidis,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00789,Staphylococcus epidermidis ATCC 12228,ORGANISM,176280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00790,Staphylococcus epidermidis ATCC 8799,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00791,Staphylococcus epidermidis MTCC 435,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00792,Staphylococcus epidermidis PAGU 283,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00793,Staphylococcus epidermidis Rosenbach,ORGANISM,1282,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00794,Staphylococcus haemolyticus,ORGANISM,1283,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00795,Staphylococcus haemolyticus ATCC 29970,ORGANISM,1283,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00796,Staphylococcus hominis ATCC 35982,ORGANISM,1290,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00797,Staphylococcus saprophyticus ATCC 15305,ORGANISM,29385,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00798,Staphylococcus simulans ATCC 11631,ORGANISM,1286,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00799,Staphylococcus warneri DSMZ 20036,ORGANISM,1292,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00800,Stemphylium solani,ORGANISM,110364,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium
+ENTO00801,Streptococcus mutans,ORGANISM,1309,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00802,Streptococcus mutans MTCC 890,ORGANISM,1309,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00803,Streptococcus pneumoniae,ORGANISM,1313,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00804,Streptococcus pneumoniae ATCC 49619,ORGANISM,1313,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00805,Streptococcus pneumoniae ATCC 70674,ORGANISM,1313,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00806,Streptococcus pneumoniae ATCC 70676,ORGANISM,1313,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00807,Streptococcus pneumoniae CGMCC 1.1692,ORGANISM,1313,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00808,Streptococcus pneumoniae MDR,ORGANISM,1313,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00809,Streptococcus pyogenes,ORGANISM,1314,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00810,Streptococcus pyogenes MTCC 442,ORGANISM,1314,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus
+ENTO00811,Sus scrofa,ORGANISM,9823,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Suidae,Sus
+ENTO00812,Talaromyces islandicus YM 3104,ORGANISM,28573,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces
+ENTO00813,Talaromyces marneffei clinical isolate,ORGANISM,37727,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces
+ENTO00814,Taphrina wiesneri,ORGANISM,5012,Eukaryota,Fungi,Ascomycota,Taphrinomycetes,Taphrinales,Taphrinaceae,Taphrina
+ENTO00815,Taraxacum mongolicum,ORGANISM,90037,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Asterales,Asteraceae,Taraxacum
+ENTO00816,Tetranychus urticae,ORGANISM,32264,Eukaryota,Metazoa,Arthropoda,Arachnida,Trombidiformes,Tetranychidae,Tetranychus
+ENTO00817,Thielaviopsis paradoxa,ORGANISM,13001,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Microascales,Ceratocystidaceae,Thielaviopsis
+ENTO00818,Thielaviopsis paradoxa moreau,ORGANISM,13001,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Microascales,Ceratocystidaceae,Thielaviopsis
+ENTO00819,Tobacco mosaic virus,ORGANISM,12242,Viruses,Orthornavirae,Kitrinoviricota,Alsuviricetes,Martellivirales,Virgaviridae,Tobamovirus
+ENTO00820,Toxoplasma gondii ME49,ORGANISM,508771,Eukaryota,No Rank at Level Kingdom,Apicomplexa,Conoidasida,Eucoccidiorida,Sarcocystidae,Toxoplasma
+ENTO00821,Trichophyton mentagrophytes,ORGANISM,523103,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton
+ENTO00822,Trichophyton rubrum,ORGANISM,5551,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton
+ENTO00823,Trichophyton rubrum ATCC 28189,ORGANISM,5551,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton
+ENTO00824,Trichophyton rubrum ID00001,ORGANISM,5551,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Onygenales,Arthrodermataceae,Trichophyton
+ENTO00825,Trifolium hybridum,ORGANISM,74517,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium
+ENTO00826,Trifolium pratense,ORGANISM,57577,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium
+ENTO00827,Trypanosoma brucei,ORGANISM,5691,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00828,Trypanosoma brucei brucei,ORGANISM,5702,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00829,Trypanosoma brucei brucei GUTat3.1,ORGANISM,5691,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00830,Trypanosoma brucei brucei S427,ORGANISM,5691,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00831,Trypanosoma brucei rhodensiense STIB900,ORGANISM,5691,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00832,Trypanosoma brucei rhodesiense,ORGANISM,31286,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00833,Trypanosoma cruzi,ORGANISM,5693,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00834,Trypanosoma cruzi epimastigotes,ORGANISM,5693,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00835,Trypanosoma cruzi trypomastigotes,ORGANISM,5693,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00836,Trypanosoma cruzi Tulahuen C4,ORGANISM,5693,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00837,Trypanosoma cruzi Tulahuen C4C8,ORGANISM,5693,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00838,Trypanosoma cruzi Y strain DTU II,ORGANISM,5693,Eukaryota,No Rank at Level Kingdom,Euglenozoa,Kinetoplastea,Trypanosomatida,Trypanosomatidae,Trypanosoma
+ENTO00839,Ustilago maydis,ORGANISM,5270,Eukaryota,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Ustilago
+ENTO00840,Ustilago maydis AB33,ORGANISM,5270,Eukaryota,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Ustilago
+ENTO00841,Ustilago scitaminea Syd,ORGANISM,49012,Eukaryota,Fungi,Basidiomycota,Ustilaginomycetes,Ustilaginales,Ustilaginaceae,Sporisorium
+ENTO00842,Valsa mali,ORGANISM,105487,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Valsa
+ENTO00843,Valsa mali QDAU-13,ORGANISM,105487,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Valsa
+ENTO00844,Vancomycin-resistant Enterococcus faecalis A4,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00845,Vancomycin-resistant Enterococcus faecalis ATCC 51299,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00846,Vancomycin-resistant Enterococcus faecalis B3/101,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00847,Vancomycin-resistant Enterococcus faecalis PAG100,ORGANISM,1351,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00848,Vancomycin-resistant Enterococcus faecium,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00849,Vancomycin-resistant Enterococcus faecium #436,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00850,Vancomycin-resistant Enterococcus faecium ATCC 700221,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00851,Vancomycin-resistant Staphylococcus aureus 700699,ORGANISM,1280,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus
+ENTO00852,Vancomycin-sensitive Enterococcus faecium #436,ORGANISM,1352,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus
+ENTO00853,Vanrija humicola,ORGANISM,5417,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Trichosporonales,Trichosporonaceae,Vanrija
+ENTO00854,Veronica persica,ORGANISM,138560,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Lamiales,Plantaginaceae,Veronica
+ENTO00855,Verticillium dahliae,ORGANISM,27337,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Verticillium
+ENTO00856,Verticillium dahliae CGMCC 3758,ORGANISM,27337,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Verticillium
+ENTO00857,Verticillium dahliae Kleb,ORGANISM,27337,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Verticillium
+ENTO00858,Verticillium dahliae V991,ORGANISM,27337,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Verticillium
+ENTO00859,Vibrio alginolyticus,ORGANISM,663,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00860,Vibrio alginolyticus ATCC 17749,ORGANISM,663,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00861,Vibrio alginolyticus ATCC 33787,ORGANISM,663,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00862,Vibrio alginolyticus QDIO-5,ORGANISM,663,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00863,Vibrio anguillarum,ORGANISM,55601,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00864,Vibrio cholerae CO6,ORGANISM,666,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00865,Vibrio cholerae NB2,ORGANISM,666,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00866,Vibrio cholerae PC2,ORGANISM,666,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00867,Vibrio cholerae SG24 (1),ORGANISM,666,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00868,Vibrio harveyi,ORGANISM,669,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00869,Vibrio harveyi QDIO-7,ORGANISM,669,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00870,Vibrio harveyi QDIONA7,ORGANISM,669,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00871,Vibrio parahaemolyticus,ORGANISM,670,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00872,Vibrio parahaemolyticus ATCC 17802,ORGANISM,670,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00873,Vibrio parahaemolyticus QDIO-8,ORGANISM,670,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00874,Vibrio parahaemolyticus QDIONA8,ORGANISM,670,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00875,Vibrio vulnificus,ORGANISM,672,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00876,Vibrio vulnificus QDIO-10,ORGANISM,672,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00877,Vibrio vulnificus QDIO-9,ORGANISM,672,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio
+ENTO00878,Wickerhamomyces anomalus DSM 6766,ORGANISM,4927,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,Wickerhamomyces
+ENTO00879,Wiseana cervinata,ORGANISM,107013,Eukaryota,Metazoa,Arthropoda,Insecta,Lepidoptera,Hepialidae,Wiseana
+ENTO00880,Xanthomonas arboricola pv. pruni,ORGANISM,56448,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00881,Xanthomonas axonopodis pv. citri,ORGANISM,53413,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00882,Xanthomonas axonopodis pv. malvacerum strain TNAU-3,ORGANISM,53413,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00883,Xanthomonas campestris,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00884,Xanthomonas campestris NCIM 5028,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00885,Xanthomonas campestris pv. campestris MTCC 2286,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00886,Xanthomonas campestris pv. campestris strain TNAU-1,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00887,Xanthomonas campestris pv. citri strain C1,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00888,"Xanthomonas campestris pv. oryzae (KB88), Proteus mirabilis (NBRC3849)",ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00889,Xanthomonas campestris pv. oryzae KB88,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00890,Xanthomonas campestris pv. vesicatoria strain 65-10,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00891,Xanthomonas campestris pv. vesicatoria strain 8004,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00892,Xanthomonas campestris pv. vesicatoria strain 85-10,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00893,Xanthomonas campestris pv. vesicatoria strain XIS,ORGANISM,339,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00894,Xanthomonas euvesicatoria,ORGANISM,456327,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00895,Xanthomonas oryzae,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00896,Xanthomonas oryzae pv. oryzae,ORGANISM,64187,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00897,Xanthomonas oryzae pv. oryzae KB88,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00898,Xanthomonas oryzae pv. oryzae strain BXO43,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00899,Xanthomonas oryzae pv. oryzae strain TNAU-2,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00900,Xanthomonas oryzae pv. oryzae Swings,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00901,Xanthomonas oryzae pv. oryzicola,ORGANISM,129394,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00902,Xanthomonas oryzae pv. oryzicola strain Y2,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00903,Xanthomonas oryzae pv. oryzicola Swings,ORGANISM,347,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00904,Xanthomonas vesicatoria,ORGANISM,56460,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00905,Xanthomonas vesicatoria ATCC 11633,ORGANISM,56460,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas
+ENTO00906,Xylella fastidiosa,ORGANISM,2371,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xylella
+ENTO00907,Yamadazyma tenuis MUCL 29892,ORGANISM,2315449,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Yamadazyma
+ENTO00908,Yersinia enterocolitica MTCC 840,ORGANISM,630,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Yersinia
+ENTO00909,Yersinia sp.,ORGANISM,41315,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Yersinia
+ENTO00910,Proteus mirabilis,ORGANISM,584,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus

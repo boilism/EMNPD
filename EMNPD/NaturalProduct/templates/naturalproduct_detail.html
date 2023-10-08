@@ -1,0 +1,1075 @@
+{% extends 'NP_base.html' %}
+
+{% block content %}
+<style>
+    .dataTable .center {
+        text-align: center; /* or any other desired alignment */
+    }
+</style>
+
+    <!-- 滚动进度条 -->
+    <div id="progress-container" style="margin-top: 50px">
+        <div id="progress-bar"></div>
+        <ul id="progress-list">
+            <li id="section-name-basic-info" class="section-name"><a href="#basic-info">NPs Basic Information</a></li>
+            <li id="section-name-source" class="section-name"><a href="#source">NPs Species Source</a></li>
+            <li id="section-name-content" class="section-name"><a href="#content">NPs Content</a></li>            
+            <li id="section-name-activity" class="section-name"><a href="#activity">NPs Biological Activity</a></li>
+            <li id="section-name-physi-chem" class="section-name"><a href="#physi-chem">NPs Physi-Chem Properties</a></li>            
+            <li id="section-name-admet" class="section-name"><a href="#admet">NPs ADMET Properties</a></li>
+            <li id="section-name-similarity" class="section-name"><a href="#similarity">Similar NPs and Drugs</a></li>
+        </ul>
+    </div>
+
+    <!-- 页头 -->
+    <div class="page-header" style="margin-top: 0px">
+                <div style="display: flex; align-items: center;">
+                    <h2 style="margin: 0; font-weight: bold; margin-right: 10px;"><strong>Natural Product: {{ NP_Physi_Chem_Properties.EMNPD_CID }}</strong></h2>
+                    <a href="/emnpd/help/#specific-NP" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+    </div>    
+    
+    <!-- Natural Product Basic Infomation -->
+    <section data-name="NP Basic Information" id="basic-info">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">NPs Basic Information</h3>
+            <table class="table table-bordered" style="border: 3px solid black;">
+                <tbody>
+                <tr>
+                    <td rowspan="10" class="col-lg-3 col-md-2">
+                        <div style="text-align: center;margin-top: 10px">
+                            <img src="/static/images/PubChem_compound_id_list_images/{{ NP_Physi_Chem_Properties.EMNPD_CID }}.png"
+                                 class="img-fluid compound-image" style="width: 70%; height: 70%">
+                        </div>
+                        <div class="wrapper">
+                            <a href="/static/images/EMNPD NPs MOL File/{{ NP_Physi_Chem_Properties.EMNPD_CID }}.mol"
+                               download
+                               title="Button border lightblue" class="button btnBorder btnLightBlue"
+                               style="text-align: center;width: 100%;line-height: 35px;font-family: Calibri, sans-serif;font-size: 20px;margin-top: 30px">Download
+                                MOL File</a>
+                        </div>
+                    </td>
+                    <td class="col-lg-2 col-md-1"><strong>Name</strong></td>
+                    <td class="col-lg-4 col-md-5">
+                        <div class="text-ellipsis">{{ NP_Physi_Chem_Properties.NP_Name }}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Molecular Formula</strong></td>
+                    <td>{{ NP_Physi_Chem_Properties.Molecular_Formula }}</td>
+                </tr>
+                <tr>
+                    <td><strong>IUPAC Name*</strong></td>
+                    <td>
+                        <div class="text-ellipsis">{{ NP_Physi_Chem_Properties.Iupac_name }}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>SMILES</strong></td>
+                    <td>
+                        <div class="text-ellipsis">{{ NP_Physi_Chem_Properties.Isomeric_Smiles }}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>InChI</strong></td>
+                    <td>
+                        <div class="text-ellipsis">{{ NP_Physi_Chem_Properties.Inchi }}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>InChIKey</strong></td>
+                    <td>
+                        <div class="text-ellipsis">{{ NP_Physi_Chem_Properties.Inchikey }}</div>
+                    </td>
+                </tr>
+                <tr id="NPs_Synonyms">
+                    <td><strong>Synonyms</strong></td>
+                    <td>
+                        <div class="text-ellipsis">{{ NP_Physi_Chem_Properties.NP_Synonyms }}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>CAS</strong></td>
+                    <td>
+                        {% if NP_Physi_Chem_Properties.CAS != 'NA' %}
+                            <a href="https://commonchemistry.cas.org/detail?cas_rn={{ NP_Physi_Chem_Properties.CAS|cut:'"' }}&search={{ NP_Physi_Chem_Properties.CAS|cut:'"' }}">{{ NP_Physi_Chem_Properties.CAS|cut:'"' }}</a>
+                        {% else %}
+                            {{ NP_Physi_Chem_Properties.CAS }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>PubChem CID</strong></td>
+                    <td>
+                        {% if NP_Physi_Chem_Properties.PubChem_CID != 'NA' %}
+                            <a href="https://pubchem.ncbi.nlm.nih.gov/compound/{{ NP_Physi_Chem_Properties.PubChem_CID }}">{{ NP_Physi_Chem_Properties.PubChem_CID }}</a>
+                        {% else %}
+                            {{ NP_Physi_Chem_Properties.PubChem_CID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>ChEMBL ID</strong></td>
+                    <td>
+                        {% if NP_Physi_Chem_Properties.ChEMBL_ID != 'NA' %}
+                            <a href="https://www.ebi.ac.uk/chembl/compound_report_card/{{ NP_Physi_Chem_Properties.ChEMBL_ID }}">{{ NP_Physi_Chem_Properties.ChEMBL_ID }}</a>
+                        {% else %}
+                            {{ NP_Physi_Chem_Properties.ChEMBL_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+            <h5 style="padding-top: 10px">*Note: the IUPAC Name was {{ NP_Physi_Chem_Properties.Iupac_name_source|safe }}.</h5>
+            <!-- calculated by STOUT. Reference: PMID:<a href="https://pubmed.ncbi.nlm.nih.gov/33893803/">33906675</a> -->
+
+            <!-- 化合物树形结构 -->
+            <div class="toggle-btn_NPs_Classification" style="float: right">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <table class="table table-bordered" style="border: 3px solid black" id="NPs_Classification">
+                <tr>
+                    <th style="vertical-align: middle" class="col-lg-2"><h5><strong>Chemical Classification: </strong></h5></th>
+                    <th style="vertical-align: middle" class="col-lg-8">
+                        <ul class="list-unstyled">
+                            <li class="root-node tree">
+                                <div class="node-content">
+                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                    <span><strong>Kingdom: </strong></span>
+                                    <span>{{ NP_ClassyFire.Kingdrom }}</span>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="node-content" style="margin-left: 15%">
+                                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                            <span><strong>Superclass: </strong></span>
+                                            <span>{{ NP_ClassyFire.Superclass }}</span>
+                                        </div>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <div class="node-content" style="margin-left: 30%">
+                                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                    <span><strong>Class: </strong></span>
+                                                    <span>{{ NP_ClassyFire.Class }}</span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div class="node-content" style="margin-left: 45%">
+                                                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                            <span><strong>Subclass: </strong></span>
+                                                            <span>{{ NP_ClassyFire.Subclass }}</span>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <div class="node-content" style="margin-left: 60%">
+                                                                    <span><strong>Direct Parent: </strong></span>
+                                                                    <span>{{ NP_ClassyFire.Direct_Parent }}</span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </th>
+                    <th style="vertical-align: middle" class="col-lg-2">
+                        <h5 style="line-height: 1.5">
+                            <br><strong>ClassyFire Version 1.0</strong></br>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/27867422/"><strong>PMID:27867422</strong></a>
+                        </h5>
+                    </th>
+                </tr>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_NPs_Classification">
+                ——————————————————————————————————————————</h4>
+        </div>
+    </section>
+    
+    <!-- Natural Product Species Source -->
+    <section data-time="NPs Species Source" id="source">
+    <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+        <h3 style="padding-bottom: 10px;margin-top: -20px">NPs Species Source</h3>
+        <div id="container4" style="height: 500px; margin-top: -50px"></div>
+
+
+        <script type="text/javascript">
+            var url = window.location.href;
+            var enc_id = url.match(/\/naturalproducts\/(.*?)\//)[1];
+
+            // 使用fetch函数获取JSON文件数据，并console.log()输出
+            fetch(`http://127.0.0.1:8000/emnpd/naturalproducts/${enc_id}/species_source_tree.json`)
+                .then(response => response.json())
+                .then(data => {
+                    // 绘制ECharts图表
+                    var dom = document.getElementById('container4');
+                    var myChart = echarts.init(dom, null, {
+                        renderer: 'canvas',
+                        useDirtyRect: false
+                    });
+                    var app = {};
+                    var option;
+
+                    myChart.showLoading();
+                    data.children.forEach(function (datum, index) {
+                        index % 2 === 0 && (datum.collapsed = false);
+                    });
+
+                    // 在点击叶子节点时跳转链接
+                    function handleNodeClick(params) {
+                        if (params.data.link) {
+                            window.open(params.data.link, '_blank');
+                        }
+                    }
+
+
+                    myChart.setOption(
+                        (option = {
+  tooltip: {
+    trigger: 'item',
+    triggerOn: 'mousemove',
+    formatter: function(params) {
+      // 获取当前节点的名称
+      var label = params.name;
+      // 返回自定义的 tooltip 内容
+      return label;
+    }
+  },
+                            series: [
+                                {
+                                    type: 'tree',
+                                    data: [data],
+                                    top: '1%',
+                                    left: '10%',
+                                    bottom: '1%',
+                                    right: '25%',
+                                    symbolSize: 7,
+                                    initialTreeDepth: 9,
+                                    label: {
+                                        position: 'left',
+                                        verticalAlign: 'middle',
+                                        align: 'right',
+                                        fontSize: 12,
+                                    },
+                                    leaves: {
+                                        label: {
+                                            position: 'right',
+                                            verticalAlign: 'middle',
+                                            align: 'left',
+                                            fontSize: 14,  // 设置叶子节点字号为14
+                                            fontWeight: 'bold',  // 设置叶子节点加粗
+                                            color: 'blue'  // 设置叶子节点颜色为蓝色                                            
+                                        }
+                                    },
+                                    emphasis: {
+                                        focus: 'descendant'
+                                    },
+                                    expandAndCollapse: true,
+                                    animationDuration: 550,
+                                    animationDurationUpdate: 750
+                                }
+                            ]
+                        })
+                    );
+
+                    // 添加点击事件处理
+                    myChart.on('click', handleNodeClick);
+
+
+                    myChart.hideLoading();
+                    if (option && typeof option === 'object') {
+                        myChart.setOption(option);
+                    }
+                    window.addEventListener('resize', myChart.resize);
+                })
+                .catch(error => console.error(error));
+        </script>
+
+
+        <table id="Species_Source" class="display" style="width:100%">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Endophyte ID</th>
+                <th style="text-align: center">Endophyte Name</th>
+                <th style="text-align: center">Family</th>
+                <th style="text-align: center">Genus</th>
+                <th style="text-align: center">Taxonomy ID</th>
+                <th style="text-align: center">GenBank ID</th>
+                <th style="text-align: center">Closest GenBank ID</th>
+                <th style="text-align: center">Reference</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th></th>
+                <th>Endophyte ID</th>
+                <th style="text-align: center">Endophyte Name</th>
+                <th style="text-align: center">Family</th>
+                <th style="text-align: center">Genus</th>
+                <th style="text-align: center">Taxonomy ID</th>
+                <th style="text-align: center">GenBank ID</th>
+                <th style="text-align: center">Closest GenBank ID</th>
+                <th style="text-align: center">Reference</th>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    </section>
+    
+    <!-- Natural Product Content -->
+    <section data-time="NPs Content" id="content">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">NPs Content</h3>
+            <div id="npContentTables">
+                <!-- The tables will be dynamically added here -->
+            </div>
+            <h5 style="padding-top: 10px">
+                *Note: The vaules in Content Percentage are calculated by dividing the content value by the maximum content value in NP Content.
+            </h5>            
+            <h5 style="padding-bottom: 10px">
+                **Note: The units with different NP content, due to their incomparable values, are separated into different tables.
+            </h5>
+        </div>
+    </section>
+
+    <!-- Natural Product Bioactivity -->
+    <section data-time="NPs Bioactivity" id="activity">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">NPs Biological Activity</h3>
+            <div id="container1" class="col-lg-4" style="height: 350px; margin-bottom: -30px"></div>
+
+            <div id="container2" class="col-lg-4" style="height: 350px; margin-bottom: -30px"></div>
+
+            <div id="container3" class="col-lg-4" style="height: 350px; margin-bottom: -30px"></div>
+
+            <script type="text/javascript">
+                var dom = document.getElementById('container1');
+                var myChart = echarts.init(dom, null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var data_bioactivity = JSON.parse('{{ data_bioactivity|safe }}');
+                var app = {};
+
+                var option;
+
+                option = {
+                    title: {
+                        text: 'Bioactivity',
+                        left: 'center',
+                        top: '10%'
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    series: [
+                        {
+                            name: 'Access From',
+                            type: 'pie',
+                            radius: '40%',
+                            data: data_bioactivity,
+                            emphasis: {
+                                itemStyle: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+            </script>
+            <script type="text/javascript">
+                var dom = document.getElementById('container2');
+                var myChart = echarts.init(dom, null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var data_bioactivity_type = JSON.parse('{{ data_bioactivity_type|safe }}');
+                var app = {};
+
+                var option;
+
+                option = {
+                    title: {
+                        text: 'Bioactivity Type',
+                        left: 'center',
+                        top: '10%'
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    series: [
+                        {
+                            name: 'Access From',
+                            type: 'pie',
+                            radius: '40%',
+                            data: data_bioactivity_type,
+                            emphasis: {
+                                itemStyle: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+  </script>
+            <script type="text/javascript">
+                var dom = document.getElementById('container3');
+                var myChart = echarts.init(dom, null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var data_target_organism = JSON.parse('{{ data_target_organism|safe }}');
+                var app = {};
+
+                var option;
+
+                option = {
+                    title: {
+                        text: 'Target Organism',
+                        left: 'center',
+                        top: '10%'
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    series: [
+                        {
+                            name: 'Access From',
+                            type: 'pie',
+                            radius: '40%',
+                            data: data_target_organism,
+                            label: {
+                                color: 'blue'  // 设置叶子节点颜色为蓝色
+                            },
+                            emphasis: {
+                                itemStyle: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                myChart.on('click', function (params) {
+                    if (params.data && params.data.url) {
+                        window.open(params.data.url, '_blank');
+                    }
+                });
+
+
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+            </script>
+            
+           
+            <table id="NP_Active" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Bioactivity Name</th>
+                    <th style="text-align: center">Target ID</th>
+                    <th style="text-align: center">Target Name</th>
+                    <th style="text-align: center">Target Type</th>
+                    <th style="text-align: center">Target Organism</th>
+                    <th style="text-align: center">Target Organism ID</th>
+                    <th style="width: 2%;text-align: center">Potency of Bioactivity</th>
+                    <th style="text-align: center">Activity Type</th>
+                    <th style="width: 8%;text-align: center">Value</th>
+                    <th style="text-align: center">Unit</th>
+                    <th style="text-align: center">Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Bioactivity Name</th>
+                    <th style="text-align: center">Target ID</th>
+                    <th style="text-align: center">Target Name</th>
+                    <th style="text-align: center">Target Type</th>
+                    <th style="text-align: center">Target Organism</th>
+                    <th style="text-align: center">Target Organism ID</th>
+                    <th style="width: 2%;text-align: center">Potency of Bioactivity</th>
+                    <th style="text-align: center">Activity Type</th>
+                    <th style="width: 8%;text-align: center">Value</th>
+                    <th style="text-align: center">Unit</th>
+                    <th style="text-align: center">Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+    
+    <!-- Natural Product Physi-Chem Properties -->
+    <section data-name="NP Physi-Chem Properties" id="physi-chem">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <div class="toggle-btn_Physi_Chem" style="float: right; margin-top: -22px">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <h3 style="padding-bottom: 10px;margin-top: -20px">NPs Physi-Chem Properties</h3>
+            <table class="table table-bordered" style="border: 3px solid black" id="Physi_Chem">
+                <tbody>
+                <tr>
+                    <td class="col-lg-3"><strong>Molecular Weight: </strong></td>
+                    <td class="col-lg-3">
+                        {% if NP_Physi_Chem_Properties.Molecular_Weight > 500 %}
+                            <strong><span style="color: red">{{ NP_Physi_Chem_Properties.Molecular_Weight }}</span></strong>
+                        {% else %}
+                            <strong><span style="color: green">{{ NP_Physi_Chem_Properties.Molecular_Weight }}</span></strong>
+                        {% endif %}
+                    </td>
+
+                    <td class="col-lg-3"><strong>ALogp: </strong></td>
+                    <td class="col-lg-3">
+                        {% if NP_Physi_Chem_Properties.Alogp > 5 %}
+                            <strong><span style="color: red">{{ NP_Physi_Chem_Properties.Alogp }}</span></strong>
+                        {% else %}
+                            <strong><span style="color: green">{{ NP_Physi_Chem_Properties.Alogp }}</span></strong>
+                        {% endif %}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>HBD: </strong></td>
+                    <td>
+                        {% if NP_Physi_Chem_Properties.Hbond_Donor > 5 %}
+                            <strong><span style="color: red">{{ NP_Physi_Chem_Properties.Hbond_Donor }}</span></strong>
+                        {% else %}
+                            <strong><span style="color: green">{{ NP_Physi_Chem_Properties.Hbond_Donor }}</span></strong>
+                        {% endif %}
+                    </td>
+
+                    <td><strong>HBA: </strong></td>
+                    <td>
+                        {% if NP_Physi_Chem_Properties.Hbond_Acceptor > 10 %}
+                            <strong><span style="color: red">{{ NP_Physi_Chem_Properties.Hbond_Acceptor }}</span></strong>
+                        {% else %}
+                            <strong><span style="color: green">{{ NP_Physi_Chem_Properties.Hbond_Acceptor }}</span></strong>
+                        {% endif %}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Rotatable Bonds: </strong></td>
+                    <td>{{ NP_Physi_Chem_Properties.Rotatable_Bond }}</td>
+
+                    <td><strong>Lipinski's rule of five: </strong></td>
+                    <td>
+                        {% if NP_Physi_Chem_Properties.Lipskin == 'Rejected' %}
+                            <strong><span style="color: red">{{ NP_Physi_Chem_Properties.Lipskin }}</span></strong>
+                        {% else %}
+                            <strong><span style="color: green">{{ NP_Physi_Chem_Properties.Lipskin }}</span></strong>
+                        {% endif %}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Polar Surface Area: </strong></td>
+                    <td>{{ NP_Physi_Chem_Properties.TPSA }}</td>
+
+                    <td><strong>Aromatic Rings: </strong></td>
+                    <td>{{ NP_Physi_Chem_Properties.Aromatic_Rings }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Heavy Atoms: </strong></td>
+                    <td>{{ NP_Physi_Chem_Properties.Heavy_Atom }}</td>
+
+                    <td><strong>QED Weighted: </strong></td>
+                    <td>{{ NP_Physi_Chem_Properties.QED_Weighted }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_Physi_Chem">——————————————————————————————————————————</h4>
+        </div>
+    </section>
+    
+    <!-- Natural Product ADMET Properties -->
+    <section data-name="NP ADMET Properties" id="admet">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">NPs ADMET Properties*</h3>
+            <h4 style="padding-bottom: 10px">ADMET: Absorption</h4>
+            <div class="toggle-btn_Absorption" style="float: right; margin-top: -45px">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <table class="table table-bordered" style="border: 3px solid black;" id="ADMET_Absorption">
+                <tbody>
+                <tr>
+                    <td class="col-lg-4"><strong>Caco-2 Permeability:</strong></td>
+                    <td>{{ NPs_ADMETlab.Caco_2 }}</td>
+
+                    <td><strong>MDCK Permeability:</strong></td>
+                    <td>
+                        {% if NPs_ADMETlab.MDCK != 'NA' %}
+                            {{ NPs_ADMETlab.MDCK|floatformat:"8" }}
+                        {% else %}
+                            {{ NPs_ADMETlab.MDCK }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Pgp-inhibitor:</strong></td>
+                    <td>{{ NPs_ADMETlab.Pgp_inh }}</td>
+
+                    <td><strong>Pgp-substrate:</strong></td>
+                    <td>{{ NPs_ADMETlab.Pgp_sub }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Human Intestinal Absorption (HIA):</strong></td>
+                    <td>{{ NPs_ADMETlab.HIA }}</td>
+
+                    <td><strong>20% Bioavailability (F20%):</strong></td>
+                    <td>{{ NPs_ADMETlab.F_20 }}</td>
+                </tr>
+                <tr>
+                    <td><strong>30% Bioavailability (F30%):</strong></td>
+                    <td>{{ NPs_ADMETlab.F_30 }}</td>
+
+                </tr>
+                </tbody>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_ADMET_Absorption">——————————————————————————————————————————</h4>
+            <h4 style="padding-top: 10px;padding-bottom: 10px">ADMET: Distribution</h4>
+            <div class="toggle-btn_Distribution" style="float: right; margin-top: -45px">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <table class="table table-bordered" style="border: 3px solid black;" id="ADMET_Distribution">
+                <tbody>
+                <tr>
+                    <td class="col-lg-4"><strong>Blood-Brain-Barrier Penetration (BBB):</strong></td>
+                    <td>{{ NPs_ADMETlab.BBB }}</td>
+
+                    <td><strong>Plasma Protein Binding (PPB):</strong></td>
+                    <td>{{ NPs_ADMETlab.PPB }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Volume Distribution (VD):</strong></td>
+                    <td>{{ NPs_ADMETlab.VDss }}</td>
+
+                    <td><strong>Fu:</strong></td>
+                    <td>{{ NPs_ADMETlab.Fu }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_ADMET_Distribution">——————————————————————————————————————————</h4>
+            <h4 style="padding-top: 10px;padding-bottom: 10px">ADMET: Metabolism</h4>
+            <div class="toggle-btn_Metabolism" style="float: right; margin-top: -45px">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <table class="table table-bordered" style="border: 3px solid black;" id="ADMET_Metabolism">
+                <tbody>
+                <tr>
+                    <td class="col-lg-4"><strong>CYP1A2-inhibitor:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP1A2_inh }}</td>
+
+                    <td><strong>CYP1A2-substrate:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP1A2_sub }}</td>
+                </tr>
+                <tr>
+                    <td><strong>CYP2C19-inhibitor:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP2C19_inh }}</td>
+
+                    <td><strong>CYP2C19-substrate:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP2C19_sub }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>CYP2C9-inhibitor:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP2C9_inh }}</td>
+
+                    <td><strong>CYP2C9-substrate:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP2C9_sub }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>CYP2D6-inhibitor:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP2D6_inh }}</td>
+
+                    <td><strong>CYP2D6-substrate:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP2D6_sub }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>CYP3A4-inhibitor:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP3A4_inh }}</td>
+
+                    <td><strong>CYP3A4-substrate:</strong></td>
+                    <td>{{ NPs_ADMETlab.CYP3A4_sub }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_ADMET_Metabolism">——————————————————————————————————————————</h4>
+            <h4 style="padding-top: 10px;padding-bottom: 10px">ADMET: Excretion</h4>
+            <div class="toggle-btn_Excretion" style="float: right; margin-top: -45px">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <table class="table table-bordered" style="border: 3px solid black;" id="ADMET_Excretion">
+                <tbody>
+                <tr>
+                    <td class="col-lg-4"><strong>Clearance (CL):</strong></td>
+                    <td>{{ NPs_ADMETlab.CL }}</td>
+
+                    <td><strong>Half-life (T1/2):</strong></td>
+                    <td>{{ NPs_ADMETlab.T12 }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_ADMET_Excretion">——————————————————————————————————————————</h4>
+            <h4 style="padding-top: 10px;padding-bottom: 10px">ADMET: Toxicity</h4>
+            <div class="toggle-btn_Toxicity" style="float: right; margin-top: -45px">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <table class="table table-bordered" style="border: 3px solid black;" id="ADMET_Toxicity">
+                <tbody>
+                <tr>
+                    <td class="col-lg-4"><strong>hERG Blockers:</strong></td>
+                    <td>{{ NPs_ADMETlab.hERG }}</td>
+
+                    <td><strong>Human Hepatotoxicity (H-HT):</strong></td>
+                    <td>{{ NPs_ADMETlab.H_HT }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Drug-inuced Liver Injury (DILI):</strong></td>
+                    <td>{{ NPs_ADMETlab.DILI }}</td>
+
+                    <td><strong>AMES Toxicity:</strong></td>
+                    <td>{{ NPs_ADMETlab.Ames }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Rat Oral Acute Toxicity:</strong></td>
+                    <td>{{ NPs_ADMETlab.ROA }}</td>
+
+                    <td><strong>Maximum Recommended Daily Dose:</strong></td>
+                    <td>{{ NPs_ADMETlab.FDAMDD }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Skin Sensitization:</strong></td>
+                    <td>{{ NPs_ADMETlab.SkinSen }}</td>
+
+                    <td><strong>Carcinogencity:</strong></td>
+                    <td>{{ NPs_ADMETlab.Carcinogenicity }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Eye Corrosion:</strong></td>
+                    <td>{{ NPs_ADMETlab.EC }}</td>
+
+                    <td><strong>Eye Irritation:</strong></td>
+                    <td>{{ NPs_ADMETlab.EI }}</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Respiratory Toxicity:</strong></td>
+                    <td>{{ NPs_ADMETlab.Respiratory }}</td>
+
+                </tr>
+                </tbody>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_ADMET_Toxicity">——————————————————————————————————————————</h4>
+            <h5 style="padding-top: 10px;padding-bottom: 10px">
+                *Note: the ADMET properties was calculated by ADMETlab 2.0. Reference: PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33893803/">33893803</a>.
+            </h5>
+        </div>
+    </section>
+
+    <!-- Natural Product Similarity -->
+    <section data-time="NPs Similarity" id="similarity">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Similar Compounds*</h3>
+            <h4>Compounds similar to EMNPD with top10 similarity:</h4>
+            <table id="NPs_NPs_Similarity" class="hover" style="width:100%">
+                <thead>
+                <tr>
+                    <th colspan="5">Similar NPs</th>
+                    <th colspan="3">Similar Drugs</th>
+                </tr>
+                <tr>
+                    <th>NPs ID</th>
+                    <th>NPs 2D Structure</th>
+                    <th>Similarity Score</th>
+                    <th></th>
+                    <th></th>
+                    <th>TTD ID</th>
+                    <th>Drug 2D Structure</th>
+                    <th>Similarity Score</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_1 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_1 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_1 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_1|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_1 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_1 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_1 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_1|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_2 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_2 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_2 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_2|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_2 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_2 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_2 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_2|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_3 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_3 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_3 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_3|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_3 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_3 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_3 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_3|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_4 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_4 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_4 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_4|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_4 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_4 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_4 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_4|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_5 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_5 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_5 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_5|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_5 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_5 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_5 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_5|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_6 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_6 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_6 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_6|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_6 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_6 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_6 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_6|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_7 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_7 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_7 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_7|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_7 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_7 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_7 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_7|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_8 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_8 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_8 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_8|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_8 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_8 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_8 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_8|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_9 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_9 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_9 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_9|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_9 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_9 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_9 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_9|floatformat:3 }}</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/emnpd/naturalproducts/{{ NPs_NPs_Similarity.Similar_NP_Top_10 }}">{{ NPs_NPs_Similarity.Similar_NP_Top_10 }}</a>
+                    </td>
+                    <td><img src="/static/images/PubChem_compound_id_list_images/{{ NPs_NPs_Similarity.Similar_NP_Top_10 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_NPs_Similarity.Similarity_Score_Top_10|floatformat:3 }}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <a href="https://db.idrblab.net/ttd/data/drug/details/{{ NPs_Drug_Similarity.Similar_Drug_Top_10 }}">{{ NPs_Drug_Similarity.Similar_Drug_Top_10 }}</a>
+                    </td>
+                    <td><img src="/static/images/Approved Drug/{{ NPs_Drug_Similarity.Similar_Drug_Top_10 }}.png"
+                             class="img-fluid compound-image" style="width: 100px; height: 100px"></td>
+                    <td>{{ NPs_Drug_Similarity.Similarity_Score_Top_10|floatformat:3 }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5 style="padding-top: 10px;padding-bottom: 10px">
+                *Note: the compound similarity was calculated by RDKIT.
+            </h5>
+        </div>
+    </section>
+
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var url = window.location.href;
+        var enc_id = url.match(/\/naturalproducts\/(.*?)\//)[1];
+        var ajax1 = 'http://127.0.0.1:8000/emnpd/naturalproducts/' + enc_id + '/target_active_json/';
+        var ajax2 = 'http://127.0.0.1:8000/emnpd/naturalproducts/' + enc_id + '/np_content_json/';
+
+        var activitySection = document.getElementById("activity");
+        var contentSection = document.getElementById("content");
+        var progressBar = document.getElementById("progress-bar");
+        var activityListItem = document.getElementById("section-name-activity");
+        var contentListItem = document.getElementById("section-name-content");
+
+        // 发送AJAX请求获取数据
+        var xhr1 = new XMLHttpRequest();
+        xhr1.open("GET", ajax1, true);
+        xhr1.onreadystatechange = function() {
+            if (xhr1.readyState === XMLHttpRequest.DONE) {
+                if (xhr1.status === 200) {
+                    var response = JSON.parse(xhr1.responseText);
+                    var data = response.data;
+                    if (Array.isArray(data) && data.length === 0) {
+                        // 如果数据为空，隐藏相应的列表项
+                        activitySection.style.display = "none";
+                        activityListItem.style.display = "none";
+                    } else {
+                        // 如果数据不为空，显示相应的列表项
+                        activitySection.style.display = "block";
+                        activityListItem.style.display = "block";
+                    }
+                } else {
+                    // 如果请求失败，隐藏相应的列表项
+                    activitySection.style.display = "none";
+                }
+            }
+        };
+        xhr1.send();
+
+        // 发送AJAX请求获取数据
+        var xhr2 = new XMLHttpRequest();
+        xhr2.open("GET", ajax2, true);
+        xhr2.onreadystatechange = function() {
+            if (xhr2.readyState === XMLHttpRequest.DONE) {
+                if (xhr2.status === 200) {
+                    var response = JSON.parse(xhr2.responseText);
+                    var data = response.data;
+                    if (data && Object.keys(data).length === 0) {
+                        // 如果数据为空，隐藏相应的列表项
+                        contentSection.style.display = "none";
+                        contentListItem.style.display = "none";
+                    } else {
+                        // 如果数据不为空，显示相应的列表项
+                        contentSection.style.display = "block";
+                        contentListItem.style.display = "block";
+                    }
+                } else {
+                    // 如果请求失败，隐藏相应的列表项
+                    contentSection.style.display = "none";
+                }
+            }
+        };
+        xhr2.send();
+    });
+</script>
+{% endblock %}

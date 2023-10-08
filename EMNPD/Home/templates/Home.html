@@ -1,0 +1,230 @@
+{% extends 'Home_base.html' %}
+{% load static %}
+
+{% block content %}
+    <style>
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .light {
+            background: #666;
+            color: #fff;
+        }
+
+        .content .tagcloud {
+            display: inline-block;
+            margin: 40px;
+        }
+
+        ul {
+            display: inline-block;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <style>
+        .tagcloud {
+            font-size: 16px;
+        }
+
+        .tagcloud--item {
+            padding: 2px 4px;
+            background-color: transparent;
+            border: 1px solid transparent;
+            cursor: pointer;
+        }
+
+        .tagcloud--item:hover {
+            background-color: rgba(0, 0, 0, .1);
+            border: 1px solid #333;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            opacity: 1 !important;
+            z-index: 100 !important;
+        }
+
+        .light .tagcloud--item {
+            color: #fff;
+        }
+
+        .light .tagcloud--item:hover {
+            background-color: rgba(255, 255, 255, .1);
+            border: 1px solid #fff;
+        }
+    </style>
+
+    <div class="jumbotron" style="background-color: white; margin-top: -20px">
+        <h2 style="font-family: Calibri; text-align: center; color: #2b542c;"><strong>Endophyte Mircoorganism Natural
+            Product Database</strong></h2>
+        <p style="font-family: Calibri">
+            EMNPD is a manually curated open access knowledge base dedicated to endophytic microorganism natural
+            products (NPs) research. It provides information on physicochemical properties of NPs, ADMET information, quantitative activity data,
+            NPs contents, systematic taxonomy, and links to various databases.
+        </p>
+
+        <div class="container-fluid or within" style="padding: 0 200px; margin-top: -120px; height: 700px">
+            <div class="content">
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron" style="background-color: white; margin-top: -270px">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <a href="search/" title="Button push blue/green" class="button btnPush btnBlueGreen col-lg-3"
+                       style="font-family: Calibri; font-size: 40px">
+                        <i>Search</i>
+                        <i class="glyphicon glyphicon-search" style="font-size: 30px"></i>
+                    </a>
+                    <div class="col-lg-2"></div>
+                    <a href="browse/" title="Button push lightblue" class="button btnPush btnLightBlue col-lg-3"
+                       style="font-family: Calibri; font-size: 40px">
+                        <i>Browse</i>
+                        <i class="glyphicon glyphicon-globe" style="font-size: 30px"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <p style="font-size: 18px; margin-top: -10px">If You Find Any Error in Data or Bug in Web Service, Please Kindly Report It to <b><a href="mailto:xuhongquan@stu.hznu.edu.cn">Dr.
+            Xu</a></b>.</p>
+    </div>
+
+    <div class="jumbotron" style="background-color: white; margin-top: -140px">
+        <div style="height:100%; width:20%; margin-left: 10%; float: left; text-align: center">
+            <img src="../static/images/Endophyte Microorganism.svg" height="80px">
+            <h4 style="font-family: Calibri">1,017 Endophytic Microorganisms</h4>
+        </div>
+        <div style="height:100%; width: 20%; float: left; text-align: center">
+            <img src="../static/images/NP.svg" height="80px">
+            <h4 style="font-family: Calibri">6,632 Natural Products</h4>
+        </div>
+        <div style="height:100%; width: 20%; float: left; text-align: center">
+            <img src="../static/images/target.svg" height="80px">
+            <h4 style="font-family: Calibri">1,300 Targets</h4>
+        </div>
+        <div style="height:100%; width: 20%; float: left; text-align: center">
+            <img src="../static/images/Records.svg" height="80px">
+            <h4 style="font-family: Calibri">26,000 Biological Activities Records</h4>
+        </div>
+    </div>
+
+
+
+    <script src="/static/plugins/TagCloud-master/dist/TagCloud.js"></script>
+    <script>
+        const myTags = [
+            'PC-3', 'Aspergillus flavus EFBL2021', 'Camptothecin', 'HeLa', 'Acremonium citrinum SS-g13', 'Paclitaxel',
+            'Human α-glucosidase', 'Alternariol', 'Acinetobacter johnsonii B2', 'MCF-7',
+            'Human Butyrylcholinesterase', 'Hep-G2', 'Emodin', 'Fusarium avenaceum YM 3065',
+            'Rat Thrombin', 'Epicoccum nigrum strain YEF2', 'Helvolic acid', 'SW1990', 'Human 20S proteasome',
+            'Mus musculus', 'Aspergillus alabamensis EN-547', 'Chaetoglobosin A', 'Saccharomyces cerevisiae α-glucosidase',
+            'HL-60', 'Rattus norvegicus', 'Homo sapiens', 'Streptomyces variabilis LCP18', 'Cytochalasin J3', 'Human Cyclooxygenase-2',
+            'SF268', 'Artemia salina', 'Trichoderma afroharzianum AMrb7',
+        ];
+
+const tagLinks = [
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00225/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00118/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC000566/',
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00090/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00004/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC000623/',
+            'https://bddg.hznu.edu.cn/emnpd/target/protein/ENTP00063/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC001652/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00003/',
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00168/',
+            'https://bddg.hznu.edu.cn/emnpd/target/protein/ENTP00009/',
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00094/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC000094/',
+            'https://bddg.hznu.edu.cn/emnpd/target/species/ENTO00364/',
+            'https://bddg.hznu.edu.cn/emnpd/target/protein/ENTP00021/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00438/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC001480/',
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00260/',
+            'https://bddg.hznu.edu.cn/emnpd/target/protein/ENTP00064/',
+            'https://bddg.hznu.edu.cn/emnpd/target/species/ENTO00517/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00096/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC004473/',
+            'https://bddg.hznu.edu.cn/emnpd/target/protein/ENTP00001/',
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00098/',
+            'https://bddg.hznu.edu.cn/emnpd/target/species/ENTO00678/',
+            'https://bddg.hznu.edu.cn/emnpd/target/species/ENTO00430/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00899/',
+            'https://bddg.hznu.edu.cn/emnpd/naturalproducts/ENC003956/',
+            'https://bddg.hznu.edu.cn/emnpd/target/protein/ENTP00024/',
+            'https://bddg.hznu.edu.cn/emnpd/target/cell_line/ENTC00246/',
+            'https://bddg.hznu.edu.cn/emnpd/target/species/ENTO00051/',
+            'https://bddg.hznu.edu.cn/emnpd/species/ENS00920/',
+];
+
+        var tagCloud = TagCloud('.content', myTags, {
+
+            // radius in px
+            radius: 300,
+
+            // animation speed
+            // slow, normal, fast
+            maxSpeed: 'slow',
+            initSpeed: 'slow',
+
+            // 0 = top
+            // 90 = left
+            // 135 = right-bottom
+            direction: 135,
+
+            // interact with cursor move on mouse out
+            keep: true
+
+        });
+
+        //To change the color of text randomly
+        var colors = ['#34A853', '#FBBC05', '#4285F4', '#7FBC00', 'FFBA01', '01A6F0'];
+        var random_color = colors[Math.floor(Math.random() * colors.length)];
+        document.querySelector('.content').style.color = random_color;
+
+let rootEl = document.querySelector('.content');
+rootEl.addEventListener('click', function clickEventHandler(e) {
+  if (e.target.className === 'tagcloud--item') {
+    const index = myTags.indexOf(e.target.innerText);
+    window.open(tagLinks[index], '_blank');
+  }
+});
+    </script>
+
+
+{% endblock %}

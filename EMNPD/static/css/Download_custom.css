@@ -1,0 +1,136 @@
+/* 返回顶部 */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 65px;
+  z-index: 9999;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#back-to-top-btn:hover {
+  background-color: #555;
+}
+/* 分隔 */
+
+
+/* Footer */
+.footer-widget-container {
+  text-align: center;
+}
+.footer-title {
+  border-bottom: 2px solid #333;
+}
+
+.footer-widget-container .footer-title {
+  font-family: Calibri, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #808080;
+}
+/* 分隔 */
+
+.navbar .nav li a {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #808080;
+    font-weight: bold;
+}
+
+
+
+/* 滚动进度条 */
+#progress-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 170px;
+  padding-left: 15px;
+}
+
+#progress-bar {
+  width: 0;
+  height: 3px;
+  background-color: #4CAF50;
+}
+
+#progress-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#progress-list li {
+  margin: 10px 0;
+}
+
+#progress-list li a {
+  color: black;
+  text-decoration: none;
+}
+
+#progress-list li a:hover {
+  color: #4CAF50;
+}
+
+#progress-container #progress-list li.blue a {
+  color: blue;
+}
+/* 分隔 */
+
+
+/* 表格 */
+/* 表格字体加粗haed背景蓝色 */
+.table-bordered thead th {
+    font-weight: bold;
+    background-color: #4787C6;
+    color: white;
+}
+/* 表格间隔着色 */
+.table-bordered tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+/* 鼠标悬停高亮 */
+.table-bordered tr:hover {
+  background-color: #c9d9e9;
+}
+/* 表格内容换行 */
+td {
+  word-wrap: break-word;
+  max-width: 100px; /* 设置单元格最大宽度 */
+}
+
+/* 表格内容隐藏和显示 */
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.text-ellipsis.opened {
+  white-space: normal;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+/* 分隔 */
+
+
+
+
+
+
+
+

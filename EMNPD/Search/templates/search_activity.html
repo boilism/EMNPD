@@ -1,0 +1,82 @@
+{% extends 'Search_Base.html' %}
+
+{% block content %}
+
+    {% if result %}
+        <!-- 页头 -->
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Natural Product: {{ result.0.np_num }}</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <table id="NPs_Search_Result_Content" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Natural Product ID</th>
+                    <th>Natural Product Name</th>
+                    <th>Target ID</th>
+                    <th>Target Name</th>
+                    <th>Target Type</th>
+                    <th>Potency of Bioactivity</th>
+                    <th>Bioactivity Name</th>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in result %}
+                    <tr>
+                        <td>
+                            <a href="/emnpd/naturalproducts/{{ obj.NP_ID }}">{{ obj.NP_ID }}</a>
+                        </td>
+                        <td>{{ obj.NP_Name }}</td>
+                        <td>
+                            {% if obj.Target_Type == 'CELL LINE' %}
+                                <a href="/emnpd/target/cell_line/{{ obj.Target_ID }}">{{ obj.Target_ID }}</a>
+                            {% elif obj.Target_Type == 'PROTEIN' %}
+                                <a href="/emnpd/target/protein/{{ obj.Target_ID }}">{{ obj.Target_ID }}</a>
+                            {% elif obj.Target_Type == 'ORGANISM' %}
+                                <a href="/emnpd/target/species/{{ obj.Target_ID }}">{{ obj.Target_ID }}</a>
+                            {% endif %}
+                        </td>
+                        <td>{{ obj.Target_Name }}</td>
+                        <td>{{ obj.Target_Type }}</td>
+                        <td>{{ obj.Bioactivity_Size }}</td>
+                        <td>{{ obj.Bioactivity }}</td>
+                        <td>
+                            <a href="/emnpd/species/{{ obj.Endophyte_ID }}">{{ obj.Endophyte_ID }}</a>
+                        </td>
+                        <td>{{ obj.Endophyte_Name }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>Natural Product ID</th>
+                    <th>Natural Product Name</th>
+                    <th>Target ID</th>
+                    <th>Target Name</th>
+                    <th>Target Type</th>
+                    <th>Potency of Bioactivity</th>
+                    <th>Bioactivity Name</th>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    {% else %}
+
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Natural Product: 0</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <p>Sorry, no results found.</p>
+        </div>
+
+    {% endif %}
+
+{% endblock %}

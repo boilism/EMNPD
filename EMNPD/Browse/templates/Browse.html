@@ -1,0 +1,1502 @@
+{% extends 'Browse_Base.html' %}
+
+{% block content %}
+    <style>
+        .tab-content > .tab-pane{
+            display: block;
+            height: 0;
+            overflow-y: hidden;
+        }
+
+        .tab-content > .active, .pill-content > .active {
+            height: auto;
+        }
+    </style>
+    <style>
+        .page-header {
+            display: flex;
+            justify-content: center;
+        }
+
+        #myTab {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #myTab li {
+            flex-basis: 0;
+            flex-grow: 1;
+            text-align: center;
+        }
+    </style>
+
+    <script src="../static/js/jquery-3.6.4.min.js"></script>
+    <div class="page-header">
+        <div class="wrapper">
+            <ul id="myTab" class="nav nav-pills">
+                <li style=""><a href="#All" data-toggle="tab" title="Button push lightblue"
+                                class="button btnPush btnLightBlue"><i>Browse by EMNPD</i></a></li>
+                <li style=""><a href="#Endophyte" data-toggle="tab" title="Button push lightblue"
+                                class="button btnPush btnLightBlue"><i>Browse by Endophyte</i></a></li>
+                <li style=""><a href="#Natural-Product" data-toggle="tab" title="Button push lightblue"
+                                class="button btnPush btnLightBlue"><i>Browse by NPs</i></a></li>
+                <li style=""><a href="#Target" data-toggle="tab" title="Button push lightblue"
+                                class="button btnPush btnLightBlue"><i>Browse by Target</i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="All">
+            <div id="progress-container-2" style="margin-top: 50px">
+                <div id="progress-bar-2"></div>
+                <ul id="progress-list-2">
+                    <li id="section-name-Endophyte-Tree" class="section-name"><a href="#Endophyte-Tree">Endophyte Tree</a></li>
+                    <li id="section-name-NPs-Tree" class="section-name"><a href="#NPs-Tree">NPs Tree</a></li>
+                    <li id="section-name-Target-Protein-Tree-2" class="section-name"><a href="#Target-Protein-Tree-2">Target
+                        Protein Tree</a></li>
+                    <li id="section-name-Target-Cell-Line-Tree-2" class="section-name"><a
+                            href="#Target-Cell-Line-Tree-2">Target
+                        Cell Line Tree</a></li>
+                    <li id="section-name-Target-Organism-Tree" class="section-name-2"><a href="#Target-Organism-Tree-2">Target
+                        Organism Tree</a></li>
+                </ul>
+            </div>
+
+
+            <section data-name="Endophyte Tree" id="Endophyte-Tree">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Endophytic Mricoorganisms by Taxonomy</h2>
+    <a href="/emnpd/help/#Browse-Endophyte" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Endophyte_Family_Tree_2"></div>
+                    </div>
+
+                    <div class="row" style="margin-top: -20px; margin-bottom:  -100px">
+                        <div id="container1-2" style="height: 800px" class="col-lg-6"></div>
+                        <div id="container21-2" style="height: 800px" class="col-lg-6"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section data-name="NPs Tree" id="NPs-Tree">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Natural Product by Classification</h2>
+    <a href="/emnpd/help/#Browse-NP" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Naturalproduct_Family_Tree_2"></div>
+                    </div>
+
+                    <h3 style="margin-top: 20px">Natural Products Physiochemical Properties Distribution: </h3>
+                    <h4>Click each column to access corresponding data</h4>
+                    <div class="row" style="margin-top: 20px">
+                        <div id="container2_2" class="col-lg-6" style="height: 400px;"></div>
+                        <script src="../static/js/tab-echart.js"></script>
+                        <div id="container3_2" class="col-lg-6" style="height: 400px;"></div>
+                        <script type="text/javascript">
+                            var dom = document.getElementById('container2_2');
+                            var myChart = echarts.init(dom, null, {
+                                renderer: 'canvas',
+                                useDirtyRect: false
+                            });
+                            var app = {};
+
+                            var option;
+
+                            option = {
+                                title: {
+                                    text: 'Molecular Weight Distribution',
+                                    x: 'center' // 居中对齐
+                                },
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: {
+                                        type: 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    left: '3%',
+                                    right: '4%',
+                                    bottom: '3%',
+                                    containLabel: true
+                                },
+                                xAxis: [
+                                    {
+                                        type: 'category',
+                                        data: ['0-100', '100-150', '150-200', '200-250', '250-300', '300-350', '350-400', '400-450', '450-500', '500-550',
+                                            '550-600', '600-650', '> 650'],
+                                        axisTick: {
+                                            alignWithLabel: true
+                                        },
+                                        axisLabel: {
+                                            interval: 0,  // 设置刻度全部显示
+                                            rotate: 45   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                        }
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        type: 'value'
+                                    }
+                                ],
+                                series: [
+                                    {
+                                        name: 'Molecular Weight Distribution:',
+                                        type: 'bar',
+                                        barWidth: '60%',
+                                        label: {
+                                            show: true,
+                                            position: 'top',
+                                            textStyle: {
+                                                fontWeight: 'bold'
+                                            }
+                                        },
+                                        // 在每个柱子上设置 data-url 属性
+                                        itemStyle: {
+                                            emphasis: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#ff6600',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            },
+                                            normal: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#1991eb',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            }
+                                        },
+                                        // 在这里设置每个柱子对应的跳转链接
+                                        data: [
+                                            {
+                                                value: 69,
+                                                range: '[Molecular_Weight: 0=>100]',
+                                                itemStyle: {normal: {color: '#0079bf'}}
+                                            },
+                                            {
+                                                value: 394,
+                                                range: '[Molecular_Weight: 100=>150]',
+                                                itemStyle: {normal: {color: '#70b500'}}
+                                            },
+                                            {
+                                                value: 801,
+                                                range: '[Molecular_Weight: 150=>200]',
+                                                itemStyle: {normal: {color: '#ff9f1a'}}
+                                            },
+                                            {
+                                                value: 1000,
+                                                range: '[Molecular_Weight: 200=>250]',
+                                                itemStyle: {normal: {color: '#eb5a46'}}
+                                            },
+                                            {
+                                                value: 1120,
+                                                range: '[Molecular_Weight: 250=>300]',
+                                                itemStyle: {normal: {color: '#f2d600'}}
+                                            },
+                                            {
+                                                value: 793,
+                                                range: '[Molecular_Weight: 300=>350]',
+                                                itemStyle: {normal: {color: '#c377e0'}}
+                                            },
+                                            {
+                                                value: 565,
+                                                range: '[Molecular_Weight: 350=>400]',
+                                                itemStyle: {normal: {color: '#ff78cb'}}
+                                            },
+                                            {
+                                                value: 496,
+                                                range: '[Molecular_Weight: 400=>450]',
+                                                itemStyle: {normal: {color: '#00c2e0'}}
+                                            },
+                                            {
+                                                value: 296,
+                                                range: '[Molecular_Weight: 450=>500]',
+                                                itemStyle: {normal: {color: '#51e898'}}
+                                            },
+                                            {
+                                                value: 216,
+                                                range: '[Molecular_Weight: 500=>550]',
+                                                itemStyle: {normal: {color: '#6a76ac'}}
+                                            },
+                                            {
+                                                value: 122,
+                                                range: '[Molecular_Weight: 550=>600]',
+                                                itemStyle: {normal: {color: '#d52b1d'}}
+                                            },
+                                            {
+                                                value: 85,
+                                                range: '[Molecular_Weight: 600=>650]',
+                                                itemStyle: {normal: {color: '#f8cc1b'}}
+                                            },
+                                            {
+                                                value: 188,
+                                                range: '[Molecular_Weight: 650=>10000]',
+                                                itemStyle: {normal: {color: '#c4c9cc'}}
+                                            }
+                                        ]
+
+                                    }
+                                ]
+
+                            };
+
+                            if (option && typeof option === 'object') {
+                                myChart.setOption(option);
+                            }
+
+                            myChart.on('click', function (params) {
+                                var range = params.data.range;
+                                if (range) {
+                                    window.open('/emnpd/search/?mw_range=' + range + '&chart=1', '_blank');
+                                }
+                            });
+
+                            window.addEventListener('resize', myChart.resize);
+                        </script>
+                        <script type="text/javascript">
+                            var dom = document.getElementById('container3_2');
+                            var myChart = echarts.init(dom, null, {
+                                renderer: 'canvas',
+                                useDirtyRect: false
+                            });
+                            var app = {};
+
+                            var option;
+
+                            option = {
+                                title: {
+                                    text: 'ALogP Distribution',
+                                    x: 'center' // 居中对齐
+                                },
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: {
+                                        type: 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    left: '3%',
+                                    right: '4%',
+                                    bottom: '3%',
+                                    containLabel: true
+                                },
+                                xAxis: [
+                                    {
+                                        type: 'category',
+                                        data: ['-10-0', '0-1', '1-2', '2-3', '3-4', '4-5', '5-6', '> 6'],
+                                        axisTick: {
+                                            alignWithLabel: true
+                                        },
+                                        axisLabel: {
+                                            interval: 0,  // 设置刻度全部显示
+                                            rotate: 45,   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                            textStyle: {
+                                                fontSize: 16  // 设置字体大小
+                                            }
+                                        }
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        type: 'value'
+                                    }
+                                ],
+                                series: [
+                                    {
+                                        name: 'ALogP Distribution',
+                                        type: 'bar',
+                                        barWidth: '60%',
+                                        // 在每个柱子上设置 data-url 属性
+                                        itemStyle: {
+                                            emphasis: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#ff6600',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            },
+                                            normal: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#1991eb',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            }
+                                        },
+                                        // 在这里设置每个柱子对应的跳转链接
+                                        data: [
+                                            {
+                                                value: 423,
+                                                range: '[ALogP: -10=>0]',
+                                                itemStyle: {normal: {color: '#0079bf'}}
+                                            },
+                                            {
+                                                value: 704,
+                                                range: '[ALogP: 0=>1]',
+                                                itemStyle: {normal: {color: '#70b500'}}
+                                            },
+                                            {
+                                                value: 1258,
+                                                range: '[ALogP: 1=>2]',
+                                                itemStyle: {normal: {color: '#ff9f1a'}}
+                                            },
+                                            {
+                                                value: 1249,
+                                                range: '[ALogP: 2=>3]',
+                                                itemStyle: {normal: {color: '#eb5a46'}}
+                                            },
+                                            {
+                                                value: 970,
+                                                range: '[ALogP: 3=>4]',
+                                                itemStyle: {normal: {color: '#f2d600'}}
+                                            },
+                                            {
+                                                value: 592,
+                                                range: '[ALogP: 4=>5]',
+                                                itemStyle: {normal: {color: '#c377e0'}}
+                                            },
+                                            {
+                                                value: 346,
+                                                range: '[ALogP: 5=>6]',
+                                                itemStyle: {normal: {color: '#ff78cb'}}
+                                            },
+                                            {
+                                                value: 603,
+                                                range: '[ALogP: 6=>100]',
+                                                itemStyle: {normal: {color: '#00c2e0'}}
+                                            },
+                                        ]
+
+                                    }
+                                ]
+
+                            };
+
+                            if (option && typeof option === 'object') {
+                                myChart.setOption(option);
+                            }
+
+                            myChart.on('click', function (params) {
+                                var range = params.data.range;
+                                if (range) {
+                                    window.open('/emnpd/search/?alogp_range=' + range + '&chart=2', '_blank');
+                                }
+                            });
+
+                            window.addEventListener('resize', myChart.resize);
+                        </script>
+                    </div>
+
+                    <div class="row">
+                        <div id="container4_2" class="col-lg-6" style="height: 400px;"></div>
+                        <div id="container5_2" class="col-lg-6" style="height: 400px;"></div>
+                        <script type="text/javascript">
+                            var dom = document.getElementById('container4_2');
+                            var myChart = echarts.init(dom, null, {
+                                renderer: 'canvas',
+                                useDirtyRect: false
+                            });
+                            var app = {};
+
+                            var option;
+
+                            option = {
+                                title: {
+                                    text: 'H-bond Acceptors Distribution',
+                                    x: 'center' // 居中对齐
+                                },
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: {
+                                        type: 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    left: '3%',
+                                    right: '4%',
+                                    bottom: '3%',
+                                    containLabel: true
+                                },
+                                xAxis: [
+                                    {
+                                        type: 'category',
+                                        data: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '> 10'],
+                                        axisTick: {
+                                            alignWithLabel: true
+                                        },
+                                        axisLabel: {
+                                            interval: 0,  // 设置刻度全部显示
+                                            rotate: 0,   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                            textStyle: {
+                                                fontSize: 16  // 设置字体大小
+                                            }
+                                        }
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        type: 'value'
+                                    }
+                                ],
+                                series: [
+                                    {
+                                        name: 'H-bond Acceptors Distribution',
+                                        type: 'bar',
+                                        barWidth: '60%',
+
+                                        // 在每个柱子上设置 data-url 属性
+                                        itemStyle: {
+                                            emphasis: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#ff6600',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            },
+                                            normal: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#1991eb',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            }
+                                        },
+                                        // 在这里设置每个柱子对应的跳转链接
+                                        data: [
+                                            {
+                                                value: 392,
+                                                range: '[HBA: 0]',
+                                                itemStyle: {normal: {color: '#70b500'}}
+                                            },
+                                            {
+                                                value: 440,
+                                                range: '[HBA: 1]',
+                                                itemStyle: {normal: {color: '#ff9f1a'}}
+                                            },
+                                            {
+                                                value: 759,
+                                                range: '[HBA: 2]',
+                                                itemStyle: {normal: {color: '#eb5a46'}}
+                                            },
+                                            {
+                                                value: 849,
+                                                range: '[HBA: 3]',
+                                                itemStyle: {normal: {color: '#f2d600'}}
+                                            },
+                                            {
+                                                value: 1042,
+                                                range: '[HBA: 4]',
+                                                itemStyle: {normal: {color: '#c377e0'}}
+                                            },
+                                            {
+                                                value: 905,
+                                                range: '[HBA: 5]',
+                                                itemStyle: {normal: {color: '#ff78cb'}}
+                                            },
+                                            {
+                                                value: 659,
+                                                range: '[HBA: 6]',
+                                                itemStyle: {normal: {color: '#00c2e0'}}
+                                            },
+                                            {
+                                                value: 408,
+                                                range: '[HBA: 7]',
+                                                itemStyle: {normal: {color: '#51e898'}}
+                                            },
+                                            {
+                                                value: 229,
+                                                range: '[HBA: 8]',
+                                                itemStyle: {normal: {color: '#6a76ac'}}
+                                            },
+                                            {
+                                                value: 147,
+                                                range: '[HBA: 9]',
+                                                itemStyle: {normal: {color: '#d52b1d'}}
+                                            },
+                                            {
+                                                value: 315,
+                                                range: '[HBA: 10=>100]',
+                                                itemStyle: {normal: {color: '#c4c9cc'}}
+                                            },
+                                        ]
+
+                                    }
+                                ]
+
+                            };
+
+                            if (option && typeof option === 'object') {
+                                myChart.setOption(option);
+                            }
+
+                            myChart.on('click', function (params) {
+                                var range = params.data.range;
+                                if (range) {
+                                    window.open('/emnpd/search/?hba_range=' + range + '&chart=3', '_blank');
+                                }
+                            });
+
+                            window.addEventListener('resize', myChart.resize);
+                        </script>
+                        <script type="text/javascript">
+                            var dom = document.getElementById('container5_2');
+                            var myChart = echarts.init(dom, null, {
+                                renderer: 'canvas',
+                                useDirtyRect: false
+                            });
+                            var app = {};
+
+                            var option;
+
+                            option = {
+                                title: {
+                                    text: 'H-bond Donors Distribution',
+                                    x: 'center' // 居中对齐
+                                },
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: {
+                                        type: 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    left: '3%',
+                                    right: '4%',
+                                    bottom: '3%',
+                                    containLabel: true
+                                },
+                                xAxis: [
+                                    {
+                                        type: 'category',
+                                        data: ['0', '1', '2', '3', '4', '5', '> 5'],
+                                        axisTick: {
+                                            alignWithLabel: true
+                                        },
+                                        axisLabel: {
+                                            interval: 0,  // 设置刻度全部显示
+                                            rotate: 0,   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                            textStyle: {
+                                                fontSize: 16  // 设置字体大小
+                                            }
+                                        }
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        type: 'value'
+                                    }
+                                ],
+                                series: [
+                                    {
+                                        name: 'H-bond Donors Distribution',
+                                        type: 'bar',
+                                        barWidth: '60%',
+
+                                        // 在每个柱子上设置 data-url 属性
+                                        itemStyle: {
+                                            emphasis: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#ff6600',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            },
+                                            normal: {
+                                                barBorderRadius: [5, 5, 0, 0],
+                                                color: '#1991eb',
+                                                label: {
+                                                    show: true,
+                                                    position: 'top',
+                                                    fontWeight: 'bold'
+                                                }
+                                            }
+                                        },
+                                        // 在这里设置每个柱子对应的跳转链接
+                                        data: [
+                                            {
+                                                value: 1403,
+                                                range: '[HBD: 0]',
+                                                itemStyle: {normal: {color: '#70b500'}}
+                                            },
+                                            {
+                                                value: 1372,
+                                                range: '[HBD: 1]',
+                                                itemStyle: {normal: {color: '#ff9f1a'}}
+                                            },
+                                            {
+                                                value: 1568,
+                                                range: '[HBD: 2]',
+                                                itemStyle: {normal: {color: '#eb5a46'}}
+                                            },
+                                            {
+                                                value: 985,
+                                                range: '[HBD: 3]',
+                                                itemStyle: {normal: {color: '#f2d600'}}
+                                            },
+                                            {
+                                                value: 470,
+                                                range: '[HBD: 4]',
+                                                itemStyle: {normal: {color: '#c377e0'}}
+                                            },
+                                            {
+                                                value: 156,
+                                                range: '[HBD: 5]',
+                                                itemStyle: {normal: {color: '#ff78cb'}}
+                                            },
+                                            {
+                                                value: 191,
+                                                range: '[HBD: 6=>100]',
+                                                itemStyle: {normal: {color: '#c4c9cc'}}
+                                            },
+                                        ]
+
+                                    }
+                                ]
+
+                            };
+
+                            if (option && typeof option === 'object') {
+                                myChart.setOption(option);
+                            }
+
+                            myChart.on('click', function (params) {
+                                var range = params.data.range;
+                                if (range) {
+                                    window.open('/emnpd/search/?hbd_range=' + range + '&chart=4', '_blank');
+                                }
+                            });
+
+                            window.addEventListener('resize', myChart.resize);
+                        </script>
+                    </div>
+                </div>
+            </section>
+
+            <section data-name="Target Protein Tree 2" id="Target-Protein-Tree-2">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Target Protein by Protein Family</h2>
+    <a href="/emnpd/help/#Browse-Protein" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Protein_Family_Tree_2"></div>
+                    </div>
+                    <div id="container6_2" style="height: 800px; margin-bottom: -100px"></div>
+                </div>
+            </section>
+
+            <section data-name="Target Cell Line Tree 2" id="Target-Cell-Line-Tree-2">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Target Cell Line by Category</h2>
+    <a href="/emnpd/help/#Browse-Cell-Line" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Cell_Line_Family_Tree_2"></div>
+                    </div>
+                    <div id="container7_2" style="height: 800px; margin-bottom: -100px"></div>
+                </div>
+            </section>
+
+            <section data-name="Target Organism Tree 2" id="Target-Organism-Tree-2">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Target Organism by Taxonomy</h2>
+    <a href="/emnpd/help/#Browse-Organism" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Organism_Family_Tree_2"></div>
+                    </div>
+                    <div id="container8_2" style="height: 800px; margin-bottom: -100px"></div>
+                </div>
+            </section>
+        </div>
+
+        <div class="tab-pane fade" id="Endophyte">
+            <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Endophytic Mricoorganisms by Taxonomy</h2>
+    <a href="/emnpd/help/#Browse-Endophyte" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                <div style="margin-top: 20px">
+                    <div id="Endophyte_Family_Tree"></div>
+                </div>
+
+                <div class="row" style="margin-top: -20px; margin-bottom: -100px">
+                    <div id="container1" style="height: 800px" class="col-lg-6"></div>
+                    <div id="container21" style="height: 800px" class="col-lg-6"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="Natural-Product">
+            <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Natural Product by Classification</h2>
+    <a href="/emnpd/help/#Browse-NP" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                <div style="margin-top: 20px">
+                    <div id="Naturalproduct_Family_Tree"></div>
+                </div>
+
+                <h3 style="margin-top: 20px">Natural Products Physiochemical Properties Distribution: </h3>
+                <h4>Click each column to access corresponding data</h4>
+                <div class="row" style="margin-top: 20px">
+                    <div id="container2" class="col-lg-6" style="height: 400px;"></div>
+                    <script src="../static/js/tab-echart.js"></script>
+                    <div id="container3" class="col-lg-6" style="height: 400px;"></div>
+                    <script type="text/javascript">
+                        var dom = document.getElementById('container2');
+                        var myChart = echarts.init(dom, null, {
+                            renderer: 'canvas',
+                            useDirtyRect: false
+                        });
+                        var app = {};
+
+                        var option;
+
+                        option = {
+                            title: {
+                                text: 'Molecular Weight Distribution',
+                                x: 'center' // 居中对齐
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {
+                                    type: 'shadow'
+                                }
+                            },
+                            grid: {
+                                left: '3%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    data: ['0-100', '100-150', '150-200', '200-250', '250-300', '300-350', '350-400', '400-450', '450-500', '500-550',
+                                        '550-600', '600-650', '> 650'],
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    },
+                                    axisLabel: {
+                                        interval: 0,  // 设置刻度全部显示
+                                        rotate: 45   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value'
+                                }
+                            ],
+                            series: [
+                                {
+                                    name: 'Molecular Weight Distribution:',
+                                    type: 'bar',
+                                    barWidth: '60%',
+                                    label: {
+                                        show: true,
+                                        position: 'top',
+                                        textStyle: {
+                                            fontWeight: 'bold'
+                                        }
+                                    },
+                                    // 在每个柱子上设置 data-url 属性
+                                    itemStyle: {
+                                        emphasis: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#ff6600',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        },
+                                        normal: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#1991eb',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        }
+                                    },
+                                    // 在这里设置每个柱子对应的跳转链接
+                                    data: [
+                                        {
+                                            value: 69,
+                                            range: '[Molecular_Weight: 0=>100]',
+                                            itemStyle: {normal: {color: '#0079bf'}}
+                                        },
+                                        {
+                                            value: 394,
+                                            range: '[Molecular_Weight: 100=>150]',
+                                            itemStyle: {normal: {color: '#70b500'}}
+                                        },
+                                        {
+                                            value: 801,
+                                            range: '[Molecular_Weight: 150=>200]',
+                                            itemStyle: {normal: {color: '#ff9f1a'}}
+                                        },
+                                        {
+                                            value: 1000,
+                                            range: '[Molecular_Weight: 200=>250]',
+                                            itemStyle: {normal: {color: '#eb5a46'}}
+                                        },
+                                        {
+                                            value: 1120,
+                                            range: '[Molecular_Weight: 250=>300]',
+                                            itemStyle: {normal: {color: '#f2d600'}}
+                                        },
+                                        {
+                                            value: 793,
+                                            range: '[Molecular_Weight: 300=>350]',
+                                            itemStyle: {normal: {color: '#c377e0'}}
+                                        },
+                                        {
+                                            value: 565,
+                                            range: '[Molecular_Weight: 350=>400]',
+                                            itemStyle: {normal: {color: '#ff78cb'}}
+                                        },
+                                        {
+                                            value: 496,
+                                            range: '[Molecular_Weight: 400=>450]',
+                                            itemStyle: {normal: {color: '#00c2e0'}}
+                                        },
+                                        {
+                                            value: 296,
+                                            range: '[Molecular_Weight: 450=>500]',
+                                            itemStyle: {normal: {color: '#51e898'}}
+                                        },
+                                        {
+                                            value: 216,
+                                            range: '[Molecular_Weight: 500=>550]',
+                                            itemStyle: {normal: {color: '#6a76ac'}}
+                                        },
+                                        {
+                                            value: 122,
+                                            range: '[Molecular_Weight: 550=>600]',
+                                            itemStyle: {normal: {color: '#d52b1d'}}
+                                        },
+                                        {
+                                            value: 85,
+                                            range: '[Molecular_Weight: 600=>650]',
+                                            itemStyle: {normal: {color: '#f8cc1b'}}
+                                        },
+                                        {
+                                            value: 188,
+                                            range: '[Molecular_Weight: 650=>10000]',
+                                            itemStyle: {normal: {color: '#c4c9cc'}}
+                                        }
+                                    ]
+
+                                }
+                            ]
+
+                        };
+
+                        if (option && typeof option === 'object') {
+                            myChart.setOption(option);
+                        }
+
+                        myChart.on('click', function (params) {
+                            var range = params.data.range;
+                            if (range) {
+                                window.open('/emnpd/search/?mw_range=' + range + '&chart=1', '_blank');
+                            }
+                        });
+
+                        window.addEventListener('resize', myChart.resize);
+                    </script>
+                    <script type="text/javascript">
+                        var dom = document.getElementById('container3');
+                        var myChart = echarts.init(dom, null, {
+                            renderer: 'canvas',
+                            useDirtyRect: false
+                        });
+                        var app = {};
+
+                        var option;
+
+                        option = {
+                            title: {
+                                text: 'ALogP Distribution',
+                                x: 'center' // 居中对齐
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {
+                                    type: 'shadow'
+                                }
+                            },
+                            grid: {
+                                left: '3%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    data: ['-10-0', '0-1', '1-2', '2-3', '3-4', '4-5', '5-6', '> 6'],
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    },
+                                    axisLabel: {
+                                        interval: 0,  // 设置刻度全部显示
+                                        rotate: 45,   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                        textStyle: {
+                                            fontSize: 16  // 设置字体大小
+                                        }
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value'
+                                }
+                            ],
+                            series: [
+                                {
+                                    name: 'ALogP Distribution',
+                                    type: 'bar',
+                                    barWidth: '60%',
+                                    // 在每个柱子上设置 data-url 属性
+                                    itemStyle: {
+                                        emphasis: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#ff6600',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        },
+                                        normal: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#1991eb',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        }
+                                    },
+                                    // 在这里设置每个柱子对应的跳转链接
+                                    data: [
+                                        {value: 423, range: '[ALogP: -10=>0]', itemStyle: {normal: {color: '#0079bf'}}},
+                                        {
+                                            value: 704,
+                                            range: '[ALogP: 0=>1]',
+                                            itemStyle: {normal: {color: '#70b500'}}
+                                        },
+                                        {
+                                            value: 1258,
+                                            range: '[ALogP: 1=>2]',
+                                            itemStyle: {normal: {color: '#ff9f1a'}}
+                                        },
+                                        {
+                                            value: 1249,
+                                            range: '[ALogP: 2=>3]',
+                                            itemStyle: {normal: {color: '#eb5a46'}}
+                                        },
+                                        {
+                                            value: 970,
+                                            range: '[ALogP: 3=>4]',
+                                            itemStyle: {normal: {color: '#f2d600'}}
+                                        },
+                                        {
+                                            value: 592,
+                                            range: '[ALogP: 4=>5]',
+                                            itemStyle: {normal: {color: '#c377e0'}}
+                                        },
+                                        {
+                                            value: 346,
+                                            range: '[ALogP: 5=>6]',
+                                            itemStyle: {normal: {color: '#ff78cb'}}
+                                        },
+                                        {
+                                            value: 603,
+                                            range: '[ALogP: 6=>100]',
+                                            itemStyle: {normal: {color: '#00c2e0'}}
+                                        },
+                                    ]
+
+                                }
+                            ]
+
+                        };
+
+                        if (option && typeof option === 'object') {
+                            myChart.setOption(option);
+                        }
+
+                        myChart.on('click', function (params) {
+                            var range = params.data.range;
+                            if (range) {
+                                window.open('/emnpd/search/?alogp_range=' + range + '&chart=2', '_blank');
+                            }
+                        });
+
+                        window.addEventListener('resize', myChart.resize);
+                    </script>
+                </div>
+
+                <div class="row">
+                    <div id="container4" class="col-lg-6" style="height: 400px;"></div>
+                    <div id="container5" class="col-lg-6" style="height: 400px;"></div>
+                    <script type="text/javascript">
+                        var dom = document.getElementById('container4');
+                        var myChart = echarts.init(dom, null, {
+                            renderer: 'canvas',
+                            useDirtyRect: false
+                        });
+                        var app = {};
+
+                        var option;
+
+                        option = {
+                            title: {
+                                text: 'H-bond Acceptors Distribution',
+                                x: 'center' // 居中对齐
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {
+                                    type: 'shadow'
+                                }
+                            },
+                            grid: {
+                                left: '3%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    data: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '> 10'],
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    },
+                                    axisLabel: {
+                                        interval: 0,  // 设置刻度全部显示
+                                        rotate: 0,   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                        textStyle: {
+                                            fontSize: 16  // 设置字体大小
+                                        }
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value'
+                                }
+                            ],
+                            series: [
+                                {
+                                    name: 'H-bond Acceptors Distribution',
+                                    type: 'bar',
+                                    barWidth: '60%',
+
+                                    // 在每个柱子上设置 data-url 属性
+                                    itemStyle: {
+                                        emphasis: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#ff6600',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        },
+                                        normal: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#1991eb',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        }
+                                    },
+                                    // 在这里设置每个柱子对应的跳转链接
+                                    data: [
+                                        {
+                                            value: 392,
+                                            range: '[HBA: 0]',
+                                            itemStyle: {normal: {color: '#70b500'}}
+                                        },
+                                        {
+                                            value: 440,
+                                            range: '[HBA: 1]',
+                                            itemStyle: {normal: {color: '#ff9f1a'}}
+                                        },
+                                        {
+                                            value: 759,
+                                            range: '[HBA: 2]',
+                                            itemStyle: {normal: {color: '#eb5a46'}}
+                                        },
+                                        {
+                                            value: 849,
+                                            range: '[HBA: 3]',
+                                            itemStyle: {normal: {color: '#f2d600'}}
+                                        },
+                                        {
+                                            value: 1042,
+                                            range: '[HBA: 4]',
+                                            itemStyle: {normal: {color: '#c377e0'}}
+                                        },
+                                        {
+                                            value: 905,
+                                            range: '[HBA: 5]',
+                                            itemStyle: {normal: {color: '#ff78cb'}}
+                                        },
+                                        {
+                                            value: 659,
+                                            range: '[HBA: 6]',
+                                            itemStyle: {normal: {color: '#00c2e0'}}
+                                        },
+                                        {
+                                            value: 408,
+                                            range: '[HBA: 7]',
+                                            itemStyle: {normal: {color: '#51e898'}}
+                                        },
+                                        {
+                                            value: 229,
+                                            range: '[HBA: 8]',
+                                            itemStyle: {normal: {color: '#6a76ac'}}
+                                        },
+                                        {
+                                            value: 147,
+                                            range: '[HBA: 9]',
+                                            itemStyle: {normal: {color: '#d52b1d'}}
+                                        },
+                                        {
+                                            value: 315,
+                                            range: '[HBA: 10=>100]',
+                                            itemStyle: {normal: {color: '#c4c9cc'}}
+                                        },
+                                    ]
+
+                                }
+                            ]
+
+                        };
+
+                        if (option && typeof option === 'object') {
+                            myChart.setOption(option);
+                        }
+
+                        myChart.on('click', function (params) {
+                            var range = params.data.range;
+                            if (range) {
+                                window.open('/emnpd/search/?hba_range=' + range + '&chart=3', '_blank');
+                            }
+                        });
+
+                        window.addEventListener('resize', myChart.resize);
+                    </script>
+                    <script type="text/javascript">
+                        var dom = document.getElementById('container5');
+                        var myChart = echarts.init(dom, null, {
+                            renderer: 'canvas',
+                            useDirtyRect: false
+                        });
+                        var app = {};
+
+                        var option;
+
+                        option = {
+                            title: {
+                                text: 'H-bond Donors Distribution',
+                                x: 'center' // 居中对齐
+                            },
+                            tooltip: {
+                                trigger: 'axis',
+                                axisPointer: {
+                                    type: 'shadow'
+                                }
+                            },
+                            grid: {
+                                left: '3%',
+                                right: '4%',
+                                bottom: '3%',
+                                containLabel: true
+                            },
+                            xAxis: [
+                                {
+                                    type: 'category',
+                                    data: ['0', '1', '2', '3', '4', '5', '> 5'],
+                                    axisTick: {
+                                        alignWithLabel: true
+                                    },
+                                    axisLabel: {
+                                        interval: 0,  // 设置刻度全部显示
+                                        rotate: 0,   // 可选，如果刻度标签过长可以旋转角度，使其更好地显示
+                                        textStyle: {
+                                            fontSize: 16  // 设置字体大小
+                                        }
+                                    }
+                                }
+                            ],
+                            yAxis: [
+                                {
+                                    type: 'value'
+                                }
+                            ],
+                            series: [
+                                {
+                                    name: 'H-bond Donors Distribution',
+                                    type: 'bar',
+                                    barWidth: '60%',
+
+                                    // 在每个柱子上设置 data-url 属性
+                                    itemStyle: {
+                                        emphasis: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#ff6600',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        },
+                                        normal: {
+                                            barBorderRadius: [5, 5, 0, 0],
+                                            color: '#1991eb',
+                                            label: {
+                                                show: true,
+                                                position: 'top',
+                                                fontWeight: 'bold'
+                                            }
+                                        }
+                                    },
+                                    // 在这里设置每个柱子对应的跳转链接
+                                    data: [
+                                        {
+                                            value: 1403,
+                                            range: '[HBD: 0]',
+                                            itemStyle: {normal: {color: '#70b500'}}
+                                        },
+                                        {
+                                            value: 1372,
+                                            range: '[HBD: 1]',
+                                            itemStyle: {normal: {color: '#ff9f1a'}}
+                                        },
+                                        {
+                                            value: 1568,
+                                            range: '[HBD: 2]',
+                                            itemStyle: {normal: {color: '#eb5a46'}}
+                                        },
+                                        {
+                                            value: 985,
+                                            range: '[HBD: 3]',
+                                            itemStyle: {normal: {color: '#f2d600'}}
+                                        },
+                                        {
+                                            value: 470,
+                                            range: '[HBD: 4]',
+                                            itemStyle: {normal: {color: '#c377e0'}}
+                                        },
+                                        {
+                                            value: 156,
+                                            range: '[HBD: 5]',
+                                            itemStyle: {normal: {color: '#ff78cb'}}
+                                        },
+                                        {
+                                            value: 191,
+                                            range: '[HBD: 6=>100]',
+                                            itemStyle: {normal: {color: '#c4c9cc'}}
+                                        },
+                                    ]
+
+                                }
+                            ]
+
+                        };
+
+                        if (option && typeof option === 'object') {
+                            myChart.setOption(option);
+                        }
+
+                        myChart.on('click', function (params) {
+                            var range = params.data.range;
+                            if (range) {
+                                window.open('/emnpd/search/?hbd_range=' + range + '&chart=4', '_blank');
+                            }
+                        });
+
+                        window.addEventListener('resize', myChart.resize);
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="Target">
+            <!-- 滚动进度条 -->
+            <div id="progress-container" style="margin-top: 50px">
+                <div id="progress-bar"></div>
+                <ul id="progress-list">
+                    <li id="section-name-Target-Protein-Tree" class="section-name"><a href="#Target-Protein-Tree">Target
+                        Protein Tree</a></li>
+                    <li id="section-name-Target-Cell-Line-Tree" class="section-name"><a href="#Target-Cell-Line-Tree">Target
+                        Cell Line Tree</a></li>
+                    <li id="section-name-Target-Organism-Tree" class="section-name"><a href="#Target-Organism-Tree">Target
+                        Organism Tree</a></li>
+                </ul>
+            </div>
+
+            <section data-name="Target Protein Tree" id="Target-Protein-Tree">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Target Protein by Protein Family</h2>
+    <a href="/emnpd/help/#Browse-Protein" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Protein_Family_Tree"></div>
+                    </div>
+                    <div id="container6" style="height: 800px; margin-bottom: -100px"></div>
+                </div>
+            </section>
+
+            <section data-name="Target Cell Line Tree" id="Target-Cell-Line-Tree">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Target Cell Line by Category</h2>
+    <a href="/emnpd/help/#Browse-Cell-Line" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Cell_Line_Family_Tree"></div>
+                    </div>
+                    <div id="container7" style="height: 800px; margin-bottom: -100px"></div>
+                </div>
+            </section>
+
+            <section data-name="Target Organism Tree" id="Target-Organism-Tree">
+                <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+<div style="display: flex; align-items: center; margin-top: -20px;">
+    <h2 style="margin: 0; font-family: Calibri; font-weight: bold; margin-right: 10px;">Browse Target Organism by Taxonomy</h2>
+    <a href="/emnpd/help/#Browse-Organism" style="margin-right: 10px; margin-top: 3px" target="_blank">
+        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+    </a>
+</div>
+                    <div style="margin-top: 20px">
+                        <div id="Organism_Family_Tree"></div>
+                    </div>
+                    <div id="container8" style="height: 800px; margin-bottom: -100px"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        function updateProgressBar() {
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
+            var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
+            var progressWidth = (scrollPosition / (scrollHeight - windowHeight)) * 100;
+
+            document.getElementById("progress-bar").style.width = progressWidth + "%";
+
+            var sectionNames = ['Target Protein Tree', 'Target Cell Line Tree', 'Target Organism Tree'];
+            var sectionIds = ['Target-Protein-Tree', 'Target-Cell-Line-Tree', 'Target-Organism-Tree'];
+
+            var currentSection = null;
+            for (var i = 0; i < sectionIds.length; i++) {
+                var section = document.getElementById(sectionIds[i]);
+                if (scrollPosition >= section.offsetTop - windowHeight / 2) {
+                    currentSection = sectionIds[i];
+                }
+                var sectionName = document.getElementById('section-name-' + sectionIds[i]);
+                if (sectionName) {
+                    var rect = section.getBoundingClientRect();
+                    if (rect.top <= windowHeight / 2 && rect.bottom >= windowHeight / 2) {
+                        sectionName.classList.add('blue');
+                    } else {
+                        sectionName.classList.remove('blue');
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("scroll", updateProgressBar);
+        updateProgressBar();
+    </script>
+    <script>
+        function updateProgressBar() {
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
+            var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
+            var progressWidth = (scrollPosition / (scrollHeight - windowHeight)) * 100;
+
+            document.getElementById("progress-bar-2").style.width = progressWidth + "%";
+
+            var sectionNames = ['Endophyte Tree', 'NPs Tree', 'Target Protein Tree 2', 'Target Cell Line Tree 2', 'Target Organism Tree 2'];
+            var sectionIds = ['Endophyte-Tree', 'NPs-Tree', 'Target-Protein-Tree-2', 'Target-Cell-Line-Tree-2', 'Target-Organism-Tree-2'];
+
+            var currentSection = null;
+            for (var i = 0; i < sectionIds.length; i++) {
+                var section = document.getElementById(sectionIds[i]);
+                if (scrollPosition >= section.offsetTop - windowHeight / 2) {
+                    currentSection = sectionIds[i];
+                }
+                var sectionName = document.getElementById('section-name-' + sectionIds[i]);
+                if (sectionName) {
+                    var rect = section.getBoundingClientRect();
+                    if (rect.top <= windowHeight / 2 && rect.bottom >= windowHeight / 2) {
+                        sectionName.classList.add('blue');
+                    } else {
+                        sectionName.classList.remove('blue');
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("scroll", updateProgressBar);
+        updateProgressBar();
+    </script>
+{% endblock %}

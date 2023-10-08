@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["gunicorn", "ENDBProject.wsgi:application", "--bind", "0.0.0.0:8000"]
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_PORT=3306
+
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=EMNPD
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=some_root_password
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./data.sql:/docker-entrypoint-initdb.d/data.sql
+    ports:
+      - "54321:3306"
+
+volumes:
+  mysql-data:

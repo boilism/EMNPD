@@ -1,0 +1,249 @@
+{% extends 'target_base.html' %}
+
+{% block content %}
+<style>
+    .dataTable .center {
+        text-align: center; /* or any other desired alignment */
+    }
+</style>
+    <!-- 滚动进度条 -->
+    <div id="progress-container" style="margin-top: 50px">
+        <div id="progress-bar"></div>
+        <ul id="progress-list">
+            <li id="section-name-Cell-Line-Basic-Information" class="section-name"><a href="#Cell-Line-Basic-Information">Cell Line Basic Information</a></li>
+            <li id="section-name-Cell-Line-NPs-Bioactivity" class="section-name"><a href="#Cell-Line-NPs-Bioactivity">Cell Line NPs Bioactivity</a></li>
+        </ul>
+    </div>
+
+    <!-- 页头 -->
+    <div class="page-header" style="margin-top: 0px">
+                <div style="display: flex; align-items: center;">
+                    <h2 style="margin: 0; font-weight: bold; margin-right: 10px;"><strong>Target ID: {{ Target_Cell_Line.EMNPD_TCID }}</strong></h2>
+                    <a href="/emnpd/help/#specific-cell-line" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+    </div>  
+    <!-- Cell Line Basic Information -->
+    <section data-name="Cell Line Basic Information" id="Cell-Line-Basic-Information">
+        <div class="jumbotron">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Cell Line Basic Information</h3>
+            <table class="table table-bordered" style="border: 3px solid black">
+                <tbody>
+                <tr>
+                    <td class="col-lg-3"><strong>Target Name</strong></td>
+                    <td>{{ Target_Cell_Line.Cell_Line_Name }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Target Type</strong></td>
+                    <td>{{ Target_Cell_Line.Target_Type }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Cell Type</strong></td>
+                    <td>{{ Target_Cell_Line.Cell_Type }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Cell Line Classification</strong></td>
+                    <td>{{ Target_Cell_Line.Cell_Line_Classification }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Synonyms</strong></td>
+                    <td>
+                        <div class="text-ellipsis">
+                            {{ Target_Cell_Line.Synonyms }}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Target Organism ID</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.Target_Organism_ID != 'NA' %}
+                            <a href="/emnpd/target/species/{{ Target_Cell_Line.Target_Organism_ID }}/">{{ Target_Cell_Line.Target_Organism_ID }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.Target_Organism_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Target Organism</strong></td>
+                    <td>{{ Target_Cell_Line.Target_Organism_Name }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Cellosaurus</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.Cellosaurus_ID != 'NA' %}
+                            <a href="https://www.cellosaurus.org/{{ Target_Cell_Line.Cellosaurus_ID }}">{{ Target_Cell_Line.Cellosaurus_ID }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.Cellosaurus_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>ChEMBL Cell Line</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.Chembl_Cell_ID != 'NA' %}
+                            <a href="https://www.ebi.ac.uk/chembl/cell_line_report_card/{{ Target_Cell_Line.Chembl_Cell_ID }}">{{ Target_Cell_Line.Chembl_Cell_ID }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.Chembl_Cell_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>ChEMBL Target</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.Chembl_Target_ID != 'NA' %}
+                            <a href="https://www.ebi.ac.uk/chembl/target_report_card/{{ Target_Cell_Line.Chembl_Target_ID }}">{{ Target_Cell_Line.Chembl_Target_ID }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.Chembl_Target_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Cell Line Ontology</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.Cell_Line_Ontology != 'NA' %}
+                            <a href="https://ontobee.org/ontology/CLO?iri=http://purl.obolibrary.org/obo/{{ Target_Cell_Line.Cell_Line_Ontology }}">{{ Target_Cell_Line.Cell_Line_Ontology }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.Cell_Line_Ontology }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Experimental Factor Ontology</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.Experimental_Factor_Ontology != 'NA' %}
+                            <a href="https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form={{ Target_Cell_Line.Experimental_Factor_Ontology }}">{{ Target_Cell_Line.Experimental_Factor_Ontology }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.Experimental_Factor_Ontology }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>LINCS Project</strong></td>
+                    <td>
+                        {% if Target_Cell_Line.LINCS_Project != 'NA' %}
+                            <a href="https://lincsportal.ccs.miami.edu/cells/#/view/{{ Target_Cell_Line.LINCS_Project }}">{{ Target_Cell_Line.LINCS_Project }}</a>
+                        {% else %}
+                            {{ Target_Cell_Line.LINCS_Project }}
+                        {% endif %}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Cell Line Bioactivity -->
+    <section data-time="Cell Line NPs Bioactivity" id="Cell-Line-NPs-Bioactivity">
+        <div class="jumbotron">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Biological Activities of Natural Products against the Target</h3>
+            <table id="Cell_Line_NP_Active" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th style="text-align: center">Endophyte Name</th>
+                    <th style="text-align: center">NPs ID</th>
+                    <th style="text-align: center">NPs Name</th>
+                    <th style="text-align: center">Target ID</th>
+                    <th style="text-align: center">Target Name</th>
+                    <th style="text-align: center">Target Type</th>
+                    <th style="text-align: center">Potency of Bioactivity</th>
+                    <th style="text-align: center">Bioactivity Name</th>
+                    <th style="text-align: center">Activity Type</th>
+                    <th style="text-align: center">Value</th>
+                    <th style="text-align: center">Unit</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th style="text-align: center">Endophyte Name</th>
+                    <th style="text-align: center">NPs ID</th>
+                    <th style="text-align: center">NPs Name</th>
+                    <th style="text-align: center">Target ID</th>
+                    <th style="text-align: center">Target Name</th>
+                    <th style="text-align: center">Target Type</th>
+                    <th style="text-align: center">Potency of Bioactivity</th>
+                    <th style="text-align: center">Bioactivity Name</th>
+                    <th style="text-align: center">Activity Type</th>
+                    <th style="text-align: center">Value</th>
+                    <th style="text-align: center">Unit</th>
+                </tr>
+                </tfoot>
+            </table>
+            
+<!--            
+            <h4 style="padding-top: 10px;padding-bottom: 10px">Natural Product Inactive with:</h4>
+            <table id="Cell_Line_NP_Inactive" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                    <th>NPs ID</th>
+                    <th>NPs Name</th>
+                    <th>Activity Label</th>
+                    <th>Activity Name</th>
+                    <th>Activity Type</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                    <th>NPs ID</th>
+                    <th>NPs Name</th>
+                    <th>Activity Label</th>
+                    <th>Activity Name</th>
+                    <th>Activity Type</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                </tr>
+                </tfoot>
+            </table>
+            -->
+        </div>
+    </section>
+
+
+    <script>
+        function updateProgressBar() {
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
+            var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
+            var progressWidth = (scrollPosition / (scrollHeight - windowHeight)) * 100;
+
+            document.getElementById("progress-bar").style.width = progressWidth + "%";
+
+            var sectionNames = ['Cell Line Basic Information', 'Cell Line NPs Bioactivity'];
+            var sectionIds = ['Cell-Line-Basic-Information', 'Cell-Line-NPs-Bioactivity'];
+
+            var currentSection = null;
+            for (var i = 0; i < sectionIds.length; i++) {
+                var section = document.getElementById(sectionIds[i]);
+                if (scrollPosition >= section.offsetTop - windowHeight / 2) {
+                    currentSection = sectionIds[i];
+                }
+                var sectionName = document.getElementById('section-name-' + sectionIds[i]);
+                if (sectionName) {
+                    var rect = section.getBoundingClientRect();
+                    if (rect.top <= windowHeight / 2 && rect.bottom >= windowHeight / 2) {
+                        sectionName.classList.add('blue');
+                    } else {
+                        sectionName.classList.remove('blue');
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("scroll", updateProgressBar);
+        updateProgressBar();
+    </script>
+{% endblock %}

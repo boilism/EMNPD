@@ -1,0 +1,797 @@
+{
+  "name": "Endophyte Organism(1017)",
+  "children": [
+
+
+    {
+      "name": "Bacteria Superkingdom",
+      "children": [
+        {
+          "name": "No Rank at Level Kingdom",
+          "children": [
+            {
+              "name": "Actinomycetota Phylum",
+              "children": [
+                {
+                  "name": "Actinomycetes Class",
+                  "children": [
+                    {
+                      "name": "Kitasatosporales Order",
+                      "children": [
+                        {
+                          "name": "Streptomycetaceae Family",
+                          "children": [
+                            {
+                              "name": "Kitasatospora Genus",
+                              "children": [
+                                {
+                                  "name": "Kitasatospora albolonga EA12432"
+                                },
+                                {
+                                  "name": "Kitasatospora aureofaciens CMUAc130"
+                                },
+                                {
+                                  "name": "Kitasatospora sp. strain CPCC204717"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "No Rank at Level Genus",
+                              "children": [
+                                {
+                                  "name": "Allostreptomyces sp. K12-0794"
+                                },
+                                {
+                                  "name": "Embleya sp. NF3"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Streptantibioticus Genus",
+                              "children": [
+                                {
+                                  "name": "Streptantibioticus cattleyicolor RLe 4"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Streptomyces Genus",
+                              "children": [
+                                {
+                                  "name": "Streptomyces albospinus RLe 7"
+                                },
+                                {
+                                  "name": "Streptomyces anulatus strain YINM00001"
+                                },
+                                {
+                                  "name": "Streptomyces ardesiacus strain NRRL B-1773"
+                                },
+                                {
+                                  "name": "Streptomyces enissocaesilis XIEG07"
+                                },
+                                {
+                                  "name": "Streptomyces enissocaesilis XIEG45"
+                                },
+                                {
+                                  "name": "Streptomyces malaysiensis 8ZJF-21"
+                                },
+                                {
+                                  "name": "Streptomyces mutabilis XIEG51"
+                                },
+                                {
+                                  "name": "Streptomyces olivaceus CP016795.1"
+                                },
+                                {
+                                  "name": "Streptomyces olivaceus strain JB01"
+                                },
+                                {
+                                  "name": "Streptomyces parvulus NBRC 13193T"
+                                },
+                                {
+                                  "name": "Streptomyces pseudovenezuelae SKH1-2"
+                                },
+                                {
+                                  "name": "Streptomyces sp. 2BBP-J2"
+                                },
+                                {
+                                  "name": "Streptomyces sp. 680560"
+                                },
+                                {
+                                  "name": "Streptomyces sp. AC35"
+                                },
+                                {
+                                  "name": "Streptomyces sp. AE170020"
+                                },
+                                {
+                                  "name": "Streptomyces sp. B86"
+                                },
+                                {
+                                  "name": "Streptomyces sp. BCC72023"
+                                },
+                                {
+                                  "name": "Streptomyces sp. BS-1"
+                                },
+                                {
+                                  "name": "Streptomyces sp. Hedaya48"
+                                },
+                                {
+                                  "name": "Streptomyces sp. JR9"
+                                },
+                                {
+                                  "name": "Streptomyces sp. KIB-H1083"
+                                },
+                                {
+                                  "name": "Streptomyces sp. MA-12"
+                                },
+                                {
+                                  "name": "Streptomyces sp. NRRL 30562"
+                                },
+                                {
+                                  "name": "Streptomyces sp. No. 2113"
+                                },
+                                {
+                                  "name": "Streptomyces sp. PKU-EA00015"
+                                },
+                                {
+                                  "name": "Streptomyces sp. RLe 8"
+                                },
+                                {
+                                  "name": "Streptomyces sp. SUK 48"
+                                },
+                                {
+                                  "name": "Streptomyces sp. TBRC7642"
+                                },
+                                {
+                                  "name": "Streptomyces sp. WR1L1S8"
+                                },
+                                {
+                                  "name": "Streptomyces sp. Y3111"
+                                },
+                                {
+                                  "name": "Streptomyces sp. YIM 65408"
+                                },
+                                {
+                                  "name": "Streptomyces sp. YIM 66017"
+                                },
+                                {
+                                  "name": "Streptomyces sp. YIM 67005"
+                                },
+                                {
+                                  "name": "Streptomyces sp. YIM 67086"
+                                },
+                                {
+                                  "name": "Streptomyces sp. neau-D50"
+                                },
+                                {
+                                  "name": "Streptomyces sp. strain DBT34"
+                                },
+                                {
+                                  "name": "Streptomyces sp. strain EA65"
+                                },
+                                {
+                                  "name": "Streptomyces sp. strain EA67"
+                                },
+                                {
+                                  "name": "Streptomyces sundarbansensis strain WR1L1S8"
+                                },
+                                {
+                                  "name": "Streptomyces tauricus lre541"
+                                },
+                                {
+                                  "name": "Streptomyces variabilis LCP18"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Micrococcales Order",
+                      "children": [
+                        {
+                          "name": "Microbacteriaceae Family",
+                          "children": [
+                            {
+                              "name": "Microbacterium Genus",
+                              "children": [
+                                {
+                                  "name": "Microbacterium sp. LGMB471"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Micrococcaceae Family",
+                          "children": [
+                            {
+                              "name": "Arthrobacter Genus",
+                              "children": [
+                                {
+                                  "name": "Arthrobacter pascens TES15A"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Micromonosporales Order",
+                      "children": [
+                        {
+                          "name": "Micromonosporaceae Family",
+                          "children": [
+                            {
+                              "name": "Micromonospora Genus",
+                              "children": [
+                                {
+                                  "name": "Micromonospora sp. GMKU326"
+                                },
+                                {
+                                  "name": "Micromonospora sp. NEAU-gq13"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Polymorphospora Genus",
+                              "children": [
+                                {
+                                  "name": "Polymorphospora rubra K07-0510"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Propionibacteriales Order",
+                      "children": [
+                        {
+                          "name": "Nocardioidaceae Family",
+                          "children": [
+                            {
+                              "name": "Aeromicrobium Genus",
+                              "children": [
+                                {
+                                  "name": "Aeromicrobium ponti LGMB491"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pseudonocardiales Order",
+                      "children": [
+                        {
+                          "name": "Pseudonocardiaceae Family",
+                          "children": [
+                            {
+                              "name": "Saccharopolyspora Genus",
+                              "children": [
+                                {
+                                  "name": "Saccharopolyspora gregorii XIEG05"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Saccharothrix Genus",
+                              "children": [
+                                {
+                                  "name": "Saccharothrix yanglingensis Hhs.015"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Streptosporangiales Order",
+                      "children": [
+                        {
+                          "name": "Nocardiopsaceae Family",
+                          "children": [
+                            {
+                              "name": "Nocardiopsis Genus",
+                              "children": [
+                                {
+                                  "name": "Nocardiopsis prasina CLA68"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Streptosporangiaceae Family",
+                          "children": [
+                            {
+                              "name": "Streptosporangium Genus",
+                              "children": [
+                                {
+                                  "name": "Streptosporangium oxazolinicum K07-0460"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Thermomonosporaceae Family",
+                          "children": [
+                            {
+                              "name": "Actinoallomurus Genus",
+                              "children": [
+                                {
+                                  "name": "Actinoallomurus fulvus MK10-036"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bacillota Phylum",
+              "children": [
+                {
+                  "name": "Bacilli Class",
+                  "children": [
+                    {
+                      "name": "Bacillales Order",
+                      "children": [
+                        {
+                          "name": "Bacillaceae Family",
+                          "children": [
+                            {
+                              "name": "Alkalihalobacillus Genus",
+                              "children": [
+                                {
+                                  "name": "Alkalihalobacillus sp. strain RAR_GA_16"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Bacillus Genus",
+                              "children": [
+                                {
+                                  "name": "Bacillus amyloliquefaciens BmB 1"
+                                },
+                                {
+                                  "name": "Bacillus amyloliquefaciens C5"
+                                },
+                                {
+                                  "name": "Bacillus amyloliquefaciens CFFSUR-B35"
+                                },
+                                {
+                                  "name": "Bacillus amyloliquefaciens YN201732"
+                                },
+                                {
+                                  "name": "Bacillus amyloliquefaciens strain RaSh1"
+                                },
+                                {
+                                  "name": "Bacillus atrophaeus strain G050"
+                                },
+                                {
+                                  "name": "Bacillus cereus strain ChST"
+                                },
+                                {
+                                  "name": "Bacillus cereus strain DFT-7"
+                                },
+                                {
+                                  "name": "Bacillus halotolerans Cal.l.30"
+                                },
+                                {
+                                  "name": "Bacillus halotolerans JZ7"
+                                },
+                                {
+                                  "name": "Bacillus pumilus CFFSUR-B34"
+                                },
+                                {
+                                  "name": "Bacillus safensis strain B21"
+                                },
+                                {
+                                  "name": "Bacillus sp. BmB 9"
+                                },
+                                {
+                                  "name": "Bacillus sp. CPC3"
+                                },
+                                {
+                                  "name": "Bacillus sp. CaB 5"
+                                },
+                                {
+                                  "name": "Bacillus sp. K1"
+                                },
+                                {
+                                  "name": "Bacillus sp. KL5"
+                                },
+                                {
+                                  "name": "Bacillus sp. RAR_M1_44"
+                                },
+                                {
+                                  "name": "Bacillus sp. strain AS_3"
+                                },
+                                {
+                                  "name": "Bacillus sp. strain AS_4"
+                                },
+                                {
+                                  "name": "Bacillus sp. strain AS_5"
+                                },
+                                {
+                                  "name": "Bacillus sp. strain KS1K7"
+                                },
+                                {
+                                  "name": "Bacillus sp. strain MHSD14"
+                                },
+                                {
+                                  "name": "Bacillus sp. strain MHSD28"
+                                },
+                                {
+                                  "name": "Bacillus subtilis 4NP-BL"
+                                },
+                                {
+                                  "name": "Bacillus subtilis CFFSUR-B31"
+                                },
+                                {
+                                  "name": "Bacillus subtilis PXJ-5"
+                                },
+                                {
+                                  "name": "Bacillus thuringiensis"
+                                },
+                                {
+                                  "name": "Bacillus vallismortis ZZ185"
+                                },
+                                {
+                                  "name": "Bacillus velezensis Ea73"
+                                },
+                                {
+                                  "name": "Bacillus velezensis JRX-YG39"
+                                },
+                                {
+                                  "name": "Bacillus velezensis LHSB1"
+                                },
+                                {
+                                  "name": "Bacillus velezensis TEB1"
+                                },
+                                {
+                                  "name": "Bacillus velezensis strain RaSh2"
+                                },
+                                {
+                                  "name": "Bacillus wiedmannii Com1"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Lysinibacillus Genus",
+                              "children": [
+                                {
+                                  "name": "Lysinibacillus sp."
+                                },
+                                {
+                                  "name": "Lysinibacillus sp. strain AS_1"
+                                },
+                                {
+                                  "name": "Lysinibacillus sphaericus L1"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Peribacillus Genus",
+                              "children": [
+                                {
+                                  "name": "Peribacillus muralis CFFSUR-B39"
+                                },
+                                {
+                                  "name": "Peribacillus sp. strain AS_2"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Priestia Genus",
+                              "children": [
+                                {
+                                  "name": "Priestia megaterium CFFSUR-B32"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Rossellomorea Genus",
+                              "children": [
+                                {
+                                  "name": "Rossellomorea vietnamensis strain RAR_WA_32"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Paenibacillaceae Family",
+                          "children": [
+                            {
+                              "name": "Paenibacillus Genus",
+                              "children": [
+                                {
+                                  "name": "Paenibacillus amylolyticus KMCLE06"
+                                },
+                                {
+                                  "name": "Paenibacillus polymyxa SK1"
+                                },
+                                {
+                                  "name": "Paenibacillus polymyxa Y-1"
+                                },
+                                {
+                                  "name": "Paenibacillus sp. MOSEL-w13"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Staphylococcaceae Family",
+                          "children": [
+                            {
+                              "name": "Mammaliicoccus Genus",
+                              "children": [
+                                {
+                                  "name": "Mammaliicoccus sciuri strain MrR44"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Staphylococcus Genus",
+                              "children": [
+                                {
+                                  "name": "Staphylococcus sp. strain MHSD26"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bacteroidota Phylum",
+              "children": [
+                {
+                  "name": "Flavobacteriia Class",
+                  "children": [
+                    {
+                      "name": "Flavobacteriales Order",
+                      "children": [
+                        {
+                          "name": "Flavobacteriaceae Family",
+                          "children": [
+                            {
+                              "name": "Flavobacterium Genus",
+                              "children": [
+                                {
+                                  "name": "Flavobacterium sp. GE 32"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pseudomonadota Phylum",
+              "children": [
+                {
+                  "name": "Alphaproteobacteria Class",
+                  "children": [
+                    {
+                      "name": "Sphingomonadales Order",
+                      "children": [
+                        {
+                          "name": "Sphingomonadaceae Family",
+                          "children": [
+                            {
+                              "name": "Novosphingobium Genus",
+                              "children": [
+                                {
+                                  "name": "Novosphingobium lindaniclasticum CFFSUR-B36"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Betaproteobacteria Class",
+                  "children": [
+                    {
+                      "name": "Burkholderiales Order",
+                      "children": [
+                        {
+                          "name": "Burkholderiaceae Family",
+                          "children": [
+                            {
+                              "name": "Burkholderia Genus",
+                              "children": [
+                                {
+                                  "name": "Burkholderia cenocepacia strain ETR-B22"
+                                },
+                                {
+                                  "name": "Burkholderia sp. GE 17"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gammaproteobacteria Class",
+                  "children": [
+                    {
+                      "name": "Enterobacterales Order",
+                      "children": [
+                        {
+                          "name": "Enterobacteriaceae Family",
+                          "children": [
+                            {
+                              "name": "Enterobacter Genus",
+                              "children": [
+                                {
+                                  "name": "Enterobacter cloacae strain MOSEL-w7"
+                                },
+                                {
+                                  "name": "Enterobacter sp. strain MHSD22"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Erwiniaceae Family",
+                          "children": [
+                            {
+                              "name": "Pantoea Genus",
+                              "children": [
+                                {
+                                  "name": "Pantoea sp. Dez632"
+                                },
+                                {
+                                  "name": "Pantoea sp. strain MHSD15"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Yersiniaceae Family",
+                          "children": [
+                            {
+                              "name": "Serratia Genus",
+                              "children": [
+                                {
+                                  "name": "Serratia marcescens strain MOSEL-w2"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Moraxellales Order",
+                      "children": [
+                        {
+                          "name": "Moraxellaceae Family",
+                          "children": [
+                            {
+                              "name": "Acinetobacter Genus",
+                              "children": [
+                                {
+                                  "name": "Acinetobacter baumannii LCH001"
+                                },
+                                {
+                                  "name": "Acinetobacter baumannii strain AIMST 8.Cap.11"
+                                },
+                                {
+                                  "name": "Acinetobacter johnsonii B2"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pseudomonadales Order",
+                      "children": [
+                        {
+                          "name": "Pseudomonadaceae Family",
+                          "children": [
+                            {
+                              "name": "Pseudomonas Genus",
+                              "children": [
+                                {
+                                  "name": "Pseudomonas aeruginosa strain CCUG 51971"
+                                },
+                                {
+                                  "name": "Pseudomonas fluorescens ALEB 7B"
+                                },
+                                {
+                                  "name": "Pseudomonas fluorescens RE1"
+                                },
+                                {
+                                  "name": "Pseudomonas fluorescens RE17"
+                                },
+                                {
+                                  "name": "Pseudomonas sp. Bt851"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Xanthomonadales Order",
+                      "children": [
+                        {
+                          "name": "Rhodanobacteraceae Family",
+                          "children": [
+                            {
+                              "name": "Luteibacter Genus",
+                              "children": [
+                                {
+                                  "name": "Luteibacter sp. BSNB-0721"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Xanthomonadaceae Family",
+                          "children": [
+                            {
+                              "name": "Stenotrophomonas Genus",
+                              "children": [
+                                {
+                                  "name": "Stenotrophomonas sp. Sh622"
+                                },
+                                {
+                                  "name": "Stenotrophomonas sp. strain MHSD12"
+                                },
+                                {
+                                  "name": "Stenotrophomonas sp. strain MHSD20"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

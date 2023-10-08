@@ -1,0 +1,236 @@
+{% extends 'Help_base.html' %}
+
+{% block content %}
+<style>
+    section {
+        font-family: Calibri;
+    }
+</style>
+    <div id="progress-container" style="margin-top: -20px">
+        <div id="progress-bar"></div>
+        <ul id="progress-list">
+            <li id="section-name-NPs-name" class="section-name"><a href="#NPs-name">1.1 Search by NPs name</a></li>
+            <li id="section-name-NPs-structure" class="section-name"><a href="#NPs-structure">1.2 Search by NPs structure</a></li>
+            <li id="section-name-Endophyte" class="section-name"><a href="#Endophyte">1.3 Search by Endophyte</a></li>
+            <li id="section-name-Target" class="section-name"><a href="#Target">1.4 Search by Target</a></li>
+            <li id="section-name-Bioactivity" class="section-name"><a href="#Bioactivity">1.5 Search by Bioactivity</a></li>
+            <li id="section-name-Browse-Endophyte" class="section-name"><a href="#Browse-Endophyte">2.1 Browse Endophyte by Taxonomy</a></li>
+            <li id="section-name-Browse-NP" class="section-name"><a href="#Browse-NP">2.2 Browse NP by Classification</a></li>
+            <li id="section-name-Browse-Cell-Line" class="section-name"><a href="#Browse-Cell-Line">2.3 Browse Target Cell Line by Category</a></li>
+            <li id="section-name-Browse-Protein" class="section-name"><a href="#Browse-Protein">2.4 Browse Target Protein by Protein Family</a></li>
+            <li id="section-name-Browse-Organism" class="section-name"><a href="#Browse-Organism">2.5 Browse Target Organism by Taxonomy</a></li>
+            <li id="section-name-specific-endophyte" class="section-name"><a href="#specific-endophyte">3.2 Webpage of a specific endophyte</a></li>
+            <li id="section-name-specific-NP" class="section-name"><a href="#specific-NP">3.1 Webpage of a specific NP</a></li>
+            <li id="section-name-specific-protein" class="section-name"><a href="#specific-protein">3.3 Webpage of a specific target protein</a></li>
+            <li id="section-name-specific-cell-line" class="section-name"><a href="#specific-cell-line">3.4 Webpage of a specific target cell line</a></li>
+            <li id="section-name-specific-organism" class="section-name"><a href="#specific-organism">3.5 Webpage of a specific target organism</a></li>
+        </ul>
+    </div>
+
+    <!-- 页头 -->
+    <div class="page-header" style="margin-top: 50px">
+        <h1 style="text-align: center"><strong>EMNPD MANUAL FOR USERS</strong></h1>
+    </div>
+
+    <h2><i class="glyphicon glyphicon-pushpin"></i><strong> 1. SEARCH EMNPD</strong></h2>
+
+    <section data-time="NPs name" id="NPs-name">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 1.1 Search by NPs name/IDs, Advanced search</h3>
+            <p>Users can input compound name (can be common name, synonyms, IUPAC name, or compounnd ID).</p>
+            <img src="/static/images/search_np_name_1.png" style="width: 100%">
+            <p>Besides, Users can use one or combination of multiple of these options to customize their search.
+                This allows users to specify any number of query conditions, which can be combined using boolean
+                operators such as "AND," "OR," or "NOT." The available query conditions include molecular formula,
+                SMILES notation, log<i>P</i> range, molecular weight, number of hydrogen bond acceptors (HBA), number of
+                hydrogen bond donors (HBD), number of rotatable bonds, and TPSA range.</p>
+            <img src="/static/images/search_np_name_2.png" style="width: 100%">
+        </div>
+    </section>
+
+    <section data-time="NPs structure" id="NPs-structure">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 1.2 Search by NPs structure</h3>
+            <p>To do a NPs structure search, users can draw a structure and then generate a  SMILES string on this page. </p>
+            <img src="/static/images/search_np_structure.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold"><strong>Follow the steps below to perform a search:</strong></p>
+            <p style="color: #FFC000; font-weight: bold">① Utilize the various tools on the panel to draw the compound structure.</p>
+            <p style="color: #00B0F0; font-weight: bold">② Click the "Generate SMILES" button to generate the SMILES string of the structure.</p>
+            <p style="color: #00B050; font-weight: bold">③ Adjust the size of the Tanimoto Similarity Threshold by sliding the slider or entering a specific value.</p>
+            <p style="color: #FF0000; font-weight: bold">④ Click the "Search" button to search the top 10 NPs based on Tanimoto similarity threshold.</p>
+        </div>
+    </section>
+
+    <section data-time="Endophyte" id="Endophyte">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 1.3 Search by Endophytic Mircroorganism</h3>
+            <p>Users can search specific endophytic mircroorganism by inputting species name or IDs.</p>
+            <img src="/static/images/search_endophyte.png" style="width: 100%; margin-top: 20px">
+            <p style="margin-top: 50px">This search supports both exact search and fuzzy search. For example, when
+                searching for the endophytic fungus Acremonium citrinum SS-g13, you can enter the full name 'Acremonium
+                citrinum SS-g13' or simply enter 'Acremonium' to perform the search. Both methods will retrieve
+                'Acremonium citrinum SS-g13'.</p>
+        </div>
+    </section>
+
+    <section data-time="Target" id="Target">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 1.4 Search by Target</h3>
+            <p>Users can search a specific target by inputting target name (can be protein name, cell line name and organism name,
+                etc.) or their target IDs.</p>
+
+            <img src="/static/images/search_target.png" style="width: 100%; margin-top: 20px">
+            <p style="margin-top: 50px">This search supports searching for target name and target ID of proteins, cell
+                lines, and organisms simultaneously. Similarly, this search allows both exact and fuzzy search, and it
+                can retrieve results even with incomplete input by attempting to match as much information as
+                possible.</p>
+        </div>
+    </section>
+
+    <section data-time="Bioactivity" id="Bioactivity">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 1.5 Search by Bioactivity</h3>
+            <p>EMNPD offers a dual dropdown component search method for bioactivity. The first dropdown
+                includes bioactivity sizes (Strong, Moderate, Weak, Active, Inactive), and the second dropdown consists
+                of 91 different bioactivities, allowing users to freely combine the contents of these two dropdowns for
+                searching.</p>
+            <img src="/static/images/search_bioactivity.png" style="width: 100%; margin-top: 20px">
+        </div>
+    </section>
+
+    <h2><i class="glyphicon glyphicon-pushpin"></i><strong> 2. BROWSE EMNPD</strong></h2>
+
+    <section data-time="Browse Endophyte" id="Browse-Endophyte">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 2.1 Browse Endophytic Mricoorganisms by Taxonomy</h3>
+            <p>Tree view presents distinct hierarchies of endophyte taxonomy lineage. Users can expand a section of interest to delve deeper into the hierarchy and
+                retrieve specific entries at the last node.</p>
+            <img src="/static/images/browse_endophyte_1.png" style="width: 100%; margin-top: 20px">
+
+            <p style="margin-top: 30px">The tree chart collapses the final nodes representing species. Users can
+                expand the solid nodes by clicking on them, allowing access to the corresponding entries.</p>
+            <img src="/static/images/browse_endophyte_2.png" style="width: 100%; margin-top: 20px">
+        </div>
+    </section>
+
+    <section data-time="Browse NP" id="Browse-NP">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 2.2 Browse Natural Product by Classification</h3>
+            <p>Tree view presents distinct hierarchies of NP classification. Users can expand a section of interest to delve deeper into the hierarchy and
+                retrieve specific entries at the last node.</p>
+            <img src="/static/images/browse_np_1.png" style="width: 100%">
+            <p style="margin-top: 30px">The Bar chart visually represents the distribution ranges of molecular weight, log<i>P</i>, HBA, and HBD for NPs
+                . By clicking on each bar, users can navigate to the corresponding search page with matching
+                criteria.</p>
+            <img src="/static/images/browse_np_2.png" style="width: 100%; margin-top: 20px">
+        </div>
+    </section>
+
+    <section data-time="Browse Cell Line" id="Browse-Cell-Line">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 2.3 Browse Target Protein by Protein Family</h3>
+            <p>Tree view presents distinct hierarchies of protein family. Users can expand a section of interest to delve deeper into the hierarchy and
+                retrieve specific entries at the last node.</p>
+            <img src="/static/images/browse_protein_1.png" style="width: 100%">
+            <p style="margin-top: 30px">Sunburst chart displays the hierarchical structure of protein family.
+                Representation of the cell line classification hierarchies. Click on a section to expand
+                it and then click on the last node exploring the classification level in more detail.</p>
+            <img src="/static/images/browse_protein_2.png" style="width: 100%">
+        </div>
+    </section>
+
+    <section data-time="Browse Protein" id="Browse-Protein">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 2.4 Browse Target Cell Line by Category</h3>
+            <p>Tree view presents distinct hierarchies of cell line category. Users can expand a section of interest to delve deeper into the hierarchy and
+                retrieve specific entries at the last node.</p>
+            <img src="/static/images/browse_cell_line_1.png" style="width: 100%">
+            <p style="margin-top: 30px">Sunburst chart displays the hierarchical structure of cell line category.
+                Representation of the cell line classification hierarchies. Click on a section to expand
+                it and then click on the last node exploring the classification level in more detail.</p>
+            <img src="/static/images/browse_cell_line_2.png" style="width: 100%">
+        </div>
+    </section>
+
+    <section data-time="Browse Organism" id="Browse-Organism">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 2.5 Browse Target Organism by Taxonomy</h3>
+            <p>Tree view presents distinct hierarchies of organism taxonomy lineage. Users can expand a section of interest to delve deeper into the hierarchy and
+                retrieve specific entries at the last node.</p>
+            <img src="/static/images/browse_organism_1.png" style="width: 100%">
+            <p style="margin-top: 30px">The tree chart collapses the final nodes representing species. Users can
+                expand the solid nodes by clicking on them, allowing access to the corresponding entries.</p>
+            <img src="/static/images/browse_organism_2.png" style="width: 100%">
+        </div>
+    </section>
+
+    <h2><i class="glyphicon glyphicon-pushpin"></i><strong> 3. ESCRIPTION OF INDIVIDUAL WEBPAGE</strong></h2>
+
+
+    <section data-time="specific endophyte" id="specific-endophyte">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 3.2 Webpage of a specific endophytic microorganism</h3>
+            <p>The endophyte page includes three sections: 1. Endophyte Organism Basic Information, 2. Individual Natural Products, 3. NPs Content.</p>
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>1. Endophyte Organism Basic Information:</strong></p>
+            <img src="/static/images/endophyte_1.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>2. Individual Natural Products:</strong></p>
+            <img src="/static/images/endophyte_2.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>3. NPs Content:</strong></p>
+            <img src="/static/images/endophyte_3.png" style="width: 100%">
+        </div>
+    </section>
+
+    <section data-time="specific NP" id="specific-NP">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 3.1 Webpage of a specific Natural Product</h3>
+            <p>The NP page includes seven sections: 1. NPs Basic Information, 2. NPs Species Source, 3. NPs Content, 4.
+                NPs Biological Activity, 5. NPs Physi-Chem Properties, 6. NPs ADMET Properties, and 7. Similar Compounds.</p>
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>1. NPs Basic Information:</strong></p>
+            <img src="/static/images/np_1.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>2. NPs Species Source:</strong></p>
+            <img src="/static/images/np_2.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>3. NPs Content:</strong></p>
+            <img src="/static/images/np_3.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>4. NPs Biological Activity:</strong></p>
+            <img src="/static/images/np_4.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>5. NPs Physi-Chem Properties & 6. NPs ADMET Properties:</strong></p>
+            <img src="/static/images/np_5.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>7. Similar Compounds:</strong></p>
+            <img src="/static/images/np_6.png" style="width: 100%">
+
+        </div>
+    </section>
+
+    <section data-time="specific protein" id="specific-protein">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 3.3 Webpage of a specific target protein</h3>
+            <p>The target protein page includes three sections: 1. Protein Basic Information, 2. Biological Activities of Natural Products against the Target.</p>
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>1. Protein Basic Information:</strong></p>
+            <img src="/static/images/protein_1.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>2. Biological Activities of Natural Products against the Target:</strong></p>
+            <img src="/static/images/protein_2.png" style="width: 100%">
+        </div>
+    </section>
+
+    <section data-time="specific cell line" id="specific-cell-line">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 3.4 Webpage of a specific target cell line</h3>
+            <p>The target cell line page includes three sections: 1. Cell Line Basic Information, 2. Biological Activities of Natural Products against the Target.</p>
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>1. Cell Line Basic Information:</strong></p>
+            <img src="/static/images/cell_line_1.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>2. Biological Activities of Natural Products against the Target:</strong></p>
+            <img src="/static/images/cell_line_2.png" style="width: 100%">
+        </div>
+    </section>
+
+    <section data-time="specific organism" id="specific-organism">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="margin-top: -20px"><i class="glyphicon glyphicon-paperclip"></i> 3.5 Webpage of a specific target organism</h3>
+            <p>The target organism page includes three sections: 1. Target Organism Basic Information, 2. Biological Activities of Natural Products against the Target.</p>
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>1. Target Organism Basic Information:</strong></p>
+            <img src="/static/images/organism_1.png" style="width: 100%">
+            <p style="margin-top: 20px; font-weight: bold; color: #00AE68"><strong>2. Biological Activities of Natural Products against the Target:</strong></p>
+            <img src="/static/images/organism_2.png" style="width: 100%">
+        </div>
+    </section>
+{% endblock %}

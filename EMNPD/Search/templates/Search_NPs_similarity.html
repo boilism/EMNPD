@@ -1,0 +1,72 @@
+{% extends 'Search_Base.html' %}
+
+{% block content %}
+
+    {% if result.0.np_num %}
+        <!-- 页头 -->
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Natural Product: {{ result.0.np_num }}</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <table id="search_nps_similarity_result" class="hover" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Natural Product ID</th>
+                    <th>Natural Product Name</th>
+                    <th>NPs 2D Structure</th>
+                    <th>Formular</th>
+                    <th>Number of Endophyte</th>
+                    <th>Number of Targets</th>
+                    <th>Number of Activity Records</th>
+                    <th>Number of Activity</th>
+                    <th>Similarity Score</th>                    
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in result %}
+                    <tr>
+                        <td>
+                            <a href="/emnpd/naturalproducts/{{ obj.np_id_list }}">{{ obj.np_id_list }}</a>
+                        </td>
+                        <td>{{ obj.np_name }}</td>
+                        <td>
+                            <img src="/static/images/PubChem_compound_id_list_images/{{ obj.np_id_list }}.png" class="img-fluid compound-image" style="width: 100px; height: 100px">
+                        </td>
+                        <td>{{ obj.np_formual }}</td>
+                        <td>{{ obj.num_endophyte }}</td>
+                        <td>{{ obj.num_targets }}</td>
+                        <td>{{ obj.num_activity_records }}</td>
+                        <td>{{ obj.num_activity }}</td>
+                        <td>{{ obj.np_similarity_score }}</td>                        
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>Natural Product ID</th>
+                    <th>Natural Product Name</th>
+                    <th>NPs 2D Structure</th>
+                    <th>Formular</th>
+                    <th>Number of Endophyte</th>
+                    <th>Number of Targets</th>
+                    <th>Number of Activity Records</th>
+                    <th>Number of Activity</th>
+                    <th>Similarity Score</th>   
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    {% else %}
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Natural Product: 0</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <p>Sorry, no results found.</p>
+        </div>
+    {% endif %}
+{% endblock %}

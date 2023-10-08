@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>EMNPD</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap-3.3.7-dist/css/bootstrap.css' %}">
+
+    <!-- JQuery CSS -->
+    <link rel="stylesheet" href="{% static 'css/jquery1.13.4.dataTables.min.css' %}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/Home_custom.css' %}">
+
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default" role="navigation" style="background-color: rgb(245, 245, 245); text-align: center;width: 100%; position: fixed; top: 0; z-index: 10000">
+    <div style="border-bottom: 1px solid #ddd4e5;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="/emnpd/">
+                    <img src="/static/images/emnpd-high-resolution-logo-color-on-transparent-background.svg"
+                         height="120px"></a>
+            </div>
+            <div class="col-md-9">
+                <ul class="nav navbar-nav flip">
+                    <li><a href="/emnpd/"><i class="glyphicon glyphicon-home" style="margin-top: 70px"></i> HOME</a></li>
+                    <li><a href="/emnpd/search/"><i class="glyphicon glyphicon-search" style="margin-top: 70px"></i> SEARCH</a></li>
+                    <li><a href="/emnpd/browse/"><i class="glyphicon glyphicon-globe" style="margin-top: 70px"></i> BROWSE</a></li>
+                    <li><a href="/emnpd/download/"><i class="glyphicon glyphicon-download-alt" style="margin-top: 70px"></i> DOWNLOAD</a></li>
+                    <li><a href="/emnpd/help/"><i class="glyphicon glyphicon-question-sign" style="margin-top: 70px"></i> HELP</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container-fluid or within" style="padding: 0 200px; margin-top: 100px; min-height: 600px">
+    {% block content %}
+    {% endblock %}
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="back-to-top-btn" title="Go to top"><i class="glyphicon glyphicon-eject"></i>
+    </button>
+</div>
+
+
+<!-- Footer -->
+<footer class="footer" style="background-color: rgb(245, 245, 245); bottom: 0; width: 100%; margin-top: 30px">
+    <div style="border-top: 1px solid #ddd4e5;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 footer-widget-container">
+                <div class="footer-widget">
+                    <h3 class="footer-title">Cite Us</h3>
+                    <p>To be Available</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 footer-widget-container">
+                <div class="footer-widget">
+                    <h3 class="footer-title">Visitor Map</h3>
+                    <a href="https://www.revolvermaps.com/livestats/55hzj8a3z42/"><img
+                            src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/0/55hzj8a3z42.png" width="300"
+                            height="150" alt="Map" style="border:0;"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 footer-widget-container">
+                <div class="footer-widget">
+                    <h3 class="footer-title">*Correspondence</h3>
+                    <p>Prof. Lin Tao&nbsp; <a href="https://pharmacy.hznu.edu.cn/c/2020-12-16/2496356.shtml"><i class="glyphicon glyphicon-share"></i></a><br>
+                        School of Pharmacy, Hangzhou Normal University, China<br>
+                    </p>
+                    <p>Prof. Feng Zhu <a href="https://idrblab.org/Peoples-PI.php"><i class="glyphicon glyphicon-share"></i></a><br>
+                        College of Pharmaceutical Sciences, Zhejiang University, China
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+<!-- jQuery -->
+
+<script src="{% static 'js/jquery-3.6.4.min.js' %}"></script>
+<script src="{% static 'js/swiper-element-bundle.min.js' %}"></script>
+
+
+<!-- Bootstrap JS -->
+<script src="{% static 'js/bootstrap3.2.0.min.js' %}"></script>
+
+<!-- Custom JS -->
+<script src="{% static 'js/Home_custom.js' %}"></script>
+
+
+
+
+

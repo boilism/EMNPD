@@ -1,0 +1,59 @@
+{% extends 'Search_Base.html' %}
+
+{% block content %}
+    {% if result %}
+        <!-- 页头 -->
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Target: {{ result.0.target_num }}</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <table id="NPs_Search_Result_Content" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Target ID</th>
+                    <th>Target Name</th>
+                    <th>Target Type</th>
+                    <th>Target Organism</th>
+                    <th>Number of NPs</th>
+                    <th>Number of Activity Records</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in result %}
+                    <tr>
+                        <td>{{ obj.target_id|safe }}</td>
+                        <td>{{ obj.target_name }}</td>
+                        <td>{{ obj.target_type }}</td>
+                        <td>{{ obj.target_organism }}</td>
+                        <td>{{ obj.num_NPs }}</td>
+                        <td>{{ obj.num_activity_records }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>Target ID</th>
+                    <th>Target Name</th>
+                    <th>Target Type</th>
+                    <th>Target Organism</th>
+                    <th>Number of NPs</th>
+                    <th>Number of Activity Records</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    {% else %}
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Target: 0</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <p>Sorry, no results found.</p>
+        </div>
+    {% endif %}
+
+{% endblock %}

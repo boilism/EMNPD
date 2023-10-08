@@ -1,0 +1,1018 @@
+﻿ENS_ID,Endophyte_Name,Endophyte_Type,Taxonomy_ID,Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,GenBank_ID,Closest_GenBank_ID
+ENS00001,Acinetobacter baumannii LCH001,Endophytic Bacteria,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,NA,NA
+ENS00002,Acinetobacter baumannii strain AIMST 8.Cap.11,Endophytic Bacteria,470,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,HQ670501,NA
+ENS00003,Acinetobacter johnsonii B2,Endophytic Bacteria,40214,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,KY077679,NA
+ENS00004,Acremonium citrinum SS-g13,Endophytic Fungus,1472694,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,No Rank at Level Family,Acremonium,MK034752,NA
+ENS00005,Acremonium pilosum F47,Endophytic Fungus,1472692,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,No Rank at Level Family,Acremonium,MN294707,NA
+ENS00006,Acremonium sp. GF3,Endophytic Fungus,1501276,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,No Rank at Level Genus,KJ631372,NA
+ENS00007,Acremonium sp. Ld-03,Endophytic Fungus,2046025,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,No Rank at Level Family,Acremonium,MN393594,NA
+ENS00008,Acremonium vitellinum,Endophytic Fungus,1036770,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,No Rank at Level Family,Acremonium,MH726097,NA
+ENS00009,Acrocalymma vagum Nitaf22,Endophytic Fungus,1589764,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Morosphaeriaceae,Acrocalymma,KM095527,NA
+ENS00010,Acrostalagmus luteoalbus TK-43,Endophytic Fungus,132138,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Acrostalagmus,MH836621,NA
+ENS00011,Actinoallomurus fulvus MK10-036,Endophytic Bacteria,478108,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Streptosporangiales,Thermomonosporaceae,Actinoallomurus,NA,AB364582
+ENS00012,Aeromicrobium ponti LGMB491,Endophytic Bacteria,460257,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Propionibacteriales,Nocardioidaceae,Aeromicrobium,KY411896,NA
+ENS00013,Akanthomyces sp. LN303,Endophytic Fungus,2204300,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Akanthomyces,MT022433,NA
+ENS00014,Albifimbria viridis,Endophytic Fungus,1859700,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Albifimbria,MT110686.1,NA
+ENS00015,Alkalihalobacillus sp. strain RAR_GA_16,Endophytic Bacteria,2675277,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Alkalihalobacillus,OK649239,NA
+ENS00016,Allantophomopsis lycopodina KS-97,Endophytic Fungus,334518,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Phacidiales,Phacidiaceae,Allantophomopsis,NA,NA
+ENS00017,Allostreptomyces sp. K12-0794,Endophytic Bacteria,1914443,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,No Rank at Level Genus,NA,NA
+ENS00018,Alternaria alternata BZGF-1,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MK078593,NA
+ENS00019,Alternaria alternata (Fr.) Keissl. (MUM 16.02),Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00020,Alternaria alternata 13A,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MK248606,NA
+ENS00021,Alternaria alternata DCM-EFS-11,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MG551266,NA
+ENS00022,Alternaria alternata GDZZ-J6,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MZ410543,NA
+ENS00023,Alternaria alternata JS0515,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00024,Alternaria alternata MGTMMP031,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KX198131,NA
+ENS00025,Alternaria alternata MT-47,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00026,Alternaria alternata PUCR32,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KX987250,NA
+ENS00027,Alternaria alternata Shm-1,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,MF422130.1
+ENS00028,Alternaria alternata VS10,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KJ187398,NA
+ENS00029,Alternaria alternata Y-4-2,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KY963000.1,NA
+ENS00030,Alternaria alternata ZHJG5,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MT498268,NA
+ENS00031,Alternaria alternata ZL,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,OM331682,NA
+ENS00032,Alternaria arborescens,Endophytic Fungus,156630,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00033,Alternaria brassicae AGF041,Endophytic Fungus,29911,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MK574817.1,NA
+ENS00034,Alternaria brassicae GL07,Endophytic Fungus,29911,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,KU204772
+ENS00035,Alternaria brassicae JS959,Endophytic Fungus,29911,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00036,Alternaria brassicicola,Endophytic Fungus,29001,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KR779774,NA
+ENS00037,Alternaria eureka 1E1BL1,Endophytic Fungus,390885,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00038,Alternaria longipes,Endophytic Fungus,160389,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00039,Alternaria longipes VITN14G,Endophytic Fungus,160389,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KX499521,NA
+ENS00040,Alternaria solani,Endophytic Fungus,48100,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,AY154716.1
+ENS00041,Alternaria sp.,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00042,Alternaria sp. A744,Endophytic Fungus,1874904,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KF706672,NA
+ENS00043,Alternaria sp. A8,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MG812521,NA
+ENS00044,Alternaria sp. AST0039,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KY236016,NA
+ENS00045,Alternaria sp. G28,Endophytic Fungus,1795775,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KT825854,NA
+ENS00046,Alternaria sp. G7,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,JX847598,NA
+ENS00047,Alternaria sp. HJT-Y7,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00048,Alternaria sp. J030,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,OM062590,NA
+ENS00049,Alternaria sp. JCM9.2,Endophytic Fungus,578672,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,FJ465171,NA
+ENS00050,Alternaria sp. KTDL7,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MF952617,NA
+ENS00051,Alternaria sp. LGMF692,Endophytic Fungus,1544764,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KM510497,NA
+ENS00052,Alternaria sp. LV52,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MK535535.1,NA
+ENS00053,Alternaria sp. MG1,Endophytic Fungus,1678846,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,JN102357,NA
+ENS00054,Alternaria sp. NF2128,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MK138621,NA
+ENS00055,Alternaria sp. No. R6,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00056,Alternaria sp. PfuH1,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MK559619,NA
+ENS00057,Alternaria sp. Samif01,Endophytic Fungus,1378256,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KC878695,NA
+ENS00058,Alternaria sp. SK11,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,EU807936,NA
+ENS00059,Alternaria sp. TNXY-P-1,Endophytic Fungus,1715220,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,KP872520.1
+ENS00060,Alternaria sp. UFMGCB 55,Endophytic Fungus,455621,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00061,Alternaria sp. ZJ9-6B,Endophytic Fungus,559897,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,HM754629,NA
+ENS00062,Alternaria tenuissima,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00063,Alternaria tenuissima AUMC14342,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,MT468650,NA
+ENS00064,Alternaria tenuissima CH1307,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KU933254,NA
+ENS00065,Alternaria tenuissima H14-1,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,FJ812353,NA
+ENS00066,Alternaria tenuissima JL-7w,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00067,Alternaria tenuissima SBUp1,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00068,Alternaria tenuissima SP-07,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,KF919124,NA
+ENS00069,Alternaria tenuissima TER995,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,LC170562,NA
+ENS00070,Alternaria tenuissima ZM148,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,OM108509,NA
+ENS00071,Alternaria tenuissima ZP28,Endophytic Fungus,119927,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,OM108510,NA
+ENS00072,Amesia nigricolor F5,Endophytic Fungus,1934353,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Amesia,MK646014,NA
+ENS00073,Amorosia littoralis isolate SCSIO 41026,Endophytic Fungus,394427,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Amorosiaceae,Amorosia,OL826791,NA
+ENS00074,Amphirosellinia nigrospora JS-1675,Endophytic Fungus,743113,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Amphirosellinia,MK037394,NA
+ENS00075,Annulohypoxylon stygium AT-03,Endophytic Fungus,326628,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Annulohypoxylon,MF062512,NA
+ENS00076,Annulohypoxylon truncatum,Endophytic Fungus,327061,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Annulohypoxylon,NA,NA
+ENS00077,Anteaglonium sp. FL0768,Endophytic Fungus,2011806,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Anteagloniaceae,Anteaglonium,JQ760428.1,NA
+ENS00078,Anthracobia sp.,Endophytic Fungus,2709752,Eukaryota,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pyronemataceae,Anthracobia,NA,NA
+ENS00079,Apiospora arundinis TE-3,Endophytic Fungus,335852,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Apiospora,MK182939,NA
+ENS00080,Apiospora marii M-211,Endophytic Fungus,335849,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Apiospora,LC644660,NA
+ENS00081,Apiospora montagnei,Endophytic Fungus,255776,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Apiospora,NA,NA
+ENS00082,Aplosporella javeedii isolate ZGB-B,Endophytic Fungus,1346708,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Aplosporellaceae,Aplosporella,MN720704,NA
+ENS00083,Arcopilus aureus #12VVLPM,Endophytic Fungus,79815,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Arcopilus,MF597785,NA
+ENS00084,Arcopilus eremanthusum CML3766,Endophytic Fungus,3025218,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Arcopilus,MN539886,NA
+ENS00085,Armillaria sp.,Endophytic Fungus,1906949,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Physalacriaceae,Armillaria,MK079569,NA
+ENS00086,Arthrinium sp. MFLUCC16-0042,Endophytic Fungus,1756131,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Arthrinium,NA,NA
+ENS00087,Arthrinium sp. MFLUCC16-1053,Endophytic Fungus,1756131,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Arthrinium,KY665715,NA
+ENS00088,Arthrobacter pascens TES15A,Endophytic Bacteria,1677,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Arthrobacter,MF943244,NA
+ENS00089,Arthrographis kalrae,Endophytic Fungus,241728,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Eremomycetales,Eremomycetaceae,Arthrographis,MK967698,NA
+ENS00090,Ascochyta medicaginicola strain JIAN518,Endophytic Fungus,107450,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Ascochyta,KT906673,NA
+ENS00091,Ascomycete sp. Lrub20,Endophytic Fungus,371732,Eukaryota,Fungi,Ascomycota,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,DQ381536,NA
+ENS00092,Ascomycota sp. CYSK-4,Endophytic Fungus,1709939,Eukaryota,Fungi,Ascomycota,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,MG571637,NA
+ENS00093,Asordaria conoidea,Endophytic Fungus,303333,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Sordariaceae,Asordaria,MN394547,NA
+ENS00094,Aspergillus aculeatinus strain Tax-6,Endophytic Fungus,487661,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KU378102,NA
+ENS00095,Aspergillus aculeatus F027,Endophytic Fungus,5053,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN088378,NA
+ENS00096,Aspergillus alabamensis EN-547,Endophytic Fungus,657433,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MG461687,NA
+ENS00097,Aspergillus amstelodami,Endophytic Fungus,5054,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MK215708,NA
+ENS00098,Aspergillus amstelodami AUMC (EGY),Endophytic Fungus,5054,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,LC471409,NA
+ENS00099,Aspergillus austroafricanus,Endophytic Fungus,1220192,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KP013121,NA
+ENS00100,Aspergillus calidoustus strain UFMGCB 4107,Endophytic Fungus,454130,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KJ187305,NA
+ENS00101,Aspergillus candidus HS-Y-23,Endophytic Fungus,41067,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00102,Aspergillus cejpii ST9.1,Endophytic Fungus,1884262,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00103,Aspergillus chevalieri KUFA 0006,Endophytic Fungus,182096,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KX431211,NA
+ENS00104,Aspergillus clavatonanicus ZJUF0028,Endophytic Fungus,41054,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,DQ355025,NA
+ENS00105,Aspergillus clavatus R7,Endophytic Fungus,5057,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KY765893,NA
+ENS00106,Aspergillus clavatus Y2H0002,Endophytic Fungus,5057,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KP749943,NA
+ENS00107,Aspergillus creber EN-602,Endophytic Fungus,1220201,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MW186501,NA
+ENS00108,Aspergillus cristatus 2H1,Endophytic Fungus,573508,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00109,Aspergillus cristatus EN-220,Endophytic Fungus,573508,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,JQ743649,NA
+ENS00110,Aspergillus fischeri JS0553,Endophytic Fungus,36630,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00111,Aspergillus flavipes,Endophytic Fungus,41900,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,JF831014.1,NA
+ENS00112,Aspergillus flavipes AIL8,Endophytic Fungus,41900,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00113,Aspergillus flavipes strain KIB-536,Endophytic Fungus,41900,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MK720210,NA
+ENS00114,Aspergillus flavipes Y-62,Endophytic Fungus,41900,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00115,Aspergillus flavus,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KJ473711,NA
+ENS00116,Aspergillus flavus cf-5,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00117,Aspergillus flavus CL7,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN955851.1.,NA
+ENS00118,Aspergillus flavus EFBL2021,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MT951414.1,NA
+ENS00119,Aspergillus flavus HS-N-06,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,KU597196
+ENS00120,Aspergillus flavus isolate EFB01,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MF377553,NA
+ENS00121,Aspergillus flavus isolate HASH7,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MZ045563,NA
+ENS00122,Aspergillus flavus isolate wf1,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Mk969114,NA
+ENS00123,Aspergillus flavus L7,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KF738806,NA
+ENS00124,Aspergillus flavus QQSG-3,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,FJ011545.1
+ENS00125,Aspergillus flavus SS2021,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MW485934,NA
+ENS00126,Aspergillus flavus YRB2,Endophytic Fungus,5059,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,OM350008,NA
+ENS00127,Aspergillus flocculosus CBS 112784,Endophytic Fungus,306089,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,FJ491571,NA
+ENS00128,Aspergillus fumigatus GOL-1,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,OL989212,NA
+ENS00129,Aspergillus fumigatus isolate HASH4,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MZ045562,NA
+ENS00130,Aspergillus fumigatus LN-4,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00131,Aspergillus fumigatus SG-17,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MK450298,NA
+ENS00132,Aspergillus fumigatus TXD105,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,LC171332,NA
+ENS00133,Aspergillus fumigatus Y1,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MZ854147,NA
+ENS00134,Aspergillus lentulus,Endophytic Fungus,293939,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,KX903293.1
+ENS00135,Aspergillus micronesiensis,Endophytic Fungus,1507543,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00136,Aspergillus nidulans HASH4,Endophytic Fungus,162425,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MZ045561,NA
+ENS00137,Aspergillus nidulans MA-143,Endophytic Fungus,162425,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,JQ839285,NA
+ENS00138,Aspergillus nidulans var. dentatus LMA 1705,Endophytic Fungus,162425,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,MK108395.1
+ENS00139,Aspergillus niger,Endophytic Fungus,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00140,Aspergillus niger 58,Endophytic Fungus,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00141,Aspergillus niger E12,Endophytic Fungus,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN535797,NA
+ENS00142,Aspergillus niger EF2,Endophytic Fungus,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00143,Aspergillus niger EN-13,Endophytic Fungus,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00144,Aspergillus niger Strain SH3,Endophytic Fungus,5061,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00145,Aspergillus oryzae cf-2,Endophytic Fungus,5062,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00146,Aspergillus parasiticus,Endophytic Fungus,5067,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00147,Aspergillus polyporicola R2,Endophytic Fungus,1588045,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,ON557670,NA
+ENS00148,Aspergillus pseudonomiae isolate J1,Endophytic Fungus,1506151,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MW600554,NA
+ENS00149,Aspergillus sp. Vmt1,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KY350849,NA
+ENS00150,Aspergillus sp. 085242,Endophytic Fungus,1340173,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KC816018.1,NA
+ENS00151,Aspergillus sp. 16-5B,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KP059102,NA
+ENS00152,Aspergillus sp. 16-5C,Endophytic Fungus,1284283,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,JX993829,NA
+ENS00153,Aspergillus sp. AP5,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN519725,NA
+ENS00154,Aspergillus sp. ASCLA,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH665645.1,NA
+ENS00155,Aspergillus sp. CM9a,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00156,Aspergillus sp. CPCC 400735,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MF576131,NA
+ENS00157,Aspergillus sp. EJC08,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00158,Aspergillus sp. FT1307,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MW774248,NA
+ENS00159,Aspergillus sp. GXNU-Y45,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MT626059,NA
+ENS00160,Aspergillus sp. GZWMJZ-055,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KY038594,NA
+ENS00161,Aspergillus sp. GZWMJZ-258,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH806686,NA
+ENS00162,Aspergillus sp. HDZK-BYF21,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,KC907367
+ENS00163,Aspergillus sp. IFB-YXS,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00164,Aspergillus sp. isolate 658,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,OL545267,NA
+ENS00165,Aspergillus sp. J215,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00166,Aspergillus sp. MBL1612,Endophytic Fungus,1562343,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MK050581,NA
+ENS00167,Aspergillus sp. N830,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH814638.1,NA
+ENS00168,Aspergillus sp. SK-28,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN428770,NA
+ENS00169,Aspergillus sp. TJ23,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KY346978,NA
+ENS00170,Aspergillus sp. TRL1,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00171,Aspergillus sp. XJA6,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MK736352,NA
+ENS00172,Aspergillus sp. xy02,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MG798655,NA
+ENS00173,Aspergillus sp. YJ191021,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00174,Aspergillus sp. YXf3,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00175,Aspergillus sp. ZJ-68,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MK629267,NA
+ENS00176,Aspergillus sydowii #2B,Endophytic Fungus,75750,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN784418,NA
+ENS00177,Aspergillus tamarii,Endophytic Fungus,41984,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH094278,NA
+ENS00178,Aspergillus tamarii FR02,Endophytic Fungus,41984,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00179,Aspergillus tennesseensis 1022LEF,Endophytic Fungus,1220210,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MW898422,NA
+ENS00180,Aspergillus tennesseensis strain OUCMB I 140430,Endophytic Fungus,1220210,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH785494,NA
+ENS00181,Aspergillus terreus,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00182,Aspergillus terreus AM2,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MW444551.1,NA
+ENS00183,Aspergillus terreus C23-3,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MG707631.1,NA
+ENS00184,Aspergillus terreus EN-539,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KX641491,NA
+ENS00185,Aspergillus terreus F7,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KF554491,NA
+ENS00186,Aspergillus terreus GMEF1,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00187,Aspergillus terreus H010,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KU594266,NA
+ENS00188,Aspergillus terreus isolate DMY6_ITS1,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN832994,NA
+ENS00189,Aspergillus terreus isolate MS3,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH156195,NA
+ENS00190,Aspergillus terreus JAS-2,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00191,Aspergillus terreus No. GX7-3B,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KC461499,NA
+ENS00192,Aspergillus terreus PR-P-2,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KP260560,NA
+ENS00193,Aspergillus terreus strain WM 11.929,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KP131622,NA
+ENS00194,Aspergillus tubingensis R43,Endophytic Fungus,5068,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KJ476743,NA
+ENS00195,Aspergillus tubingensis FJBJ11,Endophytic Fungus,5068,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KP196359,NA
+ENS00196,Aspergillus tubingensis S1120,Endophytic Fungus,5068,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00197,Aspergillus tubingensis strain AN103,Endophytic Fungus,5068,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KR184138,NA
+ENS00198,Aspergillus ustus TK-5,Endophytic Fungus,40382,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MG596977,NA
+ENS00199,Aspergillus versicolor,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00200,Aspergillus versicolor OUCMDZ-2738,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MH150818,NA
+ENS00201,Aspergillus versicolor strain XWF32-16,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN310533.1,NA
+ENS00202,Aspergillus versicolor SYSU-SKS025,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KY908464.1,NA
+ENS00203,Aspergillus versicolor Y10,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KF381083,NA
+ENS00204,Aspergillus versicolor YNCA1266,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KJ801852,NA
+ENS00205,Aspergillus wentii EN-48,Endophytic Fungus,5066,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,HM014129,NA
+ENS00206,Aurapex penicillata strain CR1207B,Endophytic Fungus,224451,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Cryphonectriaceae,Aurapex,JQ864529,NA
+ENS00207,Bacillus amyloliquefaciens BmB 1,Endophytic Bacteria,1390,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,NA,KF879305
+ENS00208,Bacillus amyloliquefaciens C5,Endophytic Bacteria,1390,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MG655187,NA
+ENS00209,Bacillus amyloliquefaciens CFFSUR-B35,Endophytic Bacteria,1390,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MW377567,NA
+ENS00210,Bacillus amyloliquefaciens strain RaSh1,Endophytic Bacteria,1390,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MZ945930,NA
+ENS00211,Bacillus amyloliquefaciens YN201732,Endophytic Bacteria,1390,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,NA,NA
+ENS00212,Bacillus atrophaeus strain G050,Endophytic Bacteria,1452,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,KY127353,NA
+ENS00213,Bacillus cereus strain ChST,Endophytic Bacteria,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,JF935135.1,NA
+ENS00214,Bacillus cereus strain DFT-7,Endophytic Bacteria,1396,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,KY750691.1,NA
+ENS00215,Bacillus halotolerans Cal.l.30,Endophytic Bacteria,260554,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MW273438.1,NA
+ENS00216,Bacillus halotolerans JZ7,Endophytic Bacteria,260554,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MH512910,NA
+ENS00217,Bacillus pumilus CFFSUR-B34,Endophytic Bacteria,1408,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MW377566,NA
+ENS00218,Bacillus safensis strain B21,Endophytic Bacteria,561879,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MK499471,NA
+ENS00219,Bacillus sp. BmB 9,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,NA,KP257289
+ENS00220,Bacillus sp. CaB 5,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,NA,FN645734
+ENS00221,Bacillus sp. CPC3,Endophytic Bacteria,1097370,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,JN700911.1,NA
+ENS00222,Bacillus sp. K1,Endophytic Bacteria,745774,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,CP093546,NA
+ENS00223,Bacillus sp. KL5,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MW440687,NA
+ENS00224,Bacillus sp. RAR_M1_44,Endophytic Bacteria,2876776,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,OK649238,NA
+ENS00225,Bacillus sp. strain AS_3,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MZ976848,NA
+ENS00226,Bacillus sp. strain AS_4,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MZ976849,NA
+ENS00227,Bacillus sp. strain AS_5,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MZ976850,NA
+ENS00228,Bacillus sp. strain KS1K7,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,OK266898,NA
+ENS00229,Bacillus sp. strain MHSD14,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MN078166,NA
+ENS00230,Bacillus sp. strain MHSD28,Endophytic Bacteria,1409,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MN029053,NA
+ENS00231,Bacillus subtilis 4NP-BL,Endophytic Bacteria,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MT447880,NA
+ENS00232,Bacillus subtilis CFFSUR-B31,Endophytic Bacteria,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MW377564,NA
+ENS00233,Bacillus subtilis PXJ-5,Endophytic Bacteria,1423,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,JQ956522.1,NA
+ENS00234,Bacillus thuringiensis,Endophytic Bacteria,1428,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,OM320575,NA
+ENS00235,Bacillus vallismortis ZZ185,Endophytic Bacteria,72361,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,FJ947003.1,NA
+ENS00236,Bacillus velezensis Ea73,Endophytic Bacteria,492670,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MZ540895,NA
+ENS00237,Bacillus velezensis JRX-YG39,Endophytic Bacteria,492670,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,ON413871,NA
+ENS00238,Bacillus velezensis LHSB1,Endophytic Bacteria,492670,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MN044879,NA
+ENS00239,Bacillus velezensis strain RaSh2,Endophytic Bacteria,492670,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MZ945929,NA
+ENS00240,Bacillus velezensis TEB1,Endophytic Bacteria,492670,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,NA,NA
+ENS00241,Bacillus wiedmannii Com1,Endophytic Bacteria,1890302,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,MK240535,NA
+ENS00242,Berkleasmium sp. Dzf12,Endophytic Fungus,513168,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Tubeufiales,Tubeufiaceae,Berkleasmium,EU543255,NA
+ENS00243,Bionectria sp. Y1085,Endophytic Fungus,2213019,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Bionectriaceae,Clonostachys,MH429795.1,NA
+ENS00244,Bipolaris eleusines,Endophytic Fungus,91366,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,NA,KY909768.1
+ENS00245,Bipolaris setariae,Endophytic Fungus,74419,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,KP722593,NA
+ENS00246,Bipolaris sorokiniana A606,Endophytic Fungus,45130,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,KF494823,NA
+ENS00247,Bipolaris sorokiniana CMON28,Endophytic Fungus,45130,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,JQ753978,NA
+ENS00248,Bipolaris sorokiniana LK12,Endophytic Fungus,45130,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,NA,NA
+ENS00249,Bipolaris sp.,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,NA,NA
+ENS00250,Bipolaris sp. APS1,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,MH102384.1,NA
+ENS00251,Bipolaris sp. DM-13,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,LC459402,NA
+ENS00252,Bipolaris sp. MU34,Endophytic Fungus,1317098,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,AB813872,NA
+ENS00253,Bipolaris sp. strain COC1,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,NA,HE861842
+ENS00254,Bipolaris sp. TJ403-B1,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,MH545913,NA
+ENS00255,Bipolaris sp. WT-9,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,MK931294,NA
+ENS00256,Bipolaris victoriae S27,Endophytic Fungus,40125,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,MN856279.1,NA
+ENS00257,Botryodiplodia theobromae,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00258,Botryosphaeria dothidea KJ-1,Endophytic Fungus,55169,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,NA,NA
+ENS00259,Botryosphaeria dothidea VP53,Endophytic Fungus,55169,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,NA,NA
+ENS00260,Botryosphaeria dothidea X-4,Endophytic Fungus,55169,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,NA,HQ416954
+ENS00261,Botryosphaeria fabicerciana MGN23-3,Endophytic Fungus,1250541,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,MK290397,NA
+ENS00262,Botryosphaeria ramosa L29,Endophytic Fungus,483999,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,MK370738,NA
+ENS00263,Botryosphaeria rhodina,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00264,Botryosphaeria sp. P483,Endophytic Fungus,1820283,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,KT213569,NA
+ENS00265,Botryosphaeria sp. SCSIO KcF6,Endophytic Fungus,1869280,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Botryosphaeria,KM246294,NA
+ENS00266,Botryosphaeriaceae sp. strain BCC 54265,Endophytic Fungus,1769346,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,No Rank at Level Genus,MF004417,NA
+ENS00267,Burkholderia cenocepacia strain ETR-B22,Endophytic Bacteria,95486,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,MT708133,NA
+ENS00268,Burkholderia sp. GE 17,Endophytic Bacteria,36773,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,NA,NA
+ENS00269,Cadophora malorum Cs-8-1,Endophytic Fungus,108018,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,No Rank at Level Family,Cadophora,JN585942.1,NA
+ENS00270,Camporesia sambuci FT1061,Endophytic Fungus,1867855,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Camporesia,KY971273,NA
+ENS00271,Cerrena sp. A593,Endophytic Fungus,1814219,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Cerrenaceae,Cerrena,KU904221,NA
+ENS00272,Chaetomiaceae sp. H2a,Endophytic Fungus,1227938,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,No Rank at Level Genus,JX292135,NA
+ENS00273,Chaetomium brasiliense,Endophytic Fungus,1934393,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Ovatospora,NA,NA
+ENS00274,Chaetomium fusiforme,Endophytic Fungus,5149,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,No Rank at Level Genus,NA,NA
+ENS00275,Chaetomium globosporum,Endophytic Fungus,941762,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,KC109750.1,NA
+ENS00276,Chaetomium globosum,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00277,Chaetomium globosum 7s-1,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00278,Chaetomium globosum CDW7,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,JN588554,NA
+ENS00279,Chaetomium globosum EF18,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,GQ176272,NA
+ENS00280,Chaetomium globosum IFB-E019,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00281,Chaetomium globosum isolate DSE72,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,MN416318,NA
+ENS00282,Chaetomium globosum Kunze,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00283,Chaetomium globosum L18,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,GU564156,NA
+ENS00284,Chaetomium globosum No.04,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00285,Chaetomium globosum QEN-14,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,EU001331,NA
+ENS00286,Chaetomium globosum RDNM-04,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,KP730436,NA
+ENS00287,Chaetomium globosum strain CCTCC AF 206003,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,DQ854987,NA
+ENS00288,Chaetomium globosum strain DJ181,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,MK330606,NA
+ENS00289,Chaetomium globosum TY1,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00290,Chaetomium globosum TY-2,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00291,Chaetomium ovatoascomatis NRC,Endophytic Fungus,2598752,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NR165924
+ENS00292,Chaetomium sp. 88194,Endophytic Fungus,1631639,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,KP171518,NA
+ENS00293,Chaetomium sp. Eef-10,Endophytic Fungus,1769349,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,MK120863,NA
+ENS00294,Chaetomium sp. g1,Endophytic Fungus,1769349,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,MT774551,NA
+ENS00295,Chaetomium sp. isolate KHA8,Endophytic Fungus,1769349,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,MT089956,NA
+ENS00296,Chaetomium sp. M336,Endophytic Fungus,1769349,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00297,Chaetomium sp. M453,Endophytic Fungus,1958771,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,KX756618,NA
+ENS00298,Chaetomium sp. NF00754,Endophytic Fungus,1769349,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,NA,NA
+ENS00299,Chaetomium subaffine L01,Endophytic Fungus,1036253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,MK180608.1,NA
+ENS00300,Chloridium sp. AzR-0142/07,Endophytic Fungus,502127,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Chaetosphaeriales,Chaetosphaeriaceae,Chloridium,EU394444,NA
+ENS00301,Cladosporium cladosporioides,Endophytic Fungus,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00302,Cladosporium cladosporioides EN-399,Endophytic Fungus,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,KM103661,NA
+ENS00303,Cladosporium cladosporioides MA-299,Endophytic Fungus,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,MH822624,NA
+ENS00304,Cladosporium cladosporioides strain MUPGBIOCHEM-CC-07-2015,Endophytic Fungus,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,KT384175,NA
+ENS00305,Cladosporium oxysporum,Endophytic Fungus,29919,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00306,Cladosporium oxysporum HDN13-314,Endophytic Fungus,29919,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,MT649906,NA
+ENS00307,Cladosporium sp.,Endophytic Fungus,1707700,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00308,Cladosporium sp. IFB3lp-2,Endophytic Fungus,1707700,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00309,Cladosporium sp. JJM22,Endophytic Fungus,1707700,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,MF593626,NA
+ENS00310,Cladosporium sp. OUCMDZ-302,Endophytic Fungus,1707700,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00311,Cladosporium sp. SCNU-F0001,Endophytic Fungus,1707700,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NG062723.1,NA
+ENS00312,Cladosporium sphaerospermum WBS017,Endophytic Fungus,92950,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,KU350727,NA
+ENS00313,Cladosporium velox MTCC 12032,Endophytic Fungus,891392,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00314,Cladosporium velox TN-9S,Endophytic Fungus,891392,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,NA,NA
+ENS00315,Clonostachys rosea strain JCM10.3,Endophytic Fungus,29856,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Bionectriaceae,Clonostachys,JQ407533,NA
+ENS00316,Coccomyces proteae strain CR252M,Endophytic Fungus,1093203,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Rhytismatales,Rhytismataceae,Coccomyces,JX089385,NA
+ENS00317,Cochliobolus kusanoi,Endophytic Fungus,90978,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,KF193636,NA
+ENS00318,Cochliobolus sp.,Endophytic Fungus,1756142,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,NA,NA
+ENS00319,Colletotrichum aotearoa BCRC 09F0161,Endophytic Fungus,1215732,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,KC297063.1
+ENS00320,Colletotrichum coccodes HCS3,Endophytic Fungus,27358,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,MN128230.1,NA
+ENS00321,Colletotrichum dematium CR-17,Endophytic Fungus,34405,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,EU330193,NA
+ENS00322,Colletotrichum gigasporum WSB,Endophytic Fungus,1543685,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,MN744704,NA
+ENS00323,Colletotrichum gloeosporioides,Endophytic Fungus,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,NA
+ENS00324,Colletotrichum gloeosporioides A12,Endophytic Fungus,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,KU781669,NA
+ENS00325,Colletotrichum gloeosporioides GT-7,Endophytic Fungus,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,KR911618,NA
+ENS00326,Colletotrichum gloeosporioides XL1200,Endophytic Fungus,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,MN067750,NA
+ENS00327,Colletotrichum sp.,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,MK041374.1
+ENS00328,Colletotrichum sp. F168,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,MK934526.1,NA
+ENS00329,Colletotrichum sp. isolate AP-1,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,OL477531,NA
+ENS00330,Colletotrichum sp. isolate AP-12,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,OL477581,NA
+ENS00331,Colletotrichum sp. isolate AP-4,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,OL477579,NA
+ENS00332,Colletotrichum sp. L10,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,NA
+ENS00333,Colletotrichum sp. MFLUCC16-0047,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,NA
+ENS00334,Colletotrichum sp. MFLUCC16-0048,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,NA
+ENS00335,Colletotrichum sp. SC1355,Endophytic Fungus,34409,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,MH356584,NA
+ENS00336,Colletotrichum tropicale SCSIO 41022,Endophytic Fungus,912113,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,JX010277
+ENS00337,Colletotrichum tropicicola F10154,Endophytic Fungus,1185846,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,OM791925,NA
+ENS00338,Comoclathris sp. strain CF-090361,Endophytic Fungus,1979423,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Comoclathris,MG065810,NA
+ENS00339,Comoclathris sp. strain CF-090766,Endophytic Fungus,1979423,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Comoclathris,NA,NA
+ENS00340,Coniochaeta sp. F-8,Endophytic Fungus,1849801,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Coniochaetales,Coniochaetaceae,Coniochaeta,MK592618,NA
+ENS00341,Coniothyrium cereale,Endophytic Fungus,2718965,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Neosetophoma,NA,NA
+ENS00342,Cophinforma mamane E224,Endophytic Fungus,144557,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Cophinforma,MG457709,NA
+ENS00343,Coriolopsis rigida,Endophytic Fungus,664182,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Coriolopsis,MN991225,NA
+ENS00344,Corynespora cassiicola GD,Endophytic Fungus,59586,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Corynesporascaceae,Corynespora,HQ223035,NA
+ENS00345,Corynespora cassiicola Lphi36,Endophytic Fungus,59586,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Corynesporascaceae,Corynespora,FJ225970,NA
+ENS00346,Cryptosporiopsis cf. quercina,Endophytic Fungus,108533,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Dermateaceae,No Rank at Level Genus,NA,NA
+ENS00347,Cryptosporiopsis sp. H2-1,Endophytic Fungus,1256858,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Dermateaceae,Cryptosporiopsis,JX683689,NA
+ENS00348,Cryptosporiopsis sp. strain CAFT122-1,Endophytic Fungus,1756097,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Dermateaceae,Cryptosporiopsis,NA,NA
+ENS00349,Curvularia eragrostidis HelS1,Endophytic Fungus,418125,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,ON146362,NA
+ENS00350,Curvularia geniculata B1,Endophytic Fungus,418126,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,MZ532590,NA
+ENS00351,Curvularia geniculata CTOM11,Endophytic Fungus,418126,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,GU073454,NA
+ENS00352,Curvularia lunata,Endophytic Fungus,5503,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,HQ631009.1,NA
+ENS00353,Curvularia papendorfii,Endophytic Fungus,1537989,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,NA,KR673909
+ENS00354,Curvularia sp. M12,Endophytic Fungus,1715225,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,JN192387,NA
+ENS00355,Curvularia verruculosa Vin 1,Endophytic Fungus,95740,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,MK995628,NA
+ENS00356,Cylindrocarpon sp. strain 03HC77,Endophytic Fungus,1756108,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Cylindrocarpon,KY211868,NA
+ENS00357,Cytospora rhizophorae A761,Endophytic Fungus,407039,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Cytospora,KU529867,NA
+ENS00358,Cytospora sp.,Endophytic Fungus,1715226,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Cytospora,NA,NA
+ENS00359,Cytospora sp. CR200,Endophytic Fungus,407038,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Cytospora,DQ996039,NA
+ENS00360,Cytospora sp. isolate DQXJ00,Endophytic Fungus,1715226,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Cytospora,MG948459,NA
+ENS00361,Daldinia eschscholtzii A630,Endophytic Fungus,292717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,KF494831,NA
+ENS00362,Daldinia eschscholtzii JC-15,Endophytic Fungus,292717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,NA,NA
+ENS00363,Daldinia eschscholtzii KBJYZ-1,Endophytic Fungus,292717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,OM267787,NA
+ENS00364,Daldinia eschscholtzii MFLUCC 19-0493,Endophytic Fungus,292717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,MN704648,NA
+ENS00365,Daldinia eschscholtzii PSU-STD57,Endophytic Fungus,292717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,HM012821,NA
+ENS00366,Daldinia eschscholtzii SDBR-CMUNKC745,Endophytic Fungus,292717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,MW193761,NA
+ENS00367,Daldinia sp. TJ403-LS1,Endophytic Fungus,1769485,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Daldinia,SUB6731634,NA
+ENS00368,Delitschia winteri,Endophytic Fungus,100052,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Delitschiaceae,Delitschia,NA,NA
+ENS00369,Diaporthe apiculata FPYF3052,Endophytic Fungus,1588135,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MH203053,NA
+ENS00370,Diaporthe caulivora 09F0132,Endophytic Fungus,60444,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00371,Diaporthe cf. heveae LGMF1631,Endophytic Fungus,1729149,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MG976433,NA
+ENS00372,Diaporthe eucalyptorum KY-9,Endophytic Fungus,1196424,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MK396569.1,NA
+ENS00373,Diaporthe foeniculina BZM-15,Endophytic Fungus,1469663,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MN788609,NA
+ENS00374,Diaporthe goulteri L17,Endophytic Fungus,1537730,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MW426209,NA
+ENS00375,Diaporthe liquidambaris S47,Endophytic Fungus,2025498,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00376,Diaporthe lithocarpi A740,Endophytic Fungus,1344039,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KU529854,NA
+ENS00377,Diaporthe longicolla CEL41,Endophytic Fungus,54899,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MN480529,NA
+ENS00378,Diaporthe longicolla FJ62759,Endophytic Fungus,54899,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00379,Diaporthe miriciae UFMGCB 9720,Endophytic Fungus,1537734,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00380,Diaporthe phaseolorum FS-41.1,Endophytic Fungus,36923,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,JQ277472,NA
+ENS00381,Diaporthe phaseolorum SKS019,Endophytic Fungus,36923,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KX815357,NA
+ENS00382,Diaporthe phaseolorum-92C,Endophytic Fungus,36923,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00383,Diaporthe phyllanthicola A658,Endophytic Fungus,280248,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KF498871,NA
+ENS00384,Diaporthe schini B125,Endophytic Fungus,1303612,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KR812222,NA
+ENS00385,Diaporthe sp.,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00386,Diaporthe sp. CarGL8,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00387,Diaporthe sp. ECN371,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,LC653142,NA
+ENS00388,Diaporthe sp. GDG-118,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KT820081,NA
+ENS00389,Diaporthe sp. IFB-3lp-10,Endophytic Fungus,1240608,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,JX536253,NA
+ENS00390,Diaporthe sp. isolate AC1,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,OL589639,NA
+ENS00391,Diaporthe sp. JC-J7,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00392,Diaporthe sp. MFLUCC15-1131,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KY646066,NA
+ENS00393,Diaporthe sp. MFLUCC16-0051,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KX703027,NA
+ENS00394,Diaporthe sp. MFLUCC16-0682,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KY790594,NA
+ENS00395,Diaporthe sp. MFLUCC16-0693,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KY790595,NA
+ENS00396,Diaporthe sp. P133,Endophytic Fungus,427481,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00397,Diaporthe sp. QYM12,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MW332459,NA
+ENS00398,Diaporthe sp. SC-J0138,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00399,Diaporthe sp. SCSIO 41011,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MG548388,NA
+ENS00400,Diaporthe sp. strain DIE-19,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MF422687,NA
+ENS00401,Diaporthe sp. SXZ-19,Endophytic Fungus,340455,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,DQ145729,NA
+ENS00402,Diaporthe sp. SYSU-HQ3,Endophytic Fungus,1756133,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MF796243,NA
+ENS00403,Diaporthe terebinthifolii LGMF658,Endophytic Fungus,1303642,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KM510506.1,NA
+ENS00404,Diaporthe terebinthifolii LGMF907,Endophytic Fungus,1303642,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00405,Diaporthe ueckeri SC-J0123,Endophytic Fungus,1590080,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,NA,NA
+ENS00406,Diaporthe vochysiae strain LGMF1583,Endophytic Fungus,2818453,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,MG976391,NA
+ENS00407,Diatrype palmicola MFLUCC 17-0313,Endophytic Fungus,1658224,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Diatrypaceae,Diatrype,MK329053,NA
+ENS00408,Dichotomopilus funicola Y3,Endophytic Fungus,1934379,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Dichotomopilus,MF800960,NA
+ENS00409,Didymella coffeae-arabicae FT238,Endophytic Fungus,749619,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Didymella,KU318713,NA
+ENS00410,Didymella glomerata X223,Endophytic Fungus,749621,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Didymella,MN822652,NA
+ENS00411,Didymella sp. FT431,Endophytic Fungus,1881153,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Didymella,KY971272,NA
+ENS00412,Didymella sp. IEA-3B.1,Endophytic Fungus,1881153,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Didymella,MN227696.1,NA
+ENS00413,Didymellaceae sp. isolate AP-48,Endophytic Fungus,1907517,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,No Rank at Level Genus,OL477657,NA
+ENS00414,"Didymosphaeria variabile Riccioni, Damm, Verkley & Crous",Endophytic Fungus,1932322,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Didymosphaeria,NA,NA
+ENS00415,Didymosphaeriaceae sp. DM0194,Endophytic Fungus,1881152,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,No Rank at Level Genus,KF673734,NA
+ENS00416,Dothideomycetes sp. CRI7,Endophytic Fungus,1709935,Eukaryota,Fungi,Ascomycota,Dothideomycetes,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,JQ867364,NA
+ENS00417,Drechmeria panacis strain SYPF 8335,Endophytic Fungus,2365000,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Drechmeria,MF588878,NA
+ENS00418,Drechslera sp. BAFC 3419,Endophytic Fungus,652732,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Drechslera,FJ868975,NA
+ENS00419,Drechslera sp. strain 678,Endophytic Fungus,67606,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Drechslera,MT002971,NA
+ENS00420,Ectophoma multirostrata,Endophytic Fungus,73003,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Ectophoma,MN453606,NA
+ENS00421,Ectophoma multirostrata isolate AP-47,Endophytic Fungus,73003,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Ectophoma,OL477590,NA
+ENS00422,Edenia sp.,Endophytic Fungus,2744137,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Edenia,NA,NA
+ENS00423,Edenia sp. strain F0755,Endophytic Fungus,2744137,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Edenia,EF565744.1,NA
+ENS00424,Embleya sp. NF3,Endophytic Bacteria,2699295,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,No Rank at Level Genus,KU579247,NA
+ENS00425,Emericella variecolor,Endophytic Fungus,1549217,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00426,Endomelanconiopsis endophytica A326,Endophytic Fungus,553242,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Endomelanconiopsis,NA,EU687005
+ENS00427,Enterobacter cloacae strain MOSEL-w7,Endophytic Bacteria,550,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,KF307675,NA
+ENS00428,Enterobacter sp. strain MHSD22,Endophytic Bacteria,42895,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,MN029050,NA
+ENS00429,Epichloe festucae BM7,Endophytic Fungus,35717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Epichloe,NA,NA
+ENS00430,Epichloe festucae var. lolii strain AR37,Endophytic Fungus,35717,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Epichloe,KP797982,NA
+ENS00431,Epicoccum nigrum AS-S-19,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MK909749,NA
+ENS00432,Epicoccum nigrum LAEE14,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,LN626719,NA
+ENS00433,Epicoccum nigrum Link,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,NA,NA
+ENS00434,Epicoccum nigrum M13,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MK953943,NA
+ENS00435,Epicoccum nigrum MK214079,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MK214079,NA
+ENS00436,Epicoccum nigrum MLY-3,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MZ407636,NA
+ENS00437,Epicoccum nigrum SCNU-F0002,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MN096740,NA
+ENS00438,Epicoccum nigrum strain YEF2,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MF371418,NA
+ENS00439,Epicoccum nigrum TER1985,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MK530410,NA
+ENS00440,Epicoccum nigrum W-2,Endophytic Fungus,105696,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,NA,MH857851.1
+ENS00441,Epicoccum sorghinum FT1062,Endophytic Fungus,749593,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,KY971274,NA
+ENS00442,Epicoccum sorghinum L28,Endophytic Fungus,749593,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Epicoccum,MZ378789,NA
+ENS00443,Exophiala radicis strain P1095,Endophytic Fungus,1816251,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,KT099195,NA
+ENS00444,Exophiala radicis strain P1860,Endophytic Fungus,1816251,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Chaetothyriales,Herpotrichiellaceae,Exophiala,KT099197,NA
+ENS00445,Exserohilum rostratum,Endophytic Fungus,1659837,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Exserohilum,NA,EU571210
+ENS00446,Exserohilum sp. D3-6A1-1,Endophytic Fungus,1480123,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Exserohilum,KJ156361,NA
+ENS00447,Flavobacterium sp. GE 32,Endophytic Bacteria,239,Bacteria,No Rank at Level Kingdom,Bacteroidota,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,AM177616
+ENS00448,Flavodon flavus JB257,Endophytic Fungus,559739,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Irpicaceae,Flavodon,MN458548,NA
+ENS00449,Fusarium avenaceum SF-1502,Endophytic Fungus,40199,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MG520365,NA
+ENS00450,Fusarium cf. solani MFLUCC 17-0253,Endophytic Fungus,1715230,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00451,Fusarium chlamydosporum,Endophytic Fungus,86545,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,FC201936.1,NA
+ENS00452,Fusarium chlamydosporum QJP1,Endophytic Fungus,86545,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KY290716,NA
+ENS00453,Fusarium fujikuroi strain WF5,Endophytic Fungus,5127,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KF957640,NA
+ENS00454,Fusarium guttiforme,Endophytic Fungus,47756,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KC464629.1,NA
+ENS00455,Fusarium lateritium HU0053,Endophytic Fungus,5523,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00456,Fusarium napiforme IP-28,Endophytic Fungus,42672,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00457,Fusarium oxysporum 5-19,Endophytic Fungus,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KR019682,NA
+ENS00458,Fusarium oxysporum CIM3,Endophytic Fungus,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,JQ713567,NA
+ENS00459,Fusarium oxysporum NSG-1,Endophytic Fungus,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KX853850.1,NA
+ENS00460,Fusarium oxysporum strain NRRL 52663,Endophytic Fungus,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,GU250648,NA
+ENS00461,Fusarium oxysporum LMA 1719,Endophytic Fungus,5507,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,MG975622.1
+ENS00462,Fusarium proliferatum AF-04,Endophytic Fungus,948311,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MF426031,NA
+ENS00463,Fusarium proliferatum MTCC 9690,Endophytic Fungus,948311,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,HM245296,NA
+ENS00464,Fusarium redolens AS1,Endophytic Fungus,48865,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MW370267,NA
+ENS00465,Fusarium sambucinum TE-6L,Endophytic Fungus,5128,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MK968310,NA
+ENS00466,Fusarium solani,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00467,Fusarium solani AS-2,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KT166446,NA
+ENS00468,Fusarium solani CARE-1,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,KF918581.1
+ENS00469,Fusarium solani G6,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MF800959,NA
+ENS00470,Fusarium solani HDN15-410,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MH383099,NA
+ENS00471,Fusarium solani JK10,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00472,Fusarium solani S-019,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,EF062312,NA
+ENS00473,Fusarium solani strain AURE-4,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KY511422,NA
+ENS00474,Fusarium sp.,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00475,Fusarium sp. AHPE-4,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MG75792,NA
+ENS00476,Fusarium sp. AMst1,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NR120264
+ENS00477,Fusarium sp. CR377,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00478,Fusarium sp. F20,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MH256140,NA
+ENS00479,Fusarium sp. HM166,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MK478900,NA
+ENS00480,Fusarium sp. HP-2,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00481,Fusarium sp. LAEE13,Endophytic Fungus,1545754,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,LN607808,NA
+ENS00482,Fusarium sp. LN-10,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00483,Fusarium sp. QF001,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,JQ364977.1
+ENS00484,Fusarium sp. UFMGCB 551,Endophytic Fungus,587498,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,GQ325261,NA
+ENS00485,Fusarium sp. YG-45,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00486,Fusarium sporotrichioides,Endophytic Fungus,5514,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MT649476.1,NA
+ENS00487,Fusarium tricinctum,Endophytic Fungus,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,NA
+ENS00488,Fusarium tricinctum strain ME4,Endophytic Fungus,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MK559443,NA
+ENS00489,Fusarium tricinctum SYPF 7082,Endophytic Fungus,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MG930027,NA
+ENS00490,Fusarium verticillioides NSH-5,Endophytic Fungus,117187,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KX853851.1,NA
+ENS00491,Fusarium sp. KK21FL2,Endophytic Fungus,29916,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,HQ413706,NA
+ENS00492,Gaeumannomyces sp. JS0464,Endophytic Fungus,2012267,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Magnaporthales,Magnaporthaceae,Gaeumannomyces,NA,NA
+ENS00493,Ganoderma applanatum,Endophytic Fungus,29884,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Ganoderma,NA,NA
+ENS00494,Geniculosporium sp.,Endophytic Fungus,1479502,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,No Rank at Level Genus,NA,NA
+ENS00495,Geotrichum candidum PF005,Endophytic Fungus,1173061,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum,KX938344.1,NA
+ENS00496,Geotrichum candidum strain CLIB 918,Endophytic Fungus,1173061,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Dipodascaceae,Geotrichum,HF586414,NA
+ENS00497,Gibberella fujikuroi var. moniliformis AH13,Endophytic Fungus,405761,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,KF775590,NA
+ENS00498,Gliocladium sp. CR 2.3.1,Endophytic Fungus,1955101,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,No Rank at Level Family,Gliocladium,NA,NA
+ENS00499,Glomerella cingulata,Endophytic Fungus,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,NA,NA
+ENS00500,Guignardia sp. A1,Endophytic Fungus,1715232,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Guignardia,NA,NA
+ENS00501,Humicola sp. JS-0112,Endophytic Fungus,1756120,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Humicola,MN006389.1,NA
+ENS00502,Hyalodendriella sp. Ponipodef12,Endophytic Fungus,1849807,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Hamatocanthoscyphaceae,Hyalodendriella,HQ731647,NA
+ENS00503,Hypomontagnella monticulosa Zg15SU,Endophytic Fungus,2487000,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypomontagnella,MN718862.1,NA
+ENS00504,Hypoxylon anthochroum blaci,Endophytic Fungus,326652,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,KT272400,NA
+ENS00505,Hypoxylon anthochroum GS4D2II1a,Endophytic Fungus,326652,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,KM516709,NA
+ENS00506,Hypoxylon anthochroum Haeg2,Endophytic Fungus,326652,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,MF663790,NA
+ENS00507,Hypoxylon anthochroum Smeg4,Endophytic Fungus,326652,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,MF663791,NA
+ENS00508,Hypoxylon investiens BCRC 10F0115,Endophytic Fungus,326663,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,JN979428.1,NA
+ENS00509,Hypoxylon sp. C14A,Endophytic Fungus,755336,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,GU797135,NA
+ENS00510,Hypoxylon sp. isolate 620,Endophytic Fungus,1896109,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Hypoxylon,OL545266,NA
+ENS00511,Hypoxylon submoniticulosum,Endophytic Fungus,42308,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,No Rank at Level Genus,KC952873,NA
+ENS00512,Ilyonectria robusta strain F312a,Endophytic Fungus,1079257,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Ilyonectria,JX045819.1,NA
+ENS00513,Induratia alba 9-6,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,HM034857,NA
+ENS00514,Induratia alba E-6,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,EF183509,NA
+ENS00515,Induratia alba strain CZ-620,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AF324336,NA
+ENS00516,Induratia alba strain GP-100,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY555731,NA
+ENS00517,Induratia alba strain GP-115,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY527047,NA
+ENS00518,Induratia alba strain GP-206,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY527048,NA
+ENS00519,Induratia alba strain KN-205,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY597208,NA
+ENS00520,Induratia alba strain KN-26,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY527044,NA
+ENS00521,Induratia alba strain KN-27,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY527046,NA
+ENS00522,Induratia alba strain TP-21,Endophytic Fungus,2735577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,AY527045,NA
+ENS00523,Induratia fengyangensis ZJLQ023,Endophytic Fungus,2735595,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,HM034856,NA
+ENS00524,Induratia fengyangensis ZJLQ024,Endophytic Fungus,2735595,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,HM034855,NA
+ENS00525,Induratia fengyangensis ZJLQ070,Endophytic Fungus,2735595,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,HM034853,NA
+ENS00526,Induratia fengyangensis ZJLQ151,Endophytic Fungus,2735595,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,HM034852,NA
+ENS00527,Induratia fengyangensis ZJLQ374,Endophytic Fungus,2735595,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,Induratia,HM034854,NA
+ENS00528,Irpex hydnoides VB4,Endophytic Fungus,199540,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Irpicaceae,Irpex,HQ271348,NA
+ENS00529,Irpex lacteus,Endophytic Fungus,5319,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Irpicaceae,Irpex,NA,NA
+ENS00530,Irpex lacteus OV38,Endophytic Fungus,5319,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Irpicaceae,Irpex,NA,NA
+ENS00531,Khuskia sp. LAEE21,Endophytic Fungus,1545755,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Trichosphaeriales,Trichosphaeriaceae,Khuskia,LN607810,NA
+ENS00532,Kitasatospora albolonga EA12432,Endophytic Bacteria,68173,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Kitasatospora,NA,NA
+ENS00533,Kitasatospora aureofaciens CMUAc130,Endophytic Bacteria,1894,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Kitasatospora,NA,NA
+ENS00534,Kitasatospora sp. strain CPCC204717,Endophytic Bacteria,1871188,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Kitasatospora,MT588710,NA
+ENS00535,Kodamaea ohmeri DMKU-RE27,Endophytic Fungus,34356,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Kodamaea,NA,NA
+ENS00536,Kodamaea ohmeri DMKU-RE65,Endophytic Fungus,34356,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Kodamaea,NA,NA
+ENS00537,Lachnum abnorme,Endophytic Fungus,2340722,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Lachnaceae,Erioscyphella,AB267638,NA
+ENS00538,Lasiodiplodia sp. 318#,Endophytic Fungus,1891967,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00539,Lasiodiplodia sp. J13-1-6J,Endophytic Fungus,1844907,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,KU672332,NA
+ENS00540,Lasiodiplodia theobromae,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00541,Lasiodiplodia theobromae GC-22,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00542,Lasiodiplodia theobromae Pat,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00543,Lasiodiplodia theobromae strain SJF-1,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,MG938644.1,NA
+ENS00544,Lasiodiplodia theobromae strain SKJM1101,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,KF814723,NA
+ENS00545,Lasiodiplodia theobromae ZJ-HQ1,Endophytic Fungus,45133,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,KT240140,NA
+ENS00546,Lasiodiplodia venezuelensis,Endophytic Fungus,336255,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Lasiodiplodia,NA,NA
+ENS00547,Leptodophora orchidicola ZJLQ336,Endophytic Fungus,1732013,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,No Rank at Level Family,Leptodophora,KX999720,NA
+ENS00548,Leptosphaeria sp. XL026,Endophytic Fungus,1755431,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Leptosphaeriaceae,Leptosphaeria,MK603060,NA
+ENS00549,Lophiotrema sp. F6932,Endophytic Fungus,2011698,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Lophiotremataceae,Lophiotrema,OM791904,NA
+ENS00550,Luteibacter sp. BSNB-0721,Endophytic Bacteria,1886636,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Rhodanobacteraceae,Luteibacter,MK279522,NA
+ENS00551,Lysinibacillus sp.,Endophytic Bacteria,1869345,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Lysinibacillus,JN160728,NA
+ENS00552,Lysinibacillus sp. strain AS_1,Endophytic Bacteria,1869345,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Lysinibacillus,MZ976846,NA
+ENS00553,Lysinibacillus sphaericus L1,Endophytic Bacteria,1421,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Lysinibacillus,KJ872548,NA
+ENS00554,Macrophomina phaseolina R7_BA,Endophytic Fungus,35725,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Macrophomina,KX098325,NA
+ENS00555,Mammaliicoccus sciuri strain MrR44,Endophytic Bacteria,1296,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Mammaliicoccus,MH161571,NA
+ENS00556,Massarinaceae sp. DAOM 242779,Endophytic Fungus,1470022,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Massarinaceae,No Rank at Level Genus,KJ486534,NA
+ENS00557,Meyerozyma guilliermondii,Endophytic Fungus,4929,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,EF495244,NA
+ENS00558,Meyerozyma guilliermondii HZ-Y2,Endophytic Fungus,4929,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Meyerozyma,KP975418,NA
+ENS00559,Microbacterium sp. LGMB471,Endophytic Bacteria,51671,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micrococcales,Microbacteriaceae,Microbacterium,NA,NA
+ENS00560,Microdiplodia sp. BYCDW8,Endophytic Fungus,1932321,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Microdiplodia,NA,EU273518
+ENS00561,Microdiplodia sp. strain no. 9907,Endophytic Fungus,1932321,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Microdiplodia,NA,NA
+ENS00562,Micromonospora sp. GMKU326,Endophytic Bacteria,718015,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micromonosporales,Micromonosporaceae,Micromonospora,GU458301.1,NA
+ENS00563,Micromonospora sp. NEAU-gq13,Endophytic Bacteria,1274800,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micromonosporales,Micromonosporaceae,Micromonospora,KC155666,NA
+ENS00564,Microsphaeropsis sp. strain No. 7820,Endophytic Fungus,1874263,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,No Rank at Level Family,Microsphaeropsis,NA,NA
+ENS00565,Microthyriaceae sp. F2611,Endophytic Fungus,1464018,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Microthyriales,Microthyriaceae,No Rank at Level Genus,KJ469652,NA
+ENS00566,Monascus ruber SRZ112,Endophytic Fungus,89489,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Monascus,MT140350.1,NA
+ENS00567,Mortierella alpina ITA1-CCMA 952,Endophytic Fungus,64518,Eukaryota,Fungi,Mucoromycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Mortierella,NA,NA
+ENS00568,Mortierella sp. YXL-526,Endophytic Fungus,1715235,Eukaryota,Fungi,Mucoromycota,Mortierellomycetes,Mortierellales,Mortierellaceae,Mortierella,MZ768910,NA
+ENS00569,Mucor fragilis NSY-1,Endophytic Fungus,64491,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,KX060586.1,NA
+ENS00570,Mucor irregularis,Endophytic Fungus,713888,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,KP067786,NA
+ENS00571,Mucor irregularis QEN-189,Endophytic Fungus,713888,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,HQ891659,NA
+ENS00572,Mucor racemosus NSH-D,Endophytic Fungus,4841,Eukaryota,Fungi,Mucoromycota,Mucoromycetes,Mucorales,Mucoraceae,Mucor,KX060585.1,NA
+ENS00573,Muscodor heveae,Endophytic Fungus,314019,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,No Rank at Level Genus,NA,NA
+ENS00574,Muyocopron laterale ECN279,Endophytic Fungus,2575763,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Muyocopronales,Muyocopronaceae,Muyocopron,LC541569,NA
+ENS00575,Muyocopron laterale F5912,Endophytic Fungus,2575763,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Muyocopronales,Muyocopronaceae,Muyocopron,OM791928,NA
+ENS00576,Mycosphaerella sp. L3A1,Endophytic Fungus,1715237,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Mycosphaerella,OP143811,NA
+ENS00577,Mycosphaerella sp. nov. strain F2140,Endophytic Fungus,1715237,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Mycosphaerella,EU167598.2,NA
+ENS00578,Mycosphaerella sp. UFMGCB 2032,Endophytic Fungus,1428689,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Mycosphaerella,KF681521,NA
+ENS00579,Myrothecium sp. BS-31,Endophytic Fungus,1756106,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Myrothecium,MN960018,NA
+ENS00580,Myrothecium strain IFB-E106,Endophytic Fungus,1756106,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Myrothecium,NA,NA
+ENS00581,Nectria pseudotrichia PB02,Endophytic Fungus,40607,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Nectria,KF611677,NA
+ENS00582,Nectria sp. HN001,Endophytic Fungus,1856692,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Nectria,KU359411,NA
+ENS00583,Nemania sp. UM10M,Endophytic Fungus,1912656,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Nemania,MK321315,NA
+ENS00584,Neocosmospora rubicola AMb22,Endophytic Fungus,1634935,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,NA,KM231800
+ENS00585,Neofusicoccum australe strain ICMP 21498,Endophytic Fungus,240362,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Neofusicoccum,MT107904,NA
+ENS00586,Neofusicoccum australe SYSU-SKS024,Endophytic Fungus,240362,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Neofusicoccum,MF967208,NA
+ENS00587,Neofusicoccum luteum ZF 52,Endophytic Fungus,120395,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Neofusicoccum,NA,KF766289
+ENS00588,Neofusicoccum parvum JS-0968,Endophytic Fungus,310453,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Botryosphaeriaceae,Neofusicoccum,NA,NA
+ENS00589,Neonectria candida Wollenw KS-246,Endophytic Fungus,1634535,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Neonectria,NA,NA
+ENS00590,Neopestalotiopsis foedans,Endophytic Fungus,290095,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Neopestalotiopsis,NA,NA
+ENS00591,Neopestalotiopsis sp. G29,Endophytic Fungus,1684588,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Neopestalotiopsis,KP745600,NA
+ENS00592,Neopestalotiopsis sp. MFLUCC15-1130,Endophytic Fungus,1849553,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Neopestalotiopsis,KY646065,NA
+ENS00593,Neopestalotiopsis vaccinii cgmcc3.9199,Endophytic Fungus,3023124,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Neopestalotiopsis,NA,NA
+ENS00594,Neoplaconema napellum IFB-E016,Endophytic Fungus,216222,Eukaryota,Fungi,Ascomycota,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,DQ102374,NA
+ENS00595,Nigrospora camelliae-sinensis S30,Endophytic Fungus,2022753,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,NA,NA
+ENS00596,Nigrospora chinensis,Endophytic Fungus,2022754,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,MK834674.1,NA
+ENS00597,Nigrospora chinensis GGY-3,Endophytic Fungus,2022754,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,ON340773,NA
+ENS00598,Nigrospora oryzae,Endophytic Fungus,335854,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,NA,NA
+ENS00599,Nigrospora oryzae CF-298113,Endophytic Fungus,335854,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,NA,KU933443
+ENS00600,Nigrospora oryzae GL15,Endophytic Fungus,335854,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,MT626727,NA
+ENS00601,Nigrospora sp. 1403 KY-2011,Endophytic Fungus,993140,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,HQ891110,NA
+ENS00602,Nigrospora sp. MA75,Endophytic Fungus,993141,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,HQ891662,NA
+ENS00603,Nigrospora sp. MFLUCC16-0605,Endophytic Fungus,1715238,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,NA,HQ832828
+ENS00604,Nigrospora sp. YE3033,Endophytic Fungus,1715238,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,KU987454,NA
+ENS00605,Nigrospora sphaerica,Endophytic Fungus,114231,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,NA,NA
+ENS00606,Nigrospora sphaerica AVA-1,Endophytic Fungus,114231,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,MW130252.1,NA
+ENS00607,Nigrospora sphaerica CRWL3,Endophytic Fungus,114231,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,HG938367,NA
+ENS00608,Nigrospora sphaerica EHL2,Endophytic Fungus,114231,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,MN726479,NA
+ENS00609,Nigrospora sphaerica ZMT05,Endophytic Fungus,114231,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Apiosporaceae,Nigrospora,MG171196,NA
+ENS00610,Nocardiopsis prasina CLA68,Endophytic Bacteria,2015,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Streptosporangiales,Nocardiopsaceae,Nocardiopsis,KP269077,NA
+ENS00611,Nodulisporium sp. A21,Endophytic Fungus,1647372,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Nodulisporium,KP297933,NA
+ENS00612,Novosphingobium lindaniclasticum CFFSUR-B36,Endophytic Bacteria,1329895,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,MW377568,NA
+ENS00613,Ophiocordyceps dipterigena strain F0307,Endophytic Fungus,235378,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Ophiocordycipitaceae,Ophiocordyceps,NA,NA
+ENS00614,Ovatospora brasiliensis EPE-10 MTCC 25236,Endophytic Fungus,1934393,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Ovatospora,NA,MH858514.1
+ENS00615,Paecilomyces sp. AUMC 15510,Endophytic Fungus,40383,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Thermoascaceae,Paecilomyces,OP429630,NA
+ENS00616,Paecilomyces sp. EJC01.1,Endophytic Fungus,40383,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Thermoascaceae,Paecilomyces,NA,NA
+ENS00617,Paecilomyces sp. tree 1–7,Endophytic Fungus,40383,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Thermoascaceae,Paecilomyces,NA,NA
+ENS00618,Paecilomyces variotii,Endophytic Fungus,264951,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Thermoascaceae,Paecilomyces,NA,NA
+ENS00619,Paenibacillus amylolyticus KMCLE06,Endophytic Bacteria,1451,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,MH220721,NA
+ENS00620,Paenibacillus polymyxa SK1,Endophytic Bacteria,1406,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,MN326755.1,NA
+ENS00621,Paenibacillus polymyxa Y-1,Endophytic Bacteria,1406,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,NA,EF488172.1
+ENS00622,Paenibacillus sp. MOSEL-w13,Endophytic Bacteria,1365631,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,KF307683,NA
+ENS00623,Pantoea sp. Dez632,Endophytic Bacteria,69393,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,MZ647535,NA
+ENS00624,Pantoea sp. strain MHSD15,Endophytic Bacteria,69393,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,MN093331,NA
+ENS00625,Paraboeremia selaginellae SE01,Endophytic Fungus,749870,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Paraboeremia,ON231784,NA
+ENS00626,Paraconiothyrium sp. strain GFM13,Endophytic Fungus,1696682,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraconiothyrium,KX247121,NA
+ENS00627,Paraconiothyrium sp. SW-B-1,Endophytic Fungus,1696682,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraconiothyrium,NA,NA
+ENS00628,Paraconiothyrium sp. VK-13,Endophytic Fungus,1696682,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraconiothyrium,NA,NA
+ENS00629,Paraconiothyrium sp. YM 311593,Endophytic Fungus,1696682,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraconiothyrium,NA,DQ885897
+ENS00630,Paramyrothecium roridum A553,Endophytic Fungus,1859971,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Paramyrothecium,KJ813720,NA
+ENS00631,Paramyrothecium roridum A-S-4,Endophytic Fungus,1859971,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Paramyrothecium,NA,NA
+ENS00632,Paramyrothecium roridum isolate A697,Endophytic Fungus,1859971,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Paramyrothecium,KU529828,NA
+ENS00633,Paraphaeosphaeria sporulosa,Endophytic Fungus,1460663,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraphaeosphaeria,KY977581.1,NA
+ENS00634,Paraphaeosphaeria sporulosa CP-1,Endophytic Fungus,1460663,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymosphaeriaceae,Paraphaeosphaeria,MN017716,NA
+ENS00635,Penicillium aculeatum,Endophytic Fungus,36649,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,NA,GU566285.1
+ENS00636,Penicillium adametzioides AS-53,Endophytic Fungus,70094,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KJ906543,NA
+ENS00637,Penicillium aurantiogriseum 328#,Endophytic Fungus,36655,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00638,Penicillium brasilianum 7-2,Endophytic Fungus,104259,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,MH911419
+ENS00639,Penicillium brefeldianum F4a,Endophytic Fungus,1131482,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00640,Penicillium brocae MA-231,Endophytic Fungus,201291,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KM191342,NA
+ENS00641,Penicillium canescens Sopp MUM 15.01,Endophytic Fungus,5083,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00642,Penicillium capsulatum XL027,Endophytic Fungus,69766,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MN847591,NA
+ENS00643,Penicillium cataractarum SYPF 7131,Endophytic Fungus,2100454,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MG779617,NA
+ENS00644,Penicillium chermesinum EN-480,Endophytic Fungus,63820,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KT119566,NA
+ENS00645,Penicillium chermesinum ZH4-E2,Endophytic Fungus,63820,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,HQ428124,NA
+ENS00646,Penicillium chrysogenum MT-12,Endophytic Fungus,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MF765611,NA
+ENS00647,Penicillium chrysogenum MTCC 5108,Endophytic Fungus,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00648,Penicillium chrysogenum QEN-24S,Endophytic Fungus,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,GU985086,NA
+ENS00649,Penicillium chrysogenum strain WF6,Endophytic Fungus,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KF957641,NA
+ENS00650,Penicillium chrysogenum V11,Endophytic Fungus,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KX777253,NA
+ENS00651,Penicillium chrysogenum XNM-12,Endophytic Fungus,5076,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MT075873,NA
+ENS00652,Penicillium citrinum,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KY474352,NA
+ENS00653,Penicillium citrinum AMrb23,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NR121224
+ENS00654,Penicillium citrinum DF47,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,OM840089,NA
+ENS00655,Penicillium citrinum HL-5126,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KJ466981,NA
+ENS00656,Penicillium citrinum JCM 22607,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,LC228739,NA
+ENS00657,Penicillium citrinum N21,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MT775474,NA
+ENS00658,Penicillium citrinum QJF-22,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MN319561,NA
+ENS00659,Penicillium citrinum strain Salicorn 46,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KF758800,NA
+ENS00660,Penicillium citrinum strain TPDTF1.4,Endophytic Fungus,5077,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KC603769,NA
+ENS00661,Penicillium commune,Endophytic Fungus,36653,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00662,Penicillium commune strain C01,Endophytic Fungus,36653,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KJ194124,NA
+ENS00663,Penicillium crustosum VR4,Endophytic Fungus,36656,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00664,Penicillium echinulatum pt-4,Endophytic Fungus,60174,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KF939053,NA
+ENS00665,Penicillium expansum,Endophytic Fungus,27334,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,OL958430,NA
+ENS00666,Penicillium expansum strain WF7,Endophytic Fungus,27334,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KF957642,NA
+ENS00667,Penicillium herquei JX4,Endophytic Fungus,69774,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MF663569.1,NA
+ENS00668,Penicillium janthinellum HDN13-309,Endophytic Fungus,5079,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KM659023,NA
+ENS00669,Penicillium janthinellum SYPF 7899,Endophytic Fungus,5079,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00670,Penicillium janthinellum yuan-27,Endophytic Fungus,5079,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA, AJ608945
+ENS00671,Penicillium namyslowskii strain TRT75,Endophytic Fungus,96007,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,HQ701741,NA
+ENS00672,Penicillium nothofagi P-6,Endophytic Fungus,1131574,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MN103999.1,NA
+ENS00673,Penicillium ochrochloron,Endophytic Fungus,69780,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MG818953,NA
+ENS00674,Penicillium oxalicum,Endophytic Fungus,69781,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,MT267816.1
+ENS00675,Penicillium oxalicum B4,Endophytic Fungus,69781,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,FJ196840,NA
+ENS00676,Penicillium oxalicum EN-290,Endophytic Fungus,69781,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KT008098,NA
+ENS00677,Penicillium oxalicum LA-1,Endophytic Fungus,69781,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KX622790,NA
+ENS00678,Penicillium polonicum,Endophytic Fungus,60169,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00679,Penicillium polonicum AUMC 14487,Endophytic Fungus,60169,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MK128497.1,NA
+ENS00680,Penicillium purpurogenum,Endophytic Fungus,1266744,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,NA,NA
+ENS00681,Penicillium rolfsii strain Y17,Endophytic Fungus,69785,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MT729953,NA
+ENS00682,Penicillium rubens PQJ-2,Endophytic Fungus,1108849,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,OM269040,NA
+ENS00683,Penicillium rubens Tareq T1F,Endophytic Fungus,1108849,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,OM836434.1,NA
+ENS00684,Penicillium sclerotiorin SCNU-F0040,Endophytic Fungus,5073,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,No Rank at Level Genus,MW541637,NA
+ENS00685,Penicillium sclerotiorum isolate C2,Endophytic Fungus,69788,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KP307916,NA
+ENS00686,Penicillium sclerotiorum MPT-250,Endophytic Fungus,69788,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,OK357287,NA
+ENS00687,Penicillium sclerotiorum strain ZJHJJ-18,Endophytic Fungus,69788,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MW922390,NA
+ENS00688,Penicillium simplicissimum,Endophytic Fungus,69488,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00689,Penicillium solitum IS1-A,Endophytic Fungus,60172,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MN365722,NA
+ENS00690,Penicillium sp. 1642D,Endophytic Fungus,1194171,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,JQ778844,NA
+ENS00691,Penicillium sp. AS-79,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KY322516,NA
+ENS00692,Penicillium sp. BJR-P2,Endophytic Fungus,2908131,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,PRJNA793386,NA
+ENS00693,Penicillium sp. CAM64,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00694,Penicillium sp. CPCC 400817,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00695,Penicillium sp. CPCC 401423,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,OK349514,NA
+ENS00696,Penicillium sp. ct-28,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NR144866
+ENS00697,Penicillium sp. HN29-3B1,Endophytic Fungus,1426912,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KF572480,NA
+ENS00698,Penicillium sp. HS-N-27,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,KF367521
+ENS00699,Penicillium sp. HSZ-43,Endophytic Fungus,1513795,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KJ681497,NA
+ENS00700,Penicillium sp. JVF17,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MZ331730,NA
+ENS00701,Penicillium sp. JY246,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MK050979,NA
+ENS00702,Penicillium sp. Lt,Endophytic Fungus,945554,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,HQ112180,NA
+ENS00703,Penicillium sp. M-01,Endophytic Fungus,1177052,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00704,Penicillium sp. Nb 19,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MK120566,NA
+ENS00705,Penicillium sp. NO. 24,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00706,Penicillium sp. R22,Endophytic Fungus,1856372,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KU359776,NA
+ENS00707,Penicillium sp. strain CAMMC64,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00708,Penicillium sp. strain GXIMD 03101,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MZ971181,NA
+ENS00709,Penicillium sp. T2-11,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MT682968,NA
+ENS00710,Penicillium sp. ZJ-SY,Endophytic Fungus,5081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,KX890092,NA
+ENS00711,Penicillium spinulosum EPSLR4,Endophytic Fungus,63822,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NA
+ENS00712,Penicillium steckii SCSIO 41025,Endophytic Fungus,303698,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MW033549,NA
+ENS00713,Penicillium tropicum AMb3,Endophytic Fungus,228413,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,NA,NR111485
+ENS00714,Penicillium vulpinum strain GDGJ91,Endophytic Fungus,29845,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,MK673871,NA
+ENS00715,Peniophora incarnata Z4,Endophytic Fungus,55350,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Russulales,Peniophoraceae,Peniophora,EU918698,NA
+ENS00716,Perenniporia tephropora Z41,Endophytic Fungus,483159,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Polyporaceae,Perenniporia,JN198488,NA
+ENS00717,Peribacillus muralis CFFSUR-B39,Endophytic Bacteria,264697,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Peribacillus,MW377569,NA
+ENS00718,Peribacillus sp. strain AS_2,Endophytic Bacteria,2675267,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Peribacillus,MZ976847,NA
+ENS00719,Periconia sp.,Endophytic Fungus,1756127,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Periconiaceae,Periconia,NA,NA
+ENS00720,Periconia sp. F-31,Endophytic Fungus,1756127,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Periconiaceae,Periconia,NA,NA
+ENS00721,Periconia sp. OBW-15,Endophytic Fungus,1756127,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Periconiaceae,Periconia,NA,NA
+ENS00722,Periconia sp. TJ403-rc01,Endophytic Fungus,1756127,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Periconiaceae,Periconia,MN307490,NA
+ENS00723,Peroneutypa scoparia SCBG-8,Endophytic Fungus,1736665,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Diatrypaceae,Peroneutypa,MN788605,NA
+ENS00724,Pestalotia sp.,Endophytic Fungus,2026558,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Amphisphaeriaceae,Pestalotia,NA,NA
+ENS00725,Pestalotiopsis adusta,Endophytic Fungus,173179,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,KF011509,NA
+ENS00726,Pestalotiopsis besseyi,Endophytic Fungus,290097,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00727,Pestalotiopsis fici strain PSHI2004Endo106-1,Endophytic Fungus,393283,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,DQ812914,NA
+ENS00728,Pestalotiopsis flavidula,Endophytic Fungus,859166,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00729,Pestalotiopsis mangiferae,Endophytic Fungus,748176,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,HM802302,NA
+ENS00730,Pestalotiopsis microspora strain DL-F-3,Endophytic Fungus,85828,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,KU255793,NA
+ENS00731,Pestalotiopsis neglecta FJ-2,Endophytic Fungus,173184,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,KJ719299,NA
+ENS00732,Pestalotiopsis neglecta S3,Endophytic Fungus,173184,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,MT377727.1,NA
+ENS00733,Pestalotiopsis neglecta—BSL no. 045,Endophytic Fungus,173184,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,EF055213
+ENS00734,Pestalotiopsis oxyanthi,Endophytic Fungus,290288,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,MW521094,NA
+ENS00735,Pestalotiopsis palmarum,Endophytic Fungus,173185,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00736,Pestalotiopsis sp.,Endophytic Fungus,36460,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00737,Pestalotiopsis sp. AcBC2,Endophytic Fungus,1128078,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,JN989552,NA
+ENS00738,Pestalotiopsis sp. BRIP 39872,Endophytic Fungus,36460,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00739,Pestalotiopsis sp. HHL101,Endophytic Fungus,36460,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,EF451799,NA
+ENS00740,Pestalotiopsis sp. HQD-6,Endophytic Fungus,36460,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00741,Pestalotiopsis sp. JCM2A4,Endophytic Fungus,578673,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,FJ465172,NA
+ENS00742,Pestalotiopsis sp. M-23,Endophytic Fungus,1699616,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,KT372852,NA
+ENS00743,Pestalotiopsis sydowiana,Endophytic Fungus,173188,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00744,Pestalotiopsis terminaliae TAP-15,Endophytic Fungus,37840,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,No Rank at Level Genus,NA,NA
+ENS00745,Pestalotiopsis trachycarpicola SC-J551,Endophytic Fungus,1198446,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,NA
+ENS00746,Pestalotiopsis versicolor-BSL no. 038,Endophytic Fungus,162417,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pestalotiopsis,NA,EF055211
+ENS00747,Pezizomycotina sp. 11120,Endophytic Fungus,652292,Eukaryota,Fungi,Ascomycota,No Rank at Level Class,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,GQ153099.1,NA
+ENS00748,Phaeosphaeria sp. LF5,Endophytic Fungus,1715242,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Phaeosphaeria,GU985233,NA
+ENS00749,Phaeosphaeriopsis musae,Endophytic Fungus,401631,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Phaeosphaeriopsis,KU529841,NA
+ENS00750,Phanerochaete sp. H2,Endophytic Fungus,1715260,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Phanerochaetaceae,Phanerochaete,MK737061,NA
+ENS00751,Phialemonium curvatum,Endophytic Fungus,1093900,Eukaryota,Fungi,Ascomycota,Sordariomycetes,No Rank at Level Order,Thyridiaceae,Thyridium,NA,EU035984.1
+ENS00752,Phoma herbarum TR-4,Endophytic Fungus,73001,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,KM486080,NA
+ENS00753,Phoma sp. CB007,Endophytic Fungus,1707701,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,NA,NA
+ENS00754,Phoma sp. NRRL 46751,Endophytic Fungus,1707701,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,EU180709,NA
+ENS00755,Phoma sp. SYSU-SK-7,Endophytic Fungus,1707701,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,MN176570,NA
+ENS00756,Phoma sp. WF4,Endophytic Fungus,1436879,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,KF957639,NA
+ENS00757,Phoma sp. YN02-P-3,Endophytic Fungus,1707701,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,KU522468,NA
+ENS00758,Phoma sp. ZJWCF006,Endophytic Fungus,1074301,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Didymellaceae,Phoma,JF320940,NA
+ENS00759,Phomatospora bellaminuta,Endophytic Fungus,561985,Eukaryota,Fungi,Ascomycota,Sordariomycetes,No Rank at Level Order,Phomatosporaceae,Phomatospora,NA,NA
+ENS00760,Phomopsis archeri,Endophytic Fungus,34399,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,No Rank at Level Genus,NA,NA
+ENS00761,Phomopsis asparagi DHS-48,Endophytic Fungus,83181,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,MT126606,NA
+ENS00762,Phomopsis asparagi LSLYZ-87,Endophytic Fungus,83181,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,ON341023,NA
+ENS00763,Phomopsis fukushii,Endophytic Fungus,311452,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KP068615,NA
+ENS00764,Phomopsis glabrae PM0509732,Endophytic Fungus,278967,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,AY601918.1
+ENS00765,Phomopsis heveicola,Endophytic Fungus,1987098,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,MN857741,NA
+ENS00766,Phomopsis longicolla,Endophytic Fungus,54899,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,AY857868.1,NA
+ENS00767,Phomopsis mali,Endophytic Fungus,1077315,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,AB665315,NA
+ENS00768,Phomopsis sp.,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,NA
+ENS00769,Phomopsis sp. 33#,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,NA
+ENS00770,Phomopsis sp. A123,Endophytic Fungus,559193,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,NA
+ENS00771,Phomopsis sp. A818,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,AY601919
+ENS00772,Phomopsis sp. CAM240,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,NA
+ENS00773,Phomopsis sp. CGMCC No.5416,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,HQ688988.1,NA
+ENS00774,Phomopsis sp. CMU-LMA,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,NA
+ENS00775,Phomopsis sp. FJBR-11,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,MF784081,NA
+ENS00776,Phomopsis sp. Hant25,Endophytic Fungus,467067,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,NA,NA
+ENS00777,Phomopsis sp. HCCB03520,Endophytic Fungus,1050180,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,HQ688987,NA
+ENS00778,Phomopsis sp. HNY29-2B,Endophytic Fungus,1418122,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,KF387574,NA
+ENS00779,Phomopsis sp. isolate 611,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,OL545265.1,NA
+ENS00780,Phomopsis sp. mfer5,Endophytic Fungus,323695,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,AY907347,NA
+ENS00781,Phomopsis sp. SYSU-QYP-23,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,MN871866,NA
+ENS00782,Phomopsis sp. TJ507A,Endophytic Fungus,1715245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,KY039149,NA
+ENS00783,Phomopsis sp. usia5,Endophytic Fungus,323696,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,AY907348,NA
+ENS00784,Phomopsis sp. YE3250,Endophytic Fungus,1440777,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,KF733183,NA
+ENS00785,Phomopsis sp. YM311483,Endophytic Fungus,483866,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,EU256482,NA
+ENS00786,Phomopsis sp. xz-18,Endophytic Fungus,34399,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,No Rank at Level Genus,DQ14534.1,NA
+ENS00787,Phomopsis sp. KK14L1,Endophytic Fungus,991897,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Valsaceae,Phomopsis,HQ232850,NA
+ENS00788,Phyllosticta capitalensis,Endophytic Fungus,121624,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Phyllosticta,NA,NA
+ENS00789,Phyllosticta capitalensis Tg06,Endophytic Fungus,121624,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Phyllosticta,MG214956,NA
+ENS00790,Phyllosticta sp. WGHL2,Endophytic Fungus,1886407,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Phyllosticta,MT498269,NA
+ENS00791,Phyllosticta spinarum BA 9149b-4,Endophytic Fungus,143791,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Phyllosticta,NA,NA
+ENS00792,Physalospora sp.,Endophytic Fungus,1933444,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hyponectriaceae,Physalospora,NA,NA
+ENS00793,Plectosphaerella sp.,Endophytic Fungus,1929893,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Plectosphaerellaceae,Plectosphaerella,NA,NA
+ENS00794,Pleosporales sp. BYCDW4,Endophytic Fungus,1755443,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,No Rank at Level Family,No Rank at Level Genus,NA,KP269012
+ENS00795,Pleosporales sp. F46,Endophytic Fungus,1755443,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,No Rank at Level Family,No Rank at Level Genus,MH256138,NA
+ENS00796,Pleosporales sp. MA-02,Endophytic Fungus,673460,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,No Rank at Level Family,No Rank at Level Genus,GQ475287,NA
+ENS00797,Pleosporales sp. Sigrf05,Endophytic Fungus,1778819,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,No Rank at Level Family,No Rank at Level Genus,KT369815,NA
+ENS00798,Plurivorosphaerella nawae strain ZJLQ129,Endophytic Fungus,798215,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Plurivorosphaerella,KX881942,NA
+ENS00799,Poculum pseudosydowianum TNS-F-57853,Endophytic Fungus,1450545,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Rutstroemiaceae,Poculum,NA,NA
+ENS00800,Podospora sp.,Endophytic Fungus,1715246,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Podosporaceae,Podospora,NA,GU327641
+ENS00801,Podospora sp. L44,Endophytic Fungus,1389339,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Podosporaceae,Podospora,KF018088,NA
+ENS00802,Polymorphospora rubra K07-0510,Endophytic Bacteria,338584,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Micromonosporales,Micromonosporaceae,Polymorphospora,NA,AB223089
+ENS00803,Preussia isomera XL-1326,Endophytic Fungus,325670,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Sporormiaceae,Preussia,MK300824,NA
+ENS00804,Preussia similis strain DSM 104666,Endophytic Fungus,269685,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Sporormiaceae,Preussia,KY652380,NA
+ENS00805,Preussia sp.,Endophytic Fungus,1715257,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Sporormiaceae,Preussia,NA,NA
+ENS00806,Priestia megaterium CFFSUR-B32,Endophytic Bacteria,1404,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Priestia,MW377565,NA
+ENS00807,Psathyrella candolleana,Endophytic Fungus,71730,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Psathyrellaceae,Candolleomyces,AB470877.1,NA
+ENS00808,Pseudocercospora sp. TSS-1,Endophytic Fungus,1968695,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Pseudocercospora,OP106990,NA
+ENS00809,Pseudolagarobasidium acaciicola,Endophytic Fungus,386453,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Polyporales,Cerrenaceae,Pseudolagarobasidium,KF673346,NA
+ENS00810,Pseudomonas aeruginosa strain CCUG 51971,Endophytic Bacteria,287,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,NA,CP043328.1
+ENS00811,Pseudomonas fluorescens ALEB 7B,Endophytic Bacteria,294,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,NA,KC246049.1
+ENS00812,Pseudomonas fluorescens RE1,Endophytic Bacteria,294,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,MF102882.1,NA
+ENS00813,Pseudomonas fluorescens RE17,Endophytic Bacteria,294,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,MF103672.1,NA
+ENS00814,Pseudomonas sp. Bt851,Endophytic Bacteria,306,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,MZ647537,NA
+ENS00815,Pseudopestalotiopsis theae isolate 3W1,Endophytic Fungus,218556,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pseudopestalotiopsis,MN814071,NA
+ENS00816,Pseudopestalotiopsis theae N635,Endophytic Fungus,218556,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Pseudopestalotiopsis,KF641183,NA
+ENS00817,Pyrenochaeta sp. G41,Endophytic Fungus,1795776,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Cucurbitariaceae,Pyrenochaeta,KT825855,NA
+ENS00818,Pyrenochaetopsis sp. FVE-001,Endophytic Fungus,1756125,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pyrenochaetopsidaceae,Pyrenochaetopsis,MH881440,NA
+ENS00819,Pyrenochaetopsis sp. FVE-087,Endophytic Fungus,1756125,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pyrenochaetopsidaceae,Pyrenochaetopsis,MH881502,NA
+ENS00820,Pyronema sp. A2-1,Endophytic Fungus,1849815,Eukaryota,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pyronemataceae,Pyronema,NA,NA
+ENS00821,Pyronema sp. D1-2,Endophytic Fungus,1849815,Eukaryota,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pyronemataceae,Pyronema,NA,NA
+ENS00822,Rhytidhysteron sp. AS21B,Endophytic Fungus,1586718,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Hysteriales,Hysteriaceae,Rhytidhysteron,KJ865411,NA
+ENS00823,Rosellinia sanctae-cruciana strain ALE-5,Endophytic Fungus,743245,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Rosellinia,KY006116,NA
+ENS00824,Rossellomorea vietnamensis strain RAR_WA_32,Endophytic Bacteria,218284,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Bacillaceae,Rossellomorea,OK649240,NA
+ENS00825,Roussoella sp. PSU-H51,Endophytic Fungus,1756102,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Thyridariaceae,Roussoella,KX020560,NA
+ENS00826,Rubroshiraia bambusae BJTC HOU1000,Endophytic Fungus,2570647,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Shiraiaceae,Rubroshiraia,MZ497359,NA
+ENS00827,Saccharopolyspora gregorii XIEG05,Endophytic Bacteria,33914,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Pseudonocardiales,Pseudonocardiaceae,Saccharopolyspora,NA,NA
+ENS00828,Saccharothrix yanglingensis Hhs.015,Endophytic Bacteria,659496,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Pseudonocardiales,Pseudonocardiaceae,Saccharothrix,GQ284639,NA
+ENS00829,Sarocladium brachiariae HND5,Endophytic Fungus,1686168,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Sarocladiaceae,Sarocladium,NA,NA
+ENS00830,Sarocladium oryzae DX-THL3,Endophytic Fungus,284135,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Sarocladiaceae,Sarocladium,KF558875,NA
+ENS00831,Sarocladium strictum isolate LAEE06,Endophytic Fungus,5046,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Sarocladiaceae,Sarocladium,LN607809,NA
+ENS00832,Scopulariopsis candelabrum KIB-int20,Endophytic Fungus,1527188,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Microascales,Microascaceae,Scopulariopsis,OK445701,NA
+ENS00833,Seimatosporium sp. strain No. 8883,Endophytic Fungus,2011878,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Sporocadaceae,Seimatosporium,NA,NA
+ENS00834,Septoria rudbeckiae Ellis & Halst,Endophytic Fungus,1168309,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Septoria,NA,MN093336.1
+ENS00835,Serratia marcescens strain MOSEL-w2,Endophytic Bacteria,615,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,KF307696,NA
+ENS00836,Setophoma sp. CML 2328,Endophytic Fungus,1569631,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Phaeosphaeriaceae,Setophoma,KM288713,NA
+ENS00837,Shiraia bambusicola BJTC HOU999,Endophytic Fungus,224420,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Shiraiaceae,Shiraia,MZ497363,NA
+ENS00838,Shiraia sp. slf14,Endophytic Fungus,665115,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Shiraiaceae,Shiraia,GQ355934,NA
+ENS00839,Shiraiaceae sp. CLH-2021a CNUCC 1353PR,Endophytic Fungus,2856095,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Shiraiaceae,No Rank at Level Genus,MZ519527,NA
+ENS00840,Shiraiaceae sp. CLH-2021a zzz816,Endophytic Fungus,2856095,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Shiraiaceae,No Rank at Level Genus,HQ696072,NA
+ENS00841,Simplicillium lanosoniveum PSU-H168,Endophytic Fungus,132112,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Simplicillium,KX020563,NA
+ENS00842,Simplicillium lanosoniveum PSU-H261,Endophytic Fungus,132112,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Simplicillium,KX020567,NA
+ENS00843,Simplicillium sp.,Endophytic Fungus,1856740,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Simplicillium,NA,LN808975.1
+ENS00844,Simplicillium sp. PSU-H41,Endophytic Fungus,1856740,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Cordycipitaceae,Simplicillium,KT318874,NA
+ENS00845,Smardaea sp. AZ0432,Endophytic Fungus,2420221,Eukaryota,Fungi,Ascomycota,Pezizomycetes,Pezizales,Pyronemataceae,Smardaea,NA,NA
+ENS00846,Sordariomycete sp.,Endophytic Fungus,1709940,Eukaryota,Fungi,Ascomycota,Sordariomycetes,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,NA,NA
+ENS00847,Sordariomycetes sp. BL3,Endophytic Fungus,1709940,Eukaryota,Fungi,Ascomycota,Sordariomycetes,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,KY020350,NA
+ENS00848,Sordariomycetes sp. BL5,Endophytic Fungus,1709940,Eukaryota,Fungi,Ascomycota,Sordariomycetes,No Rank at Level Order,No Rank at Level Family,No Rank at Level Genus,KY020351,NA
+ENS00849,Stachybotrys chartarum strain WGC-25C-6,Endophytic Fungus,74722,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Stachybotryaceae,Stachybotrys,KC787692,NA
+ENS00850,Staphylococcus sp. strain MHSD26,Endophytic Bacteria,29387,Bacteria,No Rank at Level Kingdom,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,MN029052,NA
+ENS00851,Stemphylium globuliferum,Endophytic Fungus,245170,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium,NA,NA
+ENS00852,Stemphylium globuliferum strain DA8,Endophytic Fungus,245170,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium,EU859960,NA
+ENS00853,Stemphylium lycopersici BG01,Endophytic Fungus,183478,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium,NA,NA
+ENS00854,Stemphylium sp. 33231,Endophytic Fungus,1418481,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium,KF479349,NA
+ENS00855,Stenotrophomonas sp. Sh622,Endophytic Bacteria,69392,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,MZ647534,NA
+ENS00856,Stenotrophomonas sp. strain MHSD12,Endophytic Bacteria,69392,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,"MN078164	",NA
+ENS00857,Stenotrophomonas sp. strain MHSD20,Endophytic Bacteria,69392,Bacteria,No Rank at Level Kingdom,Pseudomonadota,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,MN029049,NA
+ENS00858,Streptantibioticus cattleyicolor RLe 4,Endophytic Bacteria,29303,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptantibioticus,KF057055,NA
+ENS00859,Streptomyces albospinus RLe 7,Endophytic Bacteria,285515,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KF057056,NA
+ENS00860,Streptomyces anulatus strain YINM00001,Endophytic Bacteria,1892,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,CP086102.1,NA
+ENS00861,Streptomyces ardesiacus strain NRRL B-1773,Endophytic Bacteria,285564,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,DQ026631,NA
+ENS00862,Streptomyces enissocaesilis XIEG07,Endophytic Bacteria,332589,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00863,Streptomyces enissocaesilis XIEG45,Endophytic Bacteria,332589,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00864,Streptomyces malaysiensis 8ZJF-21,Endophytic Bacteria,92644,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,JAJQWY000000000,NA
+ENS00865,Streptomyces mutabilis XIEG51,Endophytic Bacteria,67332,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00866,Streptomyces olivaceus CP016795.1,Endophytic Bacteria,47716,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,CP016795.1,NA
+ENS00867,Streptomyces olivaceus strain JB01,Endophytic Bacteria,47716,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,OM845781,NA
+ENS00868,Streptomyces parvulus NBRC 13193T,Endophytic Bacteria,146923,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KY771080,NA
+ENS00869,Streptomyces pseudovenezuelae SKH1-2,Endophytic Bacteria,67350,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,LC425851,NA
+ENS00870,Streptomyces sp. 2BBP-J2,Endophytic Bacteria,2719381,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00871,Streptomyces sp. 680560,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,AY999802
+ENS00872,Streptomyces sp. AC35,Endophytic Bacteria,555738,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,FJ001754.1,NA
+ENS00873,Streptomyces sp. AE170020,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00874,Streptomyces sp. B86,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,MZ647528,NA
+ENS00875,Streptomyces sp. BCC72023,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,LC016748,NA
+ENS00876,Streptomyces sp. BS-1,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00877,Streptomyces sp. Hedaya48,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00878,Streptomyces sp. JR9,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00879,Streptomyces sp. KIB-H1083,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00880,Streptomyces sp. MA-12,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00881,Streptomyces sp. neau-D50,Endophytic Bacteria,1136850,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,GQ494994,NA
+ENS00882,Streptomyces sp. No. 2113,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,AY227781,NA
+ENS00883,Streptomyces sp. NRRL 30562,Endophytic Bacteria,200388,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,AY127079,NA
+ENS00884,Streptomyces sp. PKU-EA00015,Endophytic Bacteria,2748326,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,MT250993,NA
+ENS00885,Streptomyces sp. RLe 8,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KF057070,NA
+ENS00886,Streptomyces sp. strain DBT34,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KJ584876,NA
+ENS00887,Streptomyces sp. strain EA65,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KY436438,NA
+ENS00888,Streptomyces sp. strain EA67,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KY436440,NA
+ENS00889,Streptomyces sp. SUK 48,Endophytic Bacteria,2582831,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,AJ391814
+ENS00890,Streptomyces sp. TBRC7642,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,LC333557,NA
+ENS00891,Streptomyces sp. WR1L1S8,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00892,Streptomyces sp. Y3111,Endophytic Bacteria,1433121,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,JQ724543,NA
+ENS00893,Streptomyces sp. YIM 65408,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00894,Streptomyces sp. YIM 66017,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,AB184264,NA
+ENS00895,Streptomyces sp. YIM 67005,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,JQ806225
+ENS00896,Streptomyces sp. YIM 67086,Endophytic Bacteria,1931,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,NA,NA
+ENS00897,Streptomyces sundarbansensis strain WR1L1S8,Endophytic Bacteria,265730,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,KC773843,NA
+ENS00898,Streptomyces tauricus lre541,Endophytic Bacteria,68274,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,MK138546,NA
+ENS00899,Streptomyces variabilis LCP18,Endophytic Bacteria,67372,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Kitasatosporales,Streptomycetaceae,Streptomyces,MG021133,NA
+ENS00900,Streptosporangium oxazolinicum K07-0460,Endophytic Bacteria,909287,Bacteria,No Rank at Level Kingdom,Actinomycetota,Actinomycetes,Streptosporangiales,Streptosporangiaceae,Streptosporangium,NA,NA
+ENS00901,Talaromyces amestolkiae YX1,Endophytic Fungus,1196081,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KP975419,NA
+ENS00902,Talaromyces assiutensis JTY2,Endophytic Fungus,91640,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,JN899320.1,NA
+ENS00903,Talaromyces aurantiacus,Endophytic Fungus,1131642,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,LT558950.1,NA
+ENS00904,Talaromyces funiculosus Salicorn 58,Endophytic Fungus,28572,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KT728713,NA
+ENS00905,Talaromyces islandicus EN-501,Endophytic Fungus,28573,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KU885935,NA
+ENS00906,Talaromyces marneffei strain LL-G-2,Endophytic Fungus,37727,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MK849927,NA
+ENS00907,Talaromyces minioluteus strain G413,Endophytic Fungus,28574,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KM215653,NA
+ENS00908,Talaromyces pinophilus KX640963,Endophytic Fungus,128442,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KX640963,NA
+ENS00909,Talaromyces pinophilus  Hedgc,Endophytic Fungus,128442,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MK592818,NA
+ENS00910,Talaromyces purpureogenus,Endophytic Fungus,1266744,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MG807065,NA
+ENS00911,Talaromyces purpureogenus H4,Endophytic Fungus,1266744,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MK749843,NA
+ENS00912,Talaromyces purpureogenus IMM003,Endophytic Fungus,1266744,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MK057459,NA
+ENS00913,Talaromyces sp. CY-3,Endophytic Fungus,1707706,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MZ614621,NA
+ENS00914,Talaromyces sp. isolate CPEF04,Endophytic Fungus,1707706,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MW475279,NA
+ENS00915,Talaromyces sp. LGT-2,Endophytic Fungus,1507901,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KF934203,NA
+ENS00916,Talaromyces sp. SCNU-F0041,Endophytic Fungus,1707706,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,OM970878,NA
+ENS00917,Talaromyces sp. SK-S009,Endophytic Fungus,1707706,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MK368459.BLAST,NA
+ENS00918,Talaromyces wortmannii LGT-4,Endophytic Fungus,28567,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,KF850714,NA
+ENS00919,Teratosphaeria sp. AK1128,Endophytic Fungus,1933446,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Teratosphaeriaceae,Teratosphaeria,JQ759476,NA
+ENS00920,Trichoderma afroharzianum AMrb7,Endophytic Fungus,1567482,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NR137304
+ENS00921,Trichoderma afroharzianum Fes1712,Endophytic Fungus,1567482,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MT313929,NA
+ENS00922,Trichoderma afroharzianum MFLUCC19-0090,Endophytic Fungus,1567482,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MK422173,NA
+ENS00923,Trichoderma afroharzianum MFLUCC19-0091,Endophytic Fungus,1567482,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MK422174,NA
+ENS00924,Trichoderma asperellum 6S-2,Endophytic Fungus,101201,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MZ841617,NA
+ENS00925,Trichoderma atroviridae,Endophytic Fungus,63577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KC171717,NA
+ENS00926,Trichoderma atroviride B7,Endophytic Fungus,63577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MG856903,NA
+ENS00927,Trichoderma atroviride HH-01,Endophytic Fungus,63577,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,MG198882.1
+ENS00928,Trichoderma brevicompactum strain 0248,Endophytic Fungus,247546,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,JN257218,NA
+ENS00929,Trichoderma brevicompactum strain NTU439,Endophytic Fungus,247546,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,OK217197,NA
+ENS00930,Trichoderma citrinoviride TG-Z4-01,Endophytic Fungus,58853,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NA
+ENS00931,Trichoderma erinaceum,Endophytic Fungus,202914,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NA
+ENS00932,Trichoderma gamsii,Endophytic Fungus,398673,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,JF964996,NA
+ENS00933,Trichoderma gamsii YIM PH30019,Endophytic Fungus,398673,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KP715352,NA
+ENS00934,Trichoderma harzianum,Endophytic Fungus,5544,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MK213940,NA
+ENS00935,Trichoderma harzianum HS-N-04,Endophytic Fungus,5544,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,KT192387
+ENS00936,Trichoderma harzianum NSW-V,Endophytic Fungus,5544,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KX034080.1,NA
+ENS00937,Trichoderma harzianum TharDOB-31,Endophytic Fungus,5544,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KU865573,NA
+ENS00938,Trichoderma koningiopsis A729,Endophytic Fungus,337941,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KU529843,NA
+ENS00939,Trichoderma koningiopsis QA-3,Endophytic Fungus,337941,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MF616361,NA
+ENS00940,Trichoderma koningiopsis VM115,Endophytic Fungus,337941,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KY412855,NA
+ENS00941,Trichoderma koningiopsis YIM PH30002,Endophytic Fungus,337941,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KM190127,NA
+ENS00942,Trichoderma lixii R-18,Endophytic Fungus,1491472,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,JX244279,NA
+ENS00943,Trichoderma lixii R-30,Endophytic Fungus,1491472,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,JX244280,NA
+ENS00944,Trichoderma lixii R-38,Endophytic Fungus,1491472,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,JX244281,NA
+ENS00945,Trichoderma longibrachiatum EN-586,Endophytic Fungus,5548,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,OM060242,NA
+ENS00946,Trichoderma longibrachiatum MD33,Endophytic Fungus,5548,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NR_120298.1
+ENS00947,Trichoderma longibrachiatum T6,Endophytic Fungus,5548,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NA
+ENS00948,Trichoderma longibrachiatum WKA55,Endophytic Fungus,5548,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MZ014020.1,NA
+ENS00949,Trichoderma longibrachiatum LMA 1684,Endophytic Fungus,5548,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,MH153613.1
+ENS00950,Trichoderma saturnisporum DI-IA,Endophytic Fungus,5549,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NA
+ENS00951,Trichoderma sp. 09,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NA
+ENS00952,Trichoderma sp. 307,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KX816009,NA
+ENS00953,Trichoderma sp. EFT2,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,OM177662,NA
+ENS00954,Trichoderma sp. HN-1,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MF101379.1,NA
+ENS00955,Trichoderma sp. MFF-1,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,NA,NA
+ENS00956,Trichoderma sp. P8BDA1F1,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MK070908,NA
+ENS00957,Trichoderma sp. Xy24,Endophytic Fungus,1715253,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,KX856006,NA
+ENS00958,Trichoderma virens FY06,Endophytic Fungus,29875,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MN102106,NA
+ENS00959,Trichoderma virens QA-8,Endophytic Fungus,29875,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,MK224593,NA
+ENS00960,Trichothecium roseum,Endophytic Fungus,47278,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,No Rank at Level Family,Trichothecium,NA,NA
+ENS00961,Ulocladium sp. CGMCC5507,Endophytic Fungus,1215875,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,JX073126,NA
+ENS00962,Umbelopsis dimorpha SWUKD3,Endophytic Fungus,243148,Eukaryota,Fungi,Mucoromycota,Umbelopsidomycetes,Umbelopsidales,Umbelopsidaceae,Umbelopsis,KM013438,NA
+ENS00963,Westerdykella nigra,Endophytic Fungus,325665,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Sporormiaceae,Westerdykella,LC469116,NA
+ENS00964,Wickerhamomyces anomalus anomalus DMKU-CE52,Endophytic Fungus,4927,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,Wickerhamomyces,NA,NA
+ENS00965,Wickerhamomyces anomalus anomalus DMKU-RE13,Endophytic Fungus,4927,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,Wickerhamomyces,NA,NA
+ENS00966,Xenoacremonium sinensis,Endophytic Fungus,2480843,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Xenoacremonium,MT876600,NA
+ENS00967,Xylaria arbuscula isolate MoEF015,Endophytic Fungus,114810,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KY951913.1,NA
+ENS00968,Xylaria cf. curta E10,Endophytic Fungus,42375,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,KJ883611.1
+ENS00969,Xylaria curta E10,Endophytic Fungus,42375,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KJ883611.1,NA
+ENS00970,Xylaria feejeensis,Endophytic Fungus,498163,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KM192122,NA
+ENS00971,Xylaria feejeensis SM3e-1b,Endophytic Fungus,498163,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KR025539,NA
+ENS00972,Xylaria feejeensis SRNE2BP,Endophytic Fungus,498163,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00973,Xylaria psidii,Endophytic Fungus,364009,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KU291350,NA
+ENS00974,Xylaria sp.,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,JX624289.1
+ENS00975,Xylaria sp. 214,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00976,Xylaria sp. 249,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00977,Xylaria sp. BL321,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00978,Xylaria sp. CFL5,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KU645984.1,NA
+ENS00979,Xylaria sp. DO 1801,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,MK226495,NA
+ENS00980,Xylaria sp. GDG-102,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KU645984,NA
+ENS00981,Xylaria sp. hg1009,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,MG739623,NA
+ENS00982,Xylaria sp. HNWSW-2,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00983,Xylaria sp. PB3,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,KP400260,NA
+ENS00984,Xylaria sp. PB-30,Endophytic Fungus,415136,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,AB285482,NA
+ENS00985,Xylaria sp. SC1440,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,MF399026,NA
+ENS00986,Xylaria sp. SYPF 8246,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00987,Xylaria sp. XC16,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,NA,NA
+ENS00988,Xylaria sp. YM 311647,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,HQ728090,NA
+ENS00989,Xylaria sp. YX-28,Endophytic Fungus,1715255,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Xylariaceae,Xylaria,DQ022415,NA
+ENS00990,Xylariales sp. DSM 101972,Endophytic Fungus,1857579,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,No Rank at Level Genus,KX096659.1,NA
+ENS00991,Xylariales sp. HM-1,Endophytic Fungus,1756188,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,No Rank at Level Family,No Rank at Level Genus,MT886697,NA
+ENS00992,Xylomelasma sp. Samif07,Endophytic Fungus,1378259,Eukaryota,Fungi,Ascomycota,Sordariomycetes,No Rank at Level Order,No Rank at Level Family,Xylomelasma,KC878701,NA
+ENS00993,Zasmidium sp. strain EM5-10,Endophytic Fungus,1962690,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Mycosphaerellales,Mycosphaerellaceae,Zasmidium,KX898455,NA
+ENS00994,Annulohypoxylon stygium,Endophytic Fungus,326628,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Xylariales,Hypoxylaceae,Annulohypoxylon,NA,NA
+ENS00995,Alternaria alternata,Endophytic Fungus,5599,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,NA,NA
+ENS00996,Aspergillus fumigatus AL2,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN519723.1,NA
+ENS00997,Aspergillus fumigatus,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS00998,Aspergillus fumigatus CY018,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,KJ809565,NA
+ENS00999,Aspergillus fumigatus isolate Cordyceps sinensis,Endophytic Fungus,746128,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MG519287,NA
+ENS01000,Aspergillus sp.,Endophytic Fungus,5065,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,NA,NA
+ENS01001,Aspergillus terreus MF962867,Endophytic Fungus,33178,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MF962867,NA
+ENS01002,Aspergillus tubingensis DS37,Endophytic Fungus,5068,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MG495096,NA
+ENS01003,Aspergillus versicolor AMBB,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,LC431696,NA
+ENS01004,Aspergillus versicolor voucher 2018100132,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MN735436,NA
+ENS01005,Aspergillus versicolor YATS1111,Endophytic Fungus,46472,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,MT549144,NA
+ENS01006,Bipolaris eleusines CBS274.91,Endophytic Fungus,91366,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,KJ909768.1,NA
+ENS01007,Chaetomium globosum 30461,Endophytic Fungus,38033,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Sordariales,Chaetomiaceae,Chaetomium,KP714386,NA
+ENS01008,Sarcosomataceae sp. 45-1-8-1,Endophytic Fungus,1619272,Eukaryota,Fungi,Ascomycota,Pezizomycetes,Pezizales,Sarcosomataceae,No Rank at Level Genus,KP109690,NA
+ENS01009,Cladosporium cladosporioides LC469120,Endophytic Fungus,29917,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,LC469120,NA
+ENS01010,Colletotrichum gloeosporioides MF508974,Endophytic Fungus,474922,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Glomerellales,Glomerellaceae,Colletotrichum,MF508974,NA
+ENS01011,Fusarium solani EF626531,Endophytic Fungus,169388,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,EF626531,NA
+ENS01012,Fusarium tricinctum SL71_69b_N1,Endophytic Fungus,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MN105538.1,NA
+ENS01013,Fusarium tricinctum CYM,Endophytic Fungus,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,MN216248,NA
+ENS01014,Fusarium tricinctum JX119038,Endophytic Fungus,61284,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Nectriaceae,Fusarium,JX119038,NA
+ENS01015,Phomopsis fukushii YNCA0505,Endophytic Fungus,311452,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Diaporthales,Diaporthaceae,Diaporthe,KP068682,NA
+ENS01016,Phyllosticta capitalensis HL10,Endophytic Fungus,121624,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Botryosphaeriales,Phyllostictaceae,Phyllosticta,KX688178,NA
+ENS01017,Talaromyces pinophilus XL-1193,Endophytic Fungus,128442,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Trichocomaceae,Talaromyces,MK386669,NA

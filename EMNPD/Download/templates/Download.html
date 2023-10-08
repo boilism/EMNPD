@@ -1,0 +1,136 @@
+{% extends 'Download_Base.html' %}
+
+{% block content %}
+<style>
+    .header-font {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .download-icon {
+        font-size: 24px;
+    }
+
+
+    .narrow-column {
+        width: 20%;
+    }
+
+    .center-align {
+        text-align: center;
+    }
+
+</style>
+
+    <!-- 页头 -->
+    <div class="page-header" style="margin-top: 50px">
+        <h2 style="text-align: center"><strong>Download EMNPD Data</strong></h2>
+    </div>
+
+    <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+        <table id="download" class="row-border" style="width:100%; margin-top: -30px">
+            <thead>
+            <tr>
+                <th class="header-font narrow-column">EMNPD Data Type</th>
+                <th class="header-font">File name</th>
+                <th class="header-font">File Description</th>
+                <th class="header-font narrow-column">Click to Download</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Endophyte Microorganism</td>
+                <td>Endophyte Microorganism General Information</td>
+                <td>Lineage, Identifiers to External Databases, etc (~156.49 KB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Endophyte Microorganism General Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Target</td>
+                <td>Target Protein General Information</td>
+                <td>Protein Family Information, Identifiers to External Databases, etc (~11.75 KB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Target Protein General Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Target Cell Line General Information</td>
+                <td>Cell Line Category Information, Identifiers to External Databases, etc (~45.40 KB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Target Cell Line General Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Target Organism General Information</td>
+                <td>Lineage, Identifiers to External Databases, etc (~134.13 KB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Target Organism General Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Natural Products</td>
+                <td>Natural Products General Information</td>
+                <td>NPs Physi-Chem Properties, Identifiers to External Databases, etc (~4.61 MB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Natural Products General Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Natural Products Classification Information</td>
+                <td>NPs Classification Information (~695.12 KB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Natural Products Classification Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Natural Products ADMET Information</td>
+                <td>NPs ADMET Information (~1.27 MB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Natural Products ADMET Information.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Natural Products 2D Structures</td>
+                <td>2D structures of all NPs  (~11.86 MB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Natural Products 2D Structures.sdf" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Bioactivity</td>
+                <td>Natural Products-Bioactivity Records</td>
+                <td>Biological activity, Targets, activity values, references, etc (~23.22 MB)</td>
+                <td class="narrow-column center-align">
+                    <a href="/static/download/Natural Products-Bioactivity Records.csv" download>
+                    <span class="glyphicon glyphicon-download-alt download-icon"></span>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+{% endblock %}

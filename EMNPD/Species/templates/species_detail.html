@@ -1,0 +1,432 @@
+{% extends 'Species_base.html' %}
+
+{% block content %}
+<style>
+    .dataTable .center {
+        text-align: center; /* or any other desired alignment */
+    }
+</style>
+        <!-- 滚动进度条 -->
+    <div id="progress-container" style="margin-top: 50px">
+        <div id="progress-bar"></div>
+        <ul id="progress-list">
+            <li id="section-name-Species-Basic-Information" class="section-name"><a href="#Species-Basic-Information">Species Basic Information</a></li>
+            <li id="section-name-Individual-Natural-Products" class="section-name"><a href="#Individual-Natural-Products">Individual Natural Products</a></li>
+            <li id="section-name-Species-NPs-Content" class="section-name"><a href="#Species-NPs-Content">Species NPs Content</a></li>
+        </ul>
+    </div>
+
+    <!-- 页头 -->
+    <div class="page-header" style="margin-top: 0px">
+                <div style="display: flex; align-items: center;">
+                    <h2 style="margin: 0; font-weight: bold; margin-right: 10px;"><strong>Endophyte Organism: {{ Endophyte_Data.EMNPD_SID }}</strong></h2>
+                    <a href="/emnpd/help/#specific-endophyte" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+    </div>
+
+    <!-- Natural Product Basic Infomation -->
+    <section data-name="Species Basic Information" id="Species-Basic-Information">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Endophyte Organism Basic Information</h3>
+            <table class="table table-bordered" style="border: 3px solid black">
+                <tbody>
+                <tr>
+                    <td class="col-lg-3"><strong>Name</strong></td>
+                    <td>{{ Endophyte_Data.Endophyte_Name }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Level</strong></td>
+                    <td>Species</td>
+                </tr>
+                <tr>
+                    <td><strong>Endophyte Type</strong></td>
+                    <td>{{ Endophyte_Data.Endophyte_Type }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Taxonomy ID</strong></td>
+                    <td>
+                        {% if Endophyte_Data.Tax_ID != 'NA' %}
+                            <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ Endophyte_Data.Tax_ID }}">{{ Endophyte_Data.Tax_ID }}</a>
+                        {% else %}
+                            {{ Endophyte_Data.Tax_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>GenBank ID</strong></td>
+                    <td>
+                        {% if Endophyte_Data.GenBank_ID != 'NA' %}
+                            <a href="https://www.ncbi.nlm.nih.gov/nuccore/{{ Endophyte_Data.GenBank_ID }}">{{ Endophyte_Data.GenBank_ID }}</a>
+                        {% else %}
+                            {{ Endophyte_Data.GenBank_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Closest GenBank ID</strong></td>
+                    <td>
+                        {% if Endophyte_Data.Closest_GenBank_ID != 'NA' %}
+                            <a href="https://www.ncbi.nlm.nih.gov/nuccore/{{ Endophyte_Data.Closest_GenBank_ID }}">{{ Endophyte_Data.Closest_GenBank_ID }}</a>
+                        {% else %}
+                            {{ Endophyte_Data.Closest_GenBank_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- 物种树形结构 -->
+            <div class="toggle-btn_Species_Classification" style="float: right">
+                <i class="glyphicon glyphicon-minus" style="font-size: 27px; color: black"></i>
+            </div>
+            <h3 style="padding-bottom: 10px">Lineage</h3>
+            <table class="table table-bordered" style="border: 3px solid black" id="Species_Classification">
+                <tr>
+                    <th style="vertical-align: middle">
+                        <ul class="list-unstyled">
+                            <li class="root-node tree">
+                                <div class="node-content" style="margin-left: 15%">
+                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                    <span><strong>Superkingdom: </strong></span>
+                                    <span>{{ Endophyte_Data.Superkingdom }}</span>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="node-content" style="margin-left: 25%">
+                                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                            <span><strong>Kingdom: </strong></span>
+                                            <span>{{ Endophyte_Data.Kingdom }}</span>
+                                        </div>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <div class="node-content" style="margin-left: 35%">
+                                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                    <span><strong>Phylum: </strong></span>
+                                                    <span>{{ Endophyte_Data.Phylum }}</span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div class="node-content" style="margin-left: 45%">
+                                                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                            <span><strong>Class: </strong></span>
+                                                            <span>{{ Endophyte_Data.Class }}</span>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <div class="node-content"
+                                                                     style="margin-left: 55%">
+                                                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                                    <span><strong>Order: </strong></span>
+                                                                    <span>{{ Endophyte_Data.Order }}</span>
+                                                                </div>
+                                                                <ul class="list-unstyled">
+                                                                    <li>
+                                                                        <div class="node-content"
+                                                                             style="margin-left: 65%">
+                                                                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                                            <span><strong>Family: </strong></span>
+                                                                            <span>{{ Endophyte_Data.Family }}</span>
+                                                                        </div>
+                                                                        <ul class="list-unstyled">
+                                                                            <li>
+                                                                                <div class="node-content"
+                                                                                     style="margin-left: 75%">
+                                                                                    <span><strong>Genus: </strong></span>
+                                                                                    <span>{{ Endophyte_Data.Genus }}</span>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </th>
+                </tr>
+            </table>
+            <h4 style="text-align: center; display: none" id="h4_Species_Classification">
+                ——————————————————————————————————————————</h4>
+        </div>
+    </section>
+
+    <!-- Individual Natural Products -->
+    <section data-time="Individual Natural Products" id="Individual-Natural-Products">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Individual Natural Products</h3>
+            <div id="container1" class="col-lg-4" style="height: 350px; margin-bottom: -10px"></div>
+
+            <div id="container2" class="col-lg-4" style="height: 350px; margin-bottom: -10px"></div>
+
+            <div id="container3" class="col-lg-4" style="height: 350px; margin-bottom: -10px"></div>
+
+            <script type="text/javascript">
+                var dom = document.getElementById('container1');
+                var myChart = echarts.init(dom, null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var data_bioactivity = JSON.parse('{{ data_bioactivity|safe }}');
+                var app = {};
+
+                var option;
+
+                option = {
+                    title: {
+                        text: 'NPs Bioactivity Count',
+                        left: 'center',
+                        top: '10%'
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    series: [
+                        {
+                            name: 'Access From',
+                            type: 'pie',
+                            radius: '40%',
+                            data: data_bioactivity,
+                            label: {
+                                color: 'blue'  // 设置叶子节点颜色为蓝色
+                            },
+                            emphasis: {
+                                itemStyle: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                myChart.on('click', function (params) {
+                    if (params.data && params.data.url) {
+                        window.open(params.data.url, '_blank');
+                    }
+                });
+
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+            </script>
+            <script type="text/javascript">
+                var dom = document.getElementById('container2');
+                var myChart = echarts.init(dom, null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var data_endophyte = JSON.parse('{{ data_endophyte|safe }}');
+                var app = {};
+
+                var option;
+
+                option = {
+                    title: {
+                        text: 'NPs Endophytes Count',
+                        left: 'center',
+                        top: '10%'
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    series: [
+                        {
+                            name: 'Access From',
+                            type: 'pie',
+                            radius: '40%',
+                            data: data_endophyte,
+                            label: {
+                                color: 'blue'  // 设置叶子节点颜色为蓝色
+                            },
+                            emphasis: {
+                                itemStyle: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                myChart.on('click', function (params) {
+                    if (params.data && params.data.url) {
+                        window.open(params.data.url, '_blank');
+                    }
+                });
+
+
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+  </script>
+            <script type="text/javascript">
+                var dom = document.getElementById('container3');
+                var myChart = echarts.init(dom, null, {
+                    renderer: 'canvas',
+                    useDirtyRect: false
+                });
+                var data_target = JSON.parse('{{ data_target|safe }}');
+                var app = {};
+
+                var option;
+
+                option = {
+                    title: {
+                        text: 'NPs Targets Count',
+                        left: 'center',
+                        top: '10%'
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    series: [
+                        {
+                            name: 'Access From',
+                            type: 'pie',
+                            radius: '40%',
+                            data: data_target,
+                            label: {
+                                color: 'blue'  // 设置叶子节点颜色为蓝色
+                            },
+                            emphasis: {
+                                itemStyle: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                myChart.on('click', function (params) {
+                    if (params.data && params.data.url) {
+                        window.open(params.data.url, '_blank');
+                    }
+                });
+
+
+                if (option && typeof option === 'object') {
+                    myChart.setOption(option);
+                }
+
+                window.addEventListener('resize', myChart.resize);
+            </script>
+            <table id="Species_Individual_Natural_Products" class="hover row-border" style="width:100%">
+                <thead>
+                <tr>
+                    <th style="width: 10%">NPs ID</th>
+                    <th style="width: 30%">NPs Name</th>                    
+                    <th style="width: 20%; text-align: center">NPs 2D Structure</th>
+                    <th style="width: 10%; text-align: center">Number of Endophyte</th>
+                    <th style="width: 10%; text-align: center">Number of Targets</th>
+                    <th style="width: 10%; text-align: center">Number of Activity Records</th>
+                    <th style="width: 10%; text-align: center">Number of Activity</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in result %}
+                    <tr>
+                        <td>
+                            {% if obj.np_id_sliced|add:0 < 6152 and obj.np_id_sliced != '5304' and obj.np_id_sliced != '5310' %}
+                                <a href="/emnpd/naturalproducts/{{ obj.np_id_list }}">{{ obj.np_id_list }}</a>
+                            {% else %}
+                                {{ obj.np_id_list }}
+                            {% endif %}
+                        </td>
+                        <td>{{ obj.np_name }}</td>                        
+                        <td class="center">
+                            {% if obj.np_id_sliced|add:0 < 6152 and obj.np_id_sliced != '5304' and obj.np_id_sliced != '5310' %}
+                                {{ obj.NP_2D_Structure|safe }}
+                            {% else %}
+                                NA
+                            {% endif %}
+                        </td>                        
+                        <td class="center">{{ obj.num_endophyte }}</td>
+                        <td class="center">{{ obj.num_targets }}</td>
+                        <td class="center">{{ obj.num_activity_records }}</td>
+                        <td class="center">{{ obj.num_activity }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th style="width: 10%">NPs ID</th>
+                    <th style="width: 30%">NPs Name</th>                    
+                    <th style="width: 20%; text-align: center">NPs 2D Structure</th>
+                    <th style="width: 10%; text-align: center">Number of Endophyte</th>
+                    <th style="width: 10%; text-align: center">Number of Targets</th>
+                    <th style="width: 10%; text-align: center">Number of Activity Records</th>
+                    <th style="width: 10%; text-align: center">Number of Activity</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <!-- Natural Product Content -->
+    <section data-time="Species NPs Content" id="Species-NPs-Content">
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">NPs Content</h3>
+            <div id="speciesContentTables">
+                <!-- The tables will be dynamically added here -->
+            </div>
+            <h5 style="padding-top: 10px">
+                *Note: The vaules in Content Percentage are calculated by dividing the content value by the maximum content value in NP Content.
+            </h5>            
+            <h5 style="padding-bottom: 10px">
+                **Note: The units with different NP content, due to their incomparable values, are separated into different tables.
+            </h5>
+        </div>
+    </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var url = window.location.href;
+        var ens_id = url.match(/\/species\/(.*?)\//)[1];
+        var ajax2 = 'http://127.0.0.1:8000/emnpd/species/' + ens_id + '/species_np_content_json/';
+
+        var contentSection = document.getElementById("Species-NPs-Content");
+        var contentListItem = document.getElementById("section-name-Species-NPs-Content");
+
+        // 发送AJAX请求获取数据
+        var xhr2 = new XMLHttpRequest();
+        xhr2.open("GET", ajax2, true);
+        xhr2.onreadystatechange = function() {
+            if (xhr2.readyState === XMLHttpRequest.DONE) {
+                if (xhr2.status === 200) {
+                    var response = JSON.parse(xhr2.responseText);
+                    var data = response.data;
+                    if (data && Object.keys(data).length === 0) {
+                        // 如果数据为空，隐藏相应的列表项
+                        contentSection.style.display = "none";
+                        contentListItem.style.display = "none";
+                    } else {
+                        // 如果数据不为空，显示相应的列表项
+                        contentSection.style.display = "block";
+                        contentListItem.style.display = "block";
+                    }
+                } else {
+                    // 如果请求失败，隐藏相应的列表项
+                    contentSection.style.display = "none";
+                }
+            }
+        };
+        xhr2.send();
+    });
+</script>
+
+{% endblock %}

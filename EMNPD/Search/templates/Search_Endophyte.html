@@ -1,0 +1,69 @@
+{% extends 'Search_Base.html' %}
+
+{% block content %}
+
+    {% if result.0.endophyte_num %}
+        <!-- 页头 -->
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Endophyte Microorganism: {{ result.0.endophyte_num }}</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <table id="NPs_Search_Result_Content" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                    <th>Endophyte Type</th>
+                    <th>Taxonomy ID</th>
+                    <th>Family</th>
+                    <th>Genus</th>
+                    <th>Number of NPs</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in result %}
+                    <tr>
+                        <td>
+                            <a href="/emnpd/species/{{ obj.endophyte_id }}">{{ obj.endophyte_id }}</a>
+                        </td>
+                        <td>{{ obj.endophyte_name }}</td>
+                        <td>{{ obj.endophyte_Type }}</td>
+                        <td>
+                            {% if obj.Tax_ID != 'NA' %}
+                                <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={{ obj.Tax_ID }}">{{ obj.Tax_ID }}</a>
+                            {% else %}
+                                {{ obj.Tax_ID }}
+                            {% endif %}
+                        </td>
+                        <td>{{ obj.endophyte_family }}</td>
+                        <td>{{ obj.endophyte_genus }}</td>
+                        <td>{{ obj.num_NPs }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                    <th>Endophyte Type</th>
+                    <th>Taxonomy ID</th>
+                    <th>Family</th>
+                    <th>Genus</th>
+                    <th>Number of NPs</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    {% else %}
+        <div class="page-header" style="margin-top: 20px; display: flex; justify-content: space-between">
+            <h2><strong>Search for: {{ result.0.search_for }}</strong></h2>
+            <h2><strong>Matched Endophyte Microorganism: 0</strong></h2>
+        </div>
+
+        <div class="jumbotron" style="background-color: rgb(245, 245, 245);border: 1px solid #ddd4e5;">
+            <p>Sorry, no results found.</p>
+        </div>
+    {% endif %}
+{% endblock %}

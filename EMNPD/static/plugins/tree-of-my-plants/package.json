@@ -1,0 +1,14 @@
+{
+  "name": "@webdingens/tree-of-my-plants",
+  "main": "67c57e9fb6a6309e@194.js",
+  "version": "194.0.0",
+  "homepage": "https://observablehq.com/@webdingens/tree-of-my-plants",
+  "author": {
+    "name": "webdingens",
+    "url": "https://observablehq.com/@webdingens"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}

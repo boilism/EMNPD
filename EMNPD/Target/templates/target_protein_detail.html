@@ -1,0 +1,203 @@
+{% extends 'target_base.html' %}
+
+{% block content %}
+<style>
+    .dataTable .center {
+        text-align: center; /* or any other desired alignment */
+    }
+</style>
+    <!-- 滚动进度条 -->
+    <div id="progress-container" style="margin-top: 50px">
+        <div id="progress-bar"></div>
+        <ul id="progress-list">
+            <li id="section-name-Protein-Basic-Information" class="section-name"><a href="#Protein-Basic-Information">Protein Basic Information</a></li>
+            <li id="section-name-Protein-NPs-Bioactivity" class="section-name"><a href="#Protein-NPs-Bioactivity">Protein NPs Bioactivity</a></li>
+        </ul>
+    </div>
+
+    <!-- 页头 -->
+    <div class="page-header" style="margin-top: 0px">
+                <div style="display: flex; align-items: center;">
+                    <h2 style="margin: 0; font-weight: bold; margin-right: 10px;"><strong>Target ID: {{ Target_Protein.EMNPD_TPID }}</strong></h2>
+                    <a href="/emnpd/help/#specific-protein" style="margin-right: 10px; margin-top: 3px" target="_blank">
+                        <i class="glyphicon glyphicon-question-sign" style="font-size: 20px;"></i>
+                    </a>
+                </div>
+    </div>    
+    <!-- Cell Line Basic Infomation -->
+    <section data-name="Protein Basic Information" id="Protein-Basic-Information">
+        <div class="jumbotron">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Protein Basic Information</h3>
+            <table class="table table-bordered" style="border: 3px solid black">
+                <tbody>
+                <tr>
+                    <td class="col-lg-3"><strong>Target Name</strong></td>
+                    <td>{{ Target_Protein.Protein_Name }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Target Type</strong></td>
+                    <td>{{ Target_Protein.Target_Type }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Target Organism ID</strong></td>
+                    <td>
+                        {% if Target_Protein.Target_Organism_ID != 'NA' %}
+                            <a href="/emnpd/target/species/{{ Target_Protein.Target_Organism_ID }}/">{{ Target_Protein.Target_Organism_ID }}</a>
+                        {% else %}
+                            {{ Target_Protein.Target_Organism_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Target Organism</strong></td>
+                    <td>{{ Target_Protein.Target_Organism_Name }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Protein Superfamily</strong></td>
+                    <td>{{ Target_Protein.Protein_superfamily }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Protein Family</strong></td>
+                    <td>{{ Target_Protein.Protein_family }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Protein Subfamily</strong></td>
+                    <td>{{ Target_Protein.Protein_subfamily }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Uniprot ID</strong></td>
+                    <td>
+                        {% if Target_Protein.UniProt_ID != 'NA' %}
+                            <a href="https://www.uniprot.org/uniprotkb/{{ Target_Protein.UniProt_ID }}/entry">{{ Target_Protein.UniProt_ID }}</a>
+                        {% else %}
+                            {{ Target_Protein.UniProt_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>ChEMBL ID</strong></td>
+                    <td>
+                        {% if Target_Protein.ChEMBL_ID != 'NA' %}
+                            <a href="https://www.ebi.ac.uk/chembl/target_report_card/{{ Target_Protein.ChEMBL_ID }}">{{ Target_Protein.ChEMBL_ID }}</a>
+                        {% else %}
+                            {{ Target_Protein.ChEMBL_ID }}
+                        {% endif %}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Cell Line Bioactivity -->
+    <section data-time="Protein NPs Bioactivity" id="Protein-NPs-Bioactivity">
+        <div class="jumbotron">
+            <h3 style="padding-bottom: 10px;margin-top: -20px">Biological Activities of Natural Products against the Target</h3>
+            <table id="Protein_NP_Active" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th style="text-align: center">Endophyte Name</th>
+                    <th style="text-align: center">NPs ID</th>
+                    <th style="text-align: center">NPs Name</th>
+                    <th style="text-align: center">Target ID</th>
+                    <th style="text-align: center">Target Name</th>
+                    <th style="text-align: center">Target Type</th>
+                    <th style="text-align: center">Potency of Bioactivity</th>
+                    <th style="text-align: center">Bioactivity Name</th>
+                    <th style="text-align: center">Activity Type</th>
+                    <th style="text-align: center">Value</th>
+                    <th style="text-align: center">Unit</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th style="text-align: center">Endophyte Name</th>
+                    <th style="text-align: center">NPs ID</th>
+                    <th style="text-align: center">NPs Name</th>
+                    <th style="text-align: center">Target ID</th>
+                    <th style="text-align: center">Target Name</th>
+                    <th style="text-align: center">Target Type</th>
+                    <th style="text-align: center">Potency of Bioactivity</th>
+                    <th style="text-align: center">Bioactivity Name</th>
+                    <th style="text-align: center">Activity Type</th>
+                    <th style="text-align: center">Value</th>
+                    <th style="text-align: center">Unit</th>
+                </tr>
+                </tfoot>
+            </table>
+            
+<!--            
+            <h4 style="padding-top: 10px;padding-bottom: 10px">Natural Product Inactive with:</h4>
+            <table id="Protein_NP_Inactive" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                    <th>NPs ID</th>
+                    <th>NPs Name</th>
+                    <th>Activity Label</th>
+                    <th>Activity Name</th>
+                    <th>Activity Type</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Endophyte ID</th>
+                    <th>Endophyte Name</th>
+                    <th>NPs ID</th>
+                    <th>NPs Name</th>
+                    <th>Activity Label</th>
+                    <th>Activity Name</th>
+                    <th>Activity Type</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                </tr>
+                </tfoot>
+            </table>
+            -->
+        </div>
+    </section>
+
+    <script>
+        function updateProgressBar() {
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight || 0;
+            var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0;
+            var progressWidth = (scrollPosition / (scrollHeight - windowHeight)) * 100;
+
+            document.getElementById("progress-bar").style.width = progressWidth + "%";
+
+            var sectionNames = ['Protein Basic Information', 'Protein NPs Bioactivity'];
+            var sectionIds = ['Protein-Basic-Information', 'Protein-NPs-Bioactivity'];
+
+            var currentSection = null;
+            for (var i = 0; i < sectionIds.length; i++) {
+                var section = document.getElementById(sectionIds[i]);
+                if (scrollPosition >= section.offsetTop - windowHeight / 2) {
+                    currentSection = sectionIds[i];
+                }
+                var sectionName = document.getElementById('section-name-' + sectionIds[i]);
+                if (sectionName) {
+                    var rect = section.getBoundingClientRect();
+                    if (rect.top <= windowHeight / 2 && rect.bottom >= windowHeight / 2) {
+                        sectionName.classList.add('blue');
+                    } else {
+                        sectionName.classList.remove('blue');
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("scroll", updateProgressBar);
+        updateProgressBar();
+    </script>
+
+{% endblock %}

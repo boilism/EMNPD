@@ -1,0 +1,95 @@
+﻿ENTC_ID,Protein_Name,Target_Type,ENTO_ID,Target_Organism_Name,UNIPROT_ID,ChEMBL_ID,Protein_Superfamily,Protein_Family,Protein_Fubfamily
+ENTP00001,Saccharomyces cerevisiae α-glucosidase,PROTEIN,ENTO00687,Saccharomyces cerevisiae,P07265,CHEMBL4357,Unclassified,Glycosyl hydrolase 13 family,Unclassified
+ENTP00002,α-glucosidase,PROTEIN,NA,NA,NA,NA,Unclassified,Glycosyl hydrolase 13 family,Unclassified
+ENTP00003,Acetylcholinesterase,PROTEIN,NA,NA,NA,NA,Unclassified,Lipase family,Unclassified
+ENTP00004,Bos taurus Xanthine oxidase,PROTEIN,ENTO00132,Bos taurus,P80457,CHEMBL3649,Unclassified,Xanthine dehydrogenase family,Unclassified
+ENTP00005,Human sapiens Peroxisome proliferator-activated receptor alpha,PROTEIN,ENTO00430,Homo sapiens,Q07869,CHEMBL239,Unclassified,Nuclear hormone receptor family,NR1 subfamily
+ENTP00006,SARS coronavirus 3C-like proteinase,PROTEIN,ENTO00724,Severe acute respiratory syndrome coronavirus,P0C6U8,CHEMBL3927,Unclassified,Coronaviruses polyprotein 1ab family,Unclassified
+ENTP00007,Lsocitrate dehydrogenase [NADP] cytoplasmic,PROTEIN,ENTO00430,Homo sapiens,O75874,CHEMBL2007625,Unclassified,Isocitrate and isopropylmalate dehydrogenases family,Unclassified
+ENTP00008,Human Angiotensin-converting enzyme,PROTEIN,ENTO00430,Homo sapiens,P12821,CHEMBL1808,Unclassified,Peptidase M2 family,Unclassified
+ENTP00009,Human Butyrylcholinesterase,PROTEIN,ENTO00430,Homo sapiens,P06276,CHEMBL1914,Unclassified,Lipase family,Unclassified
+ENTP00010,Tyrosinase,PROTEIN,NA,NA,NA,NA,Unclassified,Tyrosinase family,Unclassified
+ENTP00011,Aromatase,PROTEIN,NA,NA,NA,NA,Unclassified,Cytochrome P450 family,Unclassified
+ENTP00012,Geobacillus stearothermophilus α-glucosidase,PROTEIN,ENTO00418,Geobacillus stearothermophilus,P94451,CHEMBL4412,Unclassified,Glycosyl hydrolase 13 family,Unclassified
+ENTP00013,Spodoptera litura α-glucosidase,PROTEIN,ENTO00733,Spodoptera litura,T2FE46,NA,Unclassified,Glycosyl hydrolase 13 family,Unclassified
+ENTP00014,Sus scrofa Pancreatic lipase,PROTEIN,ENTO00811,Sus scrofa,P00591,CHEMBL1687677,AB hydrolase superfamily,Lipase family,Unclassified
+ENTP00015,"Mouse Nitric oxide synthase, inducible",PROTEIN,ENTO00517,Mus musculus,P29477,CHEMBL3464,Unclassified,NOS family,Unclassified
+ENTP00016,Human DNA topoisomerase I,PROTEIN,ENTO00430,Homo sapiens,P11387,CHEMBL1781,Unclassified,Type IB topoisomerase family,Unclassified
+ENTP00017,Rat Dopamine transporter,PROTEIN,ENTO00678,Rattus norvegicus,P23977,CHEMBL338,Unclassified,Sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family,SLC6A3 subfamily
+ENTP00018,Rat Monoamine oxidase,PROTEIN,ENTO00678,Rattus norvegicus,P19643,CHEMBL2095196,Unclassified,Flavin monoamine oxidase family,Unclassified
+ENTP00019,PI3Kα,PROTEIN,NA,NA,NA,NA,Unclassified,PI3/PI4-kinase family,Unclassified
+ENTP00020,Human Phosphodiesterase 5A,PROTEIN,ENTO00430,Homo sapiens,O76074,CHEMBL1827,Unclassified,Cyclic nucleotide phosphodiesterase family,Unclassified
+ENTP00021,Rat Thrombin,PROTEIN,ENTO00678,Rattus norvegicus,P18292,CHEMBL3078,Unclassified,Peptidase S1 family,Unclassified
+ENTP00022,Butyrylcholinesterase,PROTEIN,NA,NA,NA,NA,Unclassified,Lipase family,Unclassified
+ENTP00023,"Indoleamine 2,3-dioxygenase 2",PROTEIN,NA,NA,NA,NA,Unclassified,"Indoleamine 2,3-dioxygenase family",Unclassified
+ENTP00024,Human Cyclooxygenase-2,PROTEIN,ENTO00430,Homo sapiens,P35354,CHEMBL230,Unclassified,Prostaglandin G/H synthase family,Unclassified
+ENTP00025,Human Anthrax toxin receptor 2,PROTEIN,ENTO00430,Homo sapiens,P58335,CHEMBL4296326,Unclassified,ATR family,Unclassified
+ENTP00026,Human Carboxylesterase 2,PROTEIN,ENTO00430,Homo sapiens,O00748,CHEMBL3180,Unclassified,Lipase family,Unclassified
+ENTP00027,Human Trypsin,PROTEIN,ENTO00430,Homo sapiens,NA,NA,Unclassified,Peptidase S1 family,Unclassified
+ENTP00028,EGFR,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,EGF receptor subfamily
+ENTP00029,HER2,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,EGF receptor subfamily
+ENTP00030,HER4,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,EGF receptor subfamily
+ENTP00031,IGF1R,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,Insulin receptor subfamily
+ENTP00032,InsR,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,Insulin receptor subfamily
+ENTP00033,KDR,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,CSF-1/PDGF receptor subfamily
+ENTP00034,PDGFR α,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,CSF-1/PDGF receptor subfamily
+ENTP00035,PDGFR β,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,CSF-1/PDGF receptor subfamily
+ENTP00036,ABL1,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,ABL subfamily
+ENTP00037,BRK,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,BRK/PTK6/SIK subfamily
+ENTP00038,BTK,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,TEC subfamily
+ENTP00039,CSK,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,CSK subfamily
+ENTP00040,FYN A,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,SRC subfamily
+ENTP00041,LCK,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,SRC subfamily
+ENTP00042,LYN B,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,SRC subfamily
+ENTP00043,Sus scrofa α-amylase,PROTEIN,ENTO00811,Sus scrofa,Q7M328,CHEMBL3308960,Unclassified,Glycosyl hydrolase 13 family,Unclassified
+ENTP00044,Oryza sativa NADPH oxidases,PROTEIN,ENTO00553,Oryza sativa,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00045,Neuraminidase,PROTEIN,NA,NA,NA,NA,Unclassified,Glycosyl hydrolase 34 family,Unclassified
+ENTP00046,Human Cyclooxygenase-1,PROTEIN,ENTO00430,Homo sapiens,P23219,CHEMBL221,Unclassified,Prostaglandin G/H synthase family,Unclassified
+ENTP00047,Human Cyclin-dependent kinase 1,PROTEIN,ENTO00430,Homo sapiens,P06493,CHEMBL308,Protein kinase superfamily,CMGC Ser/Thr protein kinase family,CDC2/CDKX subfamily
+ENTP00048,Human Cyclin-dependent kinase 2,PROTEIN,ENTO00430,Homo sapiens,P24941,CHEMBL301,Protein kinase superfamily,CMGC Ser/Thr protein kinase family,CDC2/CDKX subfamily
+ENTP00049,Human Cyclin-dependent kinase 3,PROTEIN,ENTO00430,Homo sapiens,Q00526,CHEMBL4442,Protein kinase superfamily,CMGC Ser/Thr protein kinase family,CDC2/CDKX subfamily
+ENTP00050,Human Cyclin-dependent kinase 4,PROTEIN,ENTO00430,Homo sapiens,P11802,CHEMBL331,Protein kinase superfamily,CMGC Ser/Thr protein kinase family,CDC2/CDKX subfamily
+ENTP00051,Agaricus bisporus Tyrosinase,PROTEIN,ENTO00017,Agaricus bisporus,O42713,CHEMBL3318,Unclassified,Tyrosinase family,Unclassified
+ENTP00052,Ovis aries Cyclooxygenase-2,PROTEIN,ENTO00554,Ovis aries,P79208,CHEMBL4102,Unclassified,Prostaglandin G/H synthase family,Unclassified
+ENTP00053,Bos taurus β-glucuronidase,PROTEIN,ENTO00132,Bos taurus,Q58D55,CHEMBL3482,Unclassified,Glycosyl hydrolase 35 family,Unclassified
+ENTP00054,Human LDL,PROTEIN,ENTO00430,Homo sapiens,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00055,Human HDL,PROTEIN,ENTO00430,Homo sapiens,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00056,Bos taurus Topoisomerase I,PROTEIN,ENTO00132,Bos taurus,Q2HPH0,CHEMBL6023,Unclassified,Type IB topoisomerase family,Unclassified
+ENTP00057,Bos taurus Topoisomerase II,PROTEIN,ENTO00132,Bos taurus,F1MDU7,NA,Unclassified,Type II topoisomerase family,Unclassified
+ENTP00058,Human Topoisomerase II,PROTEIN,ENTO00430,Homo sapiens,P11388,CHEMBL1806,Unclassified,Type II topoisomerase family,Unclassified
+ENTP00059,Mycobacterium tuberculosis Phosphotyrosine-protein phosphatase PTPB,PROTEIN,ENTO00530,Mycobacterium tuberculosis,P96830,CHEMBL4540,Unclassified,Protein-tyrosine phosphatase family,Unclassified
+ENTP00060,Human 11-β-hydroxysteroid dehydrogenase 1,PROTEIN,ENTO00430,Homo sapiens,P28845,CHEMBL4235,Unclassified,Short-chain dehydrogenases/reductases (SDR) family,Unclassified
+ENTP00061,Bos taurus Adenosine deaminase,PROTEIN,ENTO00132,Bos taurus,P56658,CHEMBL2966,Metallo-dependent hydrolases superfamily,Adenosine and AMP deaminases family,Unclassified
+ENTP00062,PTP1B,PROTEIN,ENTO00530,Mycobacterium tuberculosis,NA,NA,Unclassified,Protein-tyrosine phosphatase family,Non-receptor class 1 subfamily
+ENTP00063,Human α-glucosidase,PROTEIN,ENTO00430,Homo sapiens,I3L3L3,NA,Unclassified,Glycosyl hydrolase 13 family,Unclassified
+ENTP00064,Human 20S proteasome,PROTEIN,ENTO00430,Homo sapiens,P49721,CHEMBL3492,Unclassified,Peptidase T1B family,Unclassified
+ENTP00065,Canavalia ensiformis Urease,PROTEIN,ENTO00153,Canavalia ensiformis,P07374,CHEMBL4161,Metallo-dependent hydrolases superfamily,Urease alpha subunit family,Unclassified
+ENTP00066,Human Aldose reductase,PROTEIN,ENTO00430,Homo sapiens,P15121,CHEMBL1900,Unclassified,Aldo/keto reductase family,Unclassified
+ENTP00067,AKT1,PROTEIN,NA,NA,NA,NA,Unclassified,Potassium channel family,Plant (TC 1.A.1.4) subfamily
+ENTP00068,ARK5,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,CAMK Ser/Thr protein kinase family,SNF1 subfamily
+ENTP00069,Aurora-A,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Ser/Thr protein kinase family,Aurora subfamily
+ENTP00070,Aurora-B,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Ser/Thr protein kinase family,Aurora subfamily
+ENTP00071,B-RAF-VE,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,TKL Ser/Thr protein kinase family,RAF subfamily
+ENTP00072,CDK2/CycA,PROTEIN,NA,NA,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00073,CDK4/CycD1,PROTEIN,NA,NA,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00074,COT,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,STE Ser/Thr protein kinase family,COT1 subfamily
+ENTP00075,EPHB4,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,Ephrin receptor subfamily
+ENTP00076,ERBB2,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,EGF receptor subfamily
+ENTP00077,FAK,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,FAK subfamily
+ENTP00078,SRC,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,SRC subfamily
+ENTP00079,VEGF-R2,PROTEIN,NA,NA,NA,NA,Unclassified,PDGF/VEGF growth factor family,Unclassified
+ENTP00080,VEGF-R3,PROTEIN,NA,NA,NA,NA,Unclassified,PDGF/VEGF growth factor family,Unclassified
+ENTP00081,FLT3,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,CSF-1/PDGF receptor subfamily
+ENTP00082,INS-R,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,Insulin receptor subfamily
+ENTP00083,MET,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,Unclassified
+ENTP00084,PDGFR-beta,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,CSF-1/PDGF receptor subfamily
+ENTP00085,PLK1,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Ser/Thr protein kinase family,CDC5/Polo subfamily
+ENTP00086,CK2-alpha1,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Ser/Thr protein kinase family,CDC5/Polo subfamily
+ENTP00087,SAK,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Ser/Thr protein kinase family,Tie subfamily
+ENTP00088,TIE2,PROTEIN,NA,NA,NA,NA,Protein kinase superfamily,Tyr protein kinase family,Tie subfamily
+ENTP00089,Bacillus subtilis Subtilisin,PROTEIN,ENTO00098,Bacillus subtilis,P04189,NA,Unclassified,Peptidase S8 family,Unclassified
+ENTP00090,Sus scrofa Pepsin A,PROTEIN,ENTO00811,Sus scrofa,P00791,CHEMBL2714,Unclassified,Peptidase A1 family,Unclassified
+ENTP00091,LAG3/MHC II,PROTEIN,NA,NA,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00092,LAG3/FGL1,PROTEIN,NA,NA,NA,NA,Unclassified,Unclassified,Unclassified
+ENTP00093,mptpB,PROTEIN,ENTO00530,Mycobacterium tuberculosis,I6WXK4,NA,Unclassified,Protein-tyrosine phosphatase family,Unclassified
+ENTP00094,Rat Monoamine oxidase B,PROTEIN,ENTO00678,Rattus norvegicus,P19643,CHEMBL2993,Unclassified,Flavin monoamine oxidase family,Unclassified
