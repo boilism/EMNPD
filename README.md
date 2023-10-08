@@ -4,65 +4,79 @@
 
 EMNPD is a manually curated open access knowledge base dedicated to endophytic microorganism natural products (NPs) research. It provides information on physicochemical properties of NPs, ADMET information, quantitative activity data, NPs contents, systematic taxonomy, and links to various databases.
 
-![image](https://github.com/boilism/EMNPD/assets/88695131/2ec27135-7681-4cf2-8a8b-d2e926bbb9db)
+![image](https://github.com/boilism/EMNPD/assets/88695131/24f4c6d8-20ec-41a7-b428-ffee8b50cc29)
 
 
 For more information, visit the EMNPD website at https://bddg.hznu.edu.cn/emnpd/ or http://emnpd.idrblab.cn/.
 
+## 📝 Docker Installation
 
-## Installation
+Using Docker provides an easy way to deploy **EMNPD** without the need to set up the environment manually.
 
-To set up EMNPD locally, you'll need Python 3.9.7 or later. Here are the steps to get started:
+### 📌 Prerequisites
 
-1. Clone this repository:
+- **Docker**: If not installed, you can [install Docker here](https://docs.docker.com/get-docker/).
+- **Docker Compose**: If not installed, you can [install Docker Compose here](https://docs.docker.com/compose/install/).
 
-```bash
-git clone https://github.com/boilism/EMNPD.git
-cd EMNPD
-```
+### 🚀 Deployment Steps
 
-2. Create a Conda virtual environment (Python 3.9.7):
+1. **Clone the Repository**:
 
-```bash
-conda create -n emnpd python=3.9.7
-conda activate emnpd
-```
+    ```bash
+    git clone https://github.com/boilism/EMNPD.git
+    cd EMNPD
+    ```
 
-3. Install the required packages from requirements.txt:
+2. **Configuration**:
 
-```bash
-pip install -r EMNPD/requirements.txt
-```
+   Before you can run the application, you need to set some configurations. 
 
-## Usage
+   - **SECRET_KEY**: 
+     
+     Open `EMNPD/ENDBProject/settings.py` and locate the `SECRET_KEY` setting. This is a critical security setting for Django. Do not use the default one provided in the repository for production.
 
-Users need to create a MySQL database themselves. After creating the MySQL database, you can import the data to get started.
-To use EMNPD locally, you need to modify the `EMNPD/ENDBProject/settings.py` file. Open the file and replace the following placeholders with your own information:
+     Remove or comment out the existing `SECRET_KEY` line and replace it with:
+     ```python
+     SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
+     ```
 
-```python
-# SECRET_KEY: Replace with your Django secret key.
-SECRET_KEY = 'your_secret_key_here'
+     You'll provide this key as an environment variable when starting your Docker containers.
 
-# ALLOWED_HOSTS: Add your domain or IP address for security.
-ALLOWED_HOSTS = ['your_domain_or_IP_here', 'localhost', '127.0.0.1']
+3. **Build and Run the Docker Containers**:
 
-# DATABASES: Configure your database settings (engine, name, user, password, host, port).
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name_here',
-        'USER': 'your_database_user_here',
-        'PASSWORD': 'your_database_password_here',
-        'HOST': 'your_database_host_here',
-        'PORT': 'your_database_port_here',
-    }
-}
-```
+    ```bash
+    docker-compose build
+    docker-compose up -d
+    ```
+
+   **Note**: When you run the application with Docker, you should set the `DJANGO_SECRET_KEY` environment variable to your secret key value.
+
+4. **Database Initialization**:
+
+    ```bash
+    docker exec -it emnpd-db-1 bash -c "mysql -u user -ppassword -e 'DROP DATABASE EMNPD; CREATE DATABASE EMNPD;'"
+    docker exec -it emnpd-db-1 bash -c "mysql -u user -ppassword EMNPD < /docker-entrypoint-initdb.d/data.sql"
+    ```
+
+5. **🌍 EMNPD Web Application**:
+
+    Once the containers are up and running, open your browser and navigate to:
+
+    http://127.0.0.1:8000/emnpd
+
+6. **Stopping the Application**:
+
+    ```bash
+    docker-compose down
+    ```
+
+
+> 🔔 **Note**: Always ensure that your `data.sql` and any other required files are in the correct directory before initiating the Docker commands.
 
 ## Contributors
-[Hongquan Xu](https://github.com/boilism)
+
+- [Hongquan Xu](https://github.com/boilism)
 
 ## License
-This project is licensed under the [MIT License](https://github.com/boilism/EMNPD/blob/main/LICENSE) - see the [LICENSE](https://github.com/boilism/EMNPD/blob/main/LICENSE) file for details.
 
-
+This project is licensed under the [MIT License](https://github.com/boilism/EMNPD/blob/main/LICENSE). See the [LICENSE](https://github.com/boilism/EMNPD/blob/main/LICENSE) file for details.
